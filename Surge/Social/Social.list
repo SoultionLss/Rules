@@ -1,0 +1,38 @@
+# ============================================================
+# 规则策略: Social
+# 规则总数: 29 条
+# 规则来源条目总数: 2 条
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Instagram/Instagram.list, blackmatrix7/ios_rule_script@master/rule/Surge/Twitter/Twitter.list
+# 作者: SoultionLss
+# 最后更新: 2026-08-26 12:58:45
+# ============================================================
+
+.ads-twitter.com
+.cdninstagram.com
+.cms-twdigitalassets.com
+.grok.com
+.instagr.am
+.instagram.com
+.periscope.tv
+.pscp.tv
+.t.co
+.tellapart.com
+.tweetdeck.com
+.twimg.co
+.twimg.com
+.twimg.org
+.twitpic.com
+.twitter.biz
+.twitter.com
+.twitter.jp
+.twittercommunity.com
+.twitterflightschool.com
+.twitterinc.com
+.twitteroauth.com
+.twitterstat.us
+.twtrdns.net
+.twttr.com
+.twttr.net
+.twvid.com
+.vine.co
+.x.com

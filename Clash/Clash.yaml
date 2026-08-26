@@ -222,67 +222,67 @@ proxy-groups:
 rule-providers:
   REJECT:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/REJECT.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/REJECT/REJECT.yaml
     interval: 86400
     behavior: classical
   DIRECT:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/DIRECT.yaml
     interval: 86400
     behavior: classical
   TikTok:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/TikTok.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/TikTok/TikTok.yaml
     interval: 86400
     behavior: classical
   Global:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Global.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Global/Global.yaml
     interval: 86400
     behavior: classical
   Streaming:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Streaming.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Streaming/Streaming.yaml
     interval: 86400
     behavior: classical
   Microsoft:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Microsoft.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Microsoft/Microsoft.yaml
     interval: 86400
     behavior: classical
   GitHub:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/GitHub.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/GitHub/GitHub.yaml
     interval: 86400
     behavior: classical
   Telegram:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Telegram.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Telegram/Telegram.yaml
     interval: 86400
     behavior: classical
   HongKongSocial:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/HongKongSocial.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/HongKongSocial/HongKongSocial.yaml
     interval: 86400
     behavior: classical
   Social:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Social.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Social/Social.yaml
     interval: 86400
     behavior: classical
   Google:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Google.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Google/Google.yaml
     interval: 86400
     behavior: classical
   YouTube:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/YouTube.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/YouTube/YouTube.yaml
     interval: 86400
     behavior: classical
   AI:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/AI.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/AI/AI.yaml
     interval: 86400
     behavior: classical
 rules:

@@ -376,22 +376,22 @@ policy_groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
 rules:
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/REJECT.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/REJECT/REJECT.yaml
     policy: REJECT
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT/DIRECT.yaml
     policy: DIRECT
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/TikTok.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/TikTok/TikTok.yaml
     policy: TikTok
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT/DIRECT.yaml
     policy: DIRECT
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Global.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Global/Global.yaml
     policy: Global
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml
     policy: Streaming
     disabled: false
 - domain:
@@ -416,7 +416,7 @@ rules:
     match: img.bing.com
     policy: AI
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Microsoft.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Microsoft/Microsoft.yaml
     policy: Microsoft
 - domain:
     match: cn.bing.com
@@ -425,55 +425,55 @@ rules:
     match: '*.cn.bing.com'
     policy: DIRECT
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/GitHub.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/GitHub/GitHub.yaml
     policy: GitHub
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Telegram.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Telegram/Telegram.yaml
     policy: Telegram
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/HongKongSocial.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/HongKongSocial/HongKongSocial.yaml
     policy: HongKongSocial
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/HongKongSocial.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/HongKongSocial/HongKongSocial.yaml
     policy: HongKongSocial
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social/Social.yaml
     policy: Social
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social/Social.yaml
     policy: Social
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social/Social.yaml
     policy: Social
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social/Social.yaml
     policy: Social
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml
     policy: Streaming
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml
     policy: Streaming
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml
     policy: Streaming
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml
     policy: Streaming
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml
     policy: Streaming
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml
     policy: Streaming
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml
     policy: Streaming
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Google.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Google/Google.yaml
     policy: Google
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/YouTube.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/YouTube/YouTube.yaml
     policy: YouTube
 - user_agent:
     match: yt-dlp|youtube-dl
@@ -500,16 +500,16 @@ rules:
     match: ^dl-[A-Za-z0-9-]+\.mypikpak\.com$
     policy: DIRECT
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Global.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Global/Global.yaml
     policy: Global
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/AI.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/AI/AI.yaml
     policy: AI
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT/DIRECT.yaml
     policy: DIRECT
 - rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT.yaml
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT/DIRECT.yaml
     policy: DIRECT
 - default:
     policy: Final

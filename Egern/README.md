@@ -1,25 +1,47 @@
 # Egern 规则集
 
-## 基本信息
-- **策略名称**: Streaming
-- **规则总数**: 204 条
-- **规则来源条目总数**: 2 条
-- **规则来源**: blackmatrix7/ios_rule_script@master/rule/Surge/Netflix/Netflix.list, blackmatrix7/ios_rule_script@master/rule/Surge/Disney/Disney.list
+本目录包含以下策略组的规则文件。
 
-## 导入链接
+## 策略组列表
 
-### Raw 链接
-https://raw.githubusercontent.com/SoultionLss/Rules/main/Egern/Streaming.yaml
+### AI
 
-### CDN 加速
-https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming.yaml
+- 合并文件: `AI.yaml`
 
-## 使用示例
+### DIRECT
 
-### Egern
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming.yaml
-    policy: Streaming
+- 合并文件: `DIRECT.yaml`
+
+### GitHub
+
+- 合并文件: `GitHub.yaml`
+
+### Google
+
+- 合并文件: `Google.yaml`
+
+### Social
+
+- 合并文件: `Social.yaml`
+
+### Streaming
+
+- 合并文件: `Streaming.yaml`
+
+### Telegram
+
+- 合并文件: `Telegram.yaml`
+
+### TikTok
+
+- 合并文件: `TikTok.yaml`
+
+### YouTube
+
+- 合并文件: `YouTube.yaml`
+
+## 使用方式
+在客户端配置中按需引用对应文件，推荐顺序：独立文件优先，合并文件兜底。
 
 ## 更新频率
 本规则集每日自动更新（北京时间 20:00）。

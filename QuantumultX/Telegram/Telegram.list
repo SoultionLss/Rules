@@ -1,0 +1,33 @@
+# ============================================================
+# 规则策略: Telegram
+# 规则总数: 24 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Telegram/Telegram.list
+# 作者: SoultionLss
+# 最后更新: 2026-08-26 12:58:46
+# ============================================================
+
+HOST-SUFFIX,api.imem.app,Telegram
+HOST-SUFFIX,api.swiftgram.app,Telegram
+HOST-SUFFIX,cdn-telegram.org,Telegram
+HOST-SUFFIX,comments.app,Telegram
+HOST-SUFFIX,contest.com,Telegram
+HOST-SUFFIX,graph.org,Telegram
+HOST-SUFFIX,legra.ph,Telegram
+HOST-SUFFIX,mbrx.app,Telegram
+HOST-SUFFIX,quiz.directory,Telegram
+HOST-SUFFIX,stel.com,Telegram
+HOST-SUFFIX,t.me,Telegram
+HOST-SUFFIX,tdesktop.com,Telegram
+HOST-SUFFIX,telega.one,Telegram
+HOST-SUFFIX,telegra.ph,Telegram
+HOST-SUFFIX,telegram-cdn.org,Telegram
+HOST-SUFFIX,telegram.dog,Telegram
+HOST-SUFFIX,telegram.me,Telegram
+HOST-SUFFIX,telegram.org,Telegram
+HOST-SUFFIX,telegram.space,Telegram
+HOST-SUFFIX,telegramdownload.com,Telegram
+HOST-SUFFIX,telesco.pe,Telegram
+HOST-SUFFIX,tg.dev,Telegram
+HOST-SUFFIX,tx.me,Telegram
+HOST-SUFFIX,usercontent.dev,Telegram

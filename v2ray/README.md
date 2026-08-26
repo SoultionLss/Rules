@@ -1,23 +1,47 @@
 # v2ray 规则集
 
-## 基本信息
-- **策略名称**: Streaming
-- **规则总数**: 204 条
-- **规则来源条目总数**: 2 条
-- **规则来源**: blackmatrix7/ios_rule_script@master/rule/Surge/Netflix/Netflix.list, blackmatrix7/ios_rule_script@master/rule/Surge/Disney/Disney.list
+本目录包含以下策略组的规则文件。
 
-## 导入链接
+## 策略组列表
 
-### Raw 链接
-https://raw.githubusercontent.com/SoultionLss/Rules/main/v2ray/Streaming_domain.txt
+### AI
 
-### CDN 加速
-https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/v2ray/Streaming_domain.txt
+- 合并文件: `AI_domain.txt`
 
-## 使用示例
+### DIRECT
 
-### v2ray
-在配置文件的 'domain' 或 'domains' 字段引用 https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/v2ray/Streaming_domain.txt
+- 合并文件: `DIRECT_domain.txt`
+
+### GitHub
+
+- 合并文件: `GitHub_domain.txt`
+
+### Google
+
+- 合并文件: `Google_domain.txt`
+
+### Social
+
+- 合并文件: `Social_domain.txt`
+
+### Streaming
+
+- 合并文件: `Streaming_domain.txt`
+
+### Telegram
+
+- 合并文件: `Telegram_domain.txt`
+
+### TikTok
+
+- 合并文件: `TikTok_domain.txt`
+
+### YouTube
+
+- 合并文件: `YouTube_domain.txt`
+
+## 使用方式
+在客户端配置中按需引用对应文件，推荐顺序：独立文件优先，合并文件兜底。
 
 ## 更新频率
 本规则集每日自动更新（北京时间 20:00）。
