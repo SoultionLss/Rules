@@ -4,7 +4,7 @@
 # 规则来源条目总数: 1 条
 # 规则来源: Loyalsoldier/surge-rules@release/direct.txt
 # 作者: SoultionLss
-# 最后更新: 2026-08-26 02:22:17
+# 最后更新: 2026-08-26 02:26:19
 # ============================================================
 
 DOMAIN-SUFFIX,.0.zone,DIRECT
