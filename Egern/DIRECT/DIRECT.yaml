@@ -1,10 +1,10 @@
 # ============================================================
 # 规则策略: DIRECT
-# 规则总数: 111295 条
+# 规则总数: 111271 条
 # 规则来源条目总数: 1 条
 # 规则来源: Loyalsoldier/surge-rules@release/direct.txt
 # 作者: SoultionLss
-# 最后更新: 2026-08-29 16:27:10
+# 最后更新: 2026-08-30 16:20:44
 # ============================================================
 
 rules:
@@ -138,7 +138,6 @@ rules:
   - domain_suffix: .010123456.com
   - domain_suffix: .010155.net
   - domain_suffix: .0101cdn.com
-  - domain_suffix: .0101e.com
   - domain_suffix: .0101semi.com
   - domain_suffix: .0101ssd.com
   - domain_suffix: .010203.com
@@ -360,7 +359,6 @@ rules:
   - domain_suffix: .028office.com
   - domain_suffix: .028px.com
   - domain_suffix: .028pxw.com
-  - domain_suffix: .028sh.com
   - domain_suffix: .028sjkj.com
   - domain_suffix: .028yyyy.com
   - domain_suffix: .029200.com
@@ -1565,6 +1563,7 @@ rules:
   - domain_suffix: .123684.com
   - domain_suffix: .12369zb.com
   - domain_suffix: .123773.com
+  - domain_suffix: .123795.com
   - domain_suffix: .123842.com
   - domain_suffix: .123860.com
   - domain_suffix: .123865.com
@@ -1577,6 +1576,7 @@ rules:
   - domain_suffix: .123baofeng.com
   - domain_suffix: .123bo.com
   - domain_suffix: .123boligang.com
+  - domain_suffix: .123clouddisk.com
   - domain_suffix: .123clouddrive.net
   - domain_suffix: .123du.cc
   - domain_suffix: .123ems.com
@@ -1830,7 +1830,6 @@ rules:
   - domain_suffix: .15gg.com
   - domain_suffix: .15gift.com
   - domain_suffix: .15hr.com
-  - domain_suffix: .15hr.net
   - domain_suffix: .15job.com
   - domain_suffix: .15kuaixiu.com
   - domain_suffix: .15lu.com
@@ -2409,7 +2408,6 @@ rules:
   - domain_suffix: .191game.com
   - domain_suffix: .192ly.com
   - domain_suffix: .192sm.com
-  - domain_suffix: .1931.com
   - domain_suffix: .1934xjzy.com
   - domain_suffix: .1937china.com
   - domain_suffix: .1937cn.com
@@ -2723,7 +2721,6 @@ rules:
   - domain_suffix: .202014.xyz
   - domain_suffix: .202030.com
   - domain_suffix: .2022.work
-  - domain_suffix: .202271.xyz
   - domain_suffix: .2023.com
   - domain_suffix: .2023game.com
   - domain_suffix: .20240828.xyz
@@ -3024,7 +3021,6 @@ rules:
   - domain_suffix: .23luke.com
   - domain_suffix: .23mofang.com
   - domain_suffix: .23qb.com
-  - domain_suffix: .23qb.net
   - domain_suffix: .23qcw.com
   - domain_suffix: .23sk.com
   - domain_suffix: .23txt.com
@@ -3381,7 +3377,6 @@ rules:
   - domain_suffix: .2y9y.com
   - domain_suffix: .2ychem.com
   - domain_suffix: .2yq.org
-  - domain_suffix: .2yuanyy.com
   - domain_suffix: .2yup.com
   - domain_suffix: .2yx8.com
   - domain_suffix: .2zhan.com
@@ -4257,7 +4252,6 @@ rules:
   - domain_suffix: .3b1bm3f.shop
   - domain_suffix: .3b1bvrwc.info
   - domain_suffix: .3b1fcl.info
-  - domain_suffix: .3b1xgp.shop
   - domain_suffix: .3b2479faf10301.beer
   - domain_suffix: .3b2o.com
   - domain_suffix: .3bf.cc
@@ -4455,7 +4449,6 @@ rules:
   - domain_suffix: .3tinkers.com
   - domain_suffix: .3tmall.com
   - domain_suffix: .3treesgroup.com
-  - domain_suffix: .3tstore.com
   - domain_suffix: .3u.com
   - domain_suffix: .3unshine.com
   - domain_suffix: .3uol.com
@@ -4719,6 +4712,7 @@ rules:
   - domain_suffix: .44ff56d11fa53a9a.com
   - domain_suffix: .44h.co
   - domain_suffix: .44jj.com
+  - domain_suffix: .44nc.com
   - domain_suffix: .44pq.cc
   - domain_suffix: .44vs.com
   - domain_suffix: .4502512122531.icu
@@ -5007,6 +5001,7 @@ rules:
   - domain_suffix: .50yu.com
   - domain_suffix: .50zera.com
   - domain_suffix: .50zw.co
+  - domain_suffix: .50zw.com
   - domain_suffix: .50zw.net
   - domain_suffix: .51-cf.com
   - domain_suffix: .51-jia.com
@@ -5221,7 +5216,6 @@ rules:
   - domain_suffix: .51drv.com
   - domain_suffix: .51dugou.com
   - domain_suffix: .51dz.com
-  - domain_suffix: .51dzrc.com
   - domain_suffix: .51dzt.com
   - domain_suffix: .51dzw.com
   - domain_suffix: .51ean.com
@@ -5412,6 +5406,7 @@ rules:
   - domain_suffix: .51mokao.com
   - domain_suffix: .51mole.com
   - domain_suffix: .51moot.net
+  - domain_suffix: .51mowan.com
   - domain_suffix: .51mpa.net
   - domain_suffix: .51mrp.com
   - domain_suffix: .51msc.com
@@ -5446,7 +5441,6 @@ rules:
   - domain_suffix: .51poweron.com
   - domain_suffix: .51pptmoban.com
   - domain_suffix: .51psj.com
-  - domain_suffix: .51puer.com
   - domain_suffix: .51qc.com
   - domain_suffix: .51qc.net
   - domain_suffix: .51qianguo.com
@@ -5569,6 +5563,7 @@ rules:
   - domain_suffix: .51vv.net
   - domain_suffix: .51vv2.com
   - domain_suffix: .51w.co
+  - domain_suffix: .51wan.com
   - domain_suffix: .51wangming.com
   - domain_suffix: .51wangpi.com
   - domain_suffix: .51wanquan.com
@@ -6105,7 +6100,6 @@ rules:
   - domain_suffix: .55555.io
   - domain_suffix: .55555432.com
   - domain_suffix: .55555558.com
-  - domain_suffix: .5555622ab0.shop
   - domain_suffix: .5559000ab0.shop
   - domain_suffix: .5559000ab7.shop
   - domain_suffix: .555edu.net
@@ -6135,6 +6129,7 @@ rules:
   - domain_suffix: .5577937.com
   - domain_suffix: .5577943.com
   - domain_suffix: .5577956.com
+  - domain_suffix: .5577game.com
   - domain_suffix: .558.com
   - domain_suffix: .5588.tv
   - domain_suffix: .5588294.com
@@ -6887,6 +6882,7 @@ rules:
   - domain_suffix: .64504.com
   - domain_suffix: .6453.net
   - domain_suffix: .64538.net
+  - domain_suffix: .645ajm.com
   - domain_suffix: .646000.com
   - domain_suffix: .6463.com
   - domain_suffix: .64783333.com
@@ -7003,6 +6999,7 @@ rules:
   - domain_suffix: .669322.com
   - domain_suffix: .6695.com
   - domain_suffix: .66988.tv
+  - domain_suffix: .66990000.xyz
   - domain_suffix: .6699129.com
   - domain_suffix: .6699301.com
   - domain_suffix: .6699343.com
@@ -7716,6 +7713,7 @@ rules:
   - domain_suffix: .79432.com
   - domain_suffix: .7951ee2a510281.beer
   - domain_suffix: .7979u.com
+  - domain_suffix: .797rs.com
   - domain_suffix: .797sun.com
   - domain_suffix: .7988.com
   - domain_suffix: .798com.com
@@ -7901,6 +7899,7 @@ rules:
   - domain_suffix: .8.xyz
   - domain_suffix: .80.hk
   - domain_suffix: .80000.cc
+  - domain_suffix: .8000yi.com
   - domain_suffix: .800423.com
   - domain_suffix: .800507.com
   - domain_suffix: .8006506.com
@@ -8767,7 +8766,6 @@ rules:
   - domain_suffix: .91student.com
   - domain_suffix: .91suke.com
   - domain_suffix: .91switch.com
-  - domain_suffix: .91syun.com
   - domain_suffix: .91taojin.com
   - domain_suffix: .91taoke.com
   - domain_suffix: .91ting.net
@@ -9094,7 +9092,6 @@ rules:
   - domain_suffix: .96519.org
   - domain_suffix: .96528.com
   - domain_suffix: .96533.com
-  - domain_suffix: .965373.com
   - domain_suffix: .96558.com
   - domain_suffix: .9655bcfbe1022.beer
   - domain_suffix: .96567.com
@@ -9285,14 +9282,12 @@ rules:
   - domain_suffix: .9942.org
   - domain_suffix: .99442.com
   - domain_suffix: .9944wb.com
-  - domain_suffix: .99469.com
   - domain_suffix: .994wan.com
   - domain_suffix: .9950air.com
   - domain_suffix: .9951.cc
   - domain_suffix: .995120.net
   - domain_suffix: .99520.love
   - domain_suffix: .996.com
-  - domain_suffix: .996007.icu
   - domain_suffix: .9963.org
   - domain_suffix: .996404.xyz
   - domain_suffix: .9965dns.com
@@ -9797,12 +9792,14 @@ rules:
   - domain_suffix: .abcs8.com
   - domain_suffix: .abcsbank.com
   - domain_suffix: .abctime.com
+  - domain_suffix: .abctougu.com
   - domain_suffix: .abcve.com
   - domain_suffix: .abcxyzkk.xyz
   - domain_suffix: .abcydia.com
   - domain_suffix: .abd007.com
   - domain_suffix: .abddn.com
   - domain_suffix: .abdf002.com
+  - domain_suffix: .abdqn.com
   - domain_suffix: .abe-sz.com
   - domain_suffix: .abe-tech.com
   - domain_suffix: .abeacon.com
@@ -10097,7 +10094,6 @@ rules:
   - domain_suffix: .adipman.net
   - domain_suffix: .adjdds.com
   - domain_suffix: .adjucai.com
-  - domain_suffix: .adjuz.com
   - domain_suffix: .adjwl.com
   - domain_suffix: .adjyc.com
   - domain_suffix: .adkjpx.com
@@ -10146,6 +10142,7 @@ rules:
   - domain_suffix: .adonest.com
   - domain_suffix: .adongyu.com
   - domain_suffix: .adoregeek.com
+  - domain_suffix: .adosmo.com
   - domain_suffix: .adoutu.com
   - domain_suffix: .adparticle.com
   - domain_suffix: .adpchina.com
@@ -10508,6 +10505,7 @@ rules:
   - domain_suffix: .ahlife.com
   - domain_suffix: .ahljnews.com
   - domain_suffix: .ahlqgs.com
+  - domain_suffix: .ahlt10010.com
   - domain_suffix: .ahltgroup.com
   - domain_suffix: .ahluqiao.com
   - domain_suffix: .ahlxb.com
@@ -11001,6 +10999,7 @@ rules:
   - domain_suffix: .airepay.net
   - domain_suffix: .airfex.net
   - domain_suffix: .airguilin.com
+  - domain_suffix: .airizu.com
   - domain_suffix: .airj.website
   - domain_suffix: .airjd.com
   - domain_suffix: .airkunming.com
@@ -11326,7 +11325,6 @@ rules:
   - domain_suffix: .alexinea.com
   - domain_suffix: .alexpad.fun
   - domain_suffix: .alexyan.cc
-  - domain_suffix: .alfachemar.com
   - domain_suffix: .alfafull.com
   - domain_suffix: .alfingfuda.com
   - domain_suffix: .algkfd.com
@@ -11912,7 +11910,6 @@ rules:
   - domain_suffix: .andyx.net
   - domain_suffix: .ane56.com
   - domain_suffix: .aneasystone.com
-  - domain_suffix: .anei.tv
   - domain_suffix: .anestcang.com
   - domain_suffix: .anetuo.com
   - domain_suffix: .anf-z.com
@@ -12297,7 +12294,6 @@ rules:
   - domain_suffix: .aofenghuanjing.com
   - domain_suffix: .aofenglu.com
   - domain_suffix: .aofs.vip
-  - domain_suffix: .aogocorp.com
   - domain_suffix: .aograph.com
   - domain_suffix: .aoguan.com
   - domain_suffix: .aoguansteel.com
@@ -12570,6 +12566,7 @@ rules:
   - domain_suffix: .appollochina.com
   - domain_suffix: .appotronics.com
   - domain_suffix: .appqv.com
+  - domain_suffix: .appracle.com
   - domain_suffix: .approvebook.com
   - domain_suffix: .apps121.com
   - domain_suffix: .appscan.io
@@ -12641,6 +12638,7 @@ rules:
   - domain_suffix: .aqtd.com
   - domain_suffix: .aqtowngas.com
   - domain_suffix: .aqtwpc.com
+  - domain_suffix: .aqtwwx.net
   - domain_suffix: .aqtwwxemail.com
   - domain_suffix: .aqtxt.net
   - domain_suffix: .aqua-worth.com
@@ -12712,7 +12710,6 @@ rules:
   - domain_suffix: .arerberte.com
   - domain_suffix: .areweloongyet.com
   - domain_suffix: .arextecn.com
-  - domain_suffix: .arglasses.work
   - domain_suffix: .argylehotels.com
   - domain_suffix: .arhoo.com
   - domain_suffix: .ariacraft.net
@@ -13231,7 +13228,6 @@ rules:
   - domain_suffix: .auxsolcloud.com
   - domain_suffix: .auxtelecom.com
   - domain_suffix: .auxyl.com
-  - domain_suffix: .auy07161km.com
   - domain_suffix: .auyou.com
   - domain_suffix: .av-ic.com
   - domain_suffix: .av199.com
@@ -13678,6 +13674,7 @@ rules:
   - domain_suffix: .b76ad11181024.beer
   - domain_suffix: .b7e314d4810241.beer
   - domain_suffix: .b7eeeb26810241.beer
+  - domain_suffix: .b7f3192.com
   - domain_suffix: .b812824ed173a8c0.com
   - domain_suffix: .b83d11444463a621.com
   - domain_suffix: .b883481331023.beer
@@ -13878,7 +13875,6 @@ rules:
   - domain_suffix: .baieryk.com
   - domain_suffix: .baifae.com
   - domain_suffix: .baifang.in
-  - domain_suffix: .baifangdianqi.com
   - domain_suffix: .baifangzh.com
   - domain_suffix: .baifeiyue.com
   - domain_suffix: .baifendian.com
@@ -14354,7 +14350,6 @@ rules:
   - domain_suffix: .baogaoting.com
   - domain_suffix: .baoge.net
   - domain_suffix: .baoguangtai.com
-  - domain_suffix: .baoguogroup.com
   - domain_suffix: .baohanghr.com
   - domain_suffix: .baohebao.com
   - domain_suffix: .baohongbao.net
@@ -14498,7 +14493,6 @@ rules:
   - domain_suffix: .basequan.com
   - domain_suffix: .basestonedata.com
   - domain_suffix: .bashan.com
-  - domain_suffix: .bashenghuo.com
   - domain_suffix: .bashuhuapai.com
   - domain_suffix: .bashuku.com
   - domain_suffix: .basiccat.org
@@ -14936,7 +14930,6 @@ rules:
   - domain_suffix: .beiamp.net
   - domain_suffix: .beianw.com
   - domain_suffix: .beibaobang.com
-  - domain_suffix: .beibaozq.com
   - domain_suffix: .beibei.com
   - domain_suffix: .beibenkc.com
   - domain_suffix: .beicaiyuan.com
@@ -15094,6 +15087,7 @@ rules:
   - domain_suffix: .beliefy.com
   - domain_suffix: .belimked.com
   - domain_suffix: .belle8.com
+  - domain_suffix: .belleintl.com
   - domain_suffix: .belletrip.com
   - domain_suffix: .bellinlaser.com
   - domain_suffix: .belllan.com
@@ -15324,7 +15318,6 @@ rules:
   - domain_suffix: .bewg.net
   - domain_suffix: .bewgnn.com
   - domain_suffix: .beyebe.com
-  - domain_suffix: .beyond-perfection.com
   - domain_suffix: .beyondbit.com
   - domain_suffix: .beyondcompare.cc
   - domain_suffix: .beyondcomparepro.com
@@ -15419,6 +15412,7 @@ rules:
   - domain_suffix: .bgxu.com
   - domain_suffix: .bgyfhh.com
   - domain_suffix: .bgyfhyx.com
+  - domain_suffix: .bgyfw.com
   - domain_suffix: .bgyhotel.com
   - domain_suffix: .bgyhotels.com
   - domain_suffix: .bgyshop.com
@@ -16129,7 +16123,6 @@ rules:
   - domain_suffix: .bj-win.com
   - domain_suffix: .bj-wjh.com
   - domain_suffix: .bj-yt.com
-  - domain_suffix: .bj-zkhb.com
   - domain_suffix: .bj003.com
   - domain_suffix: .bj0yx.com
   - domain_suffix: .bj1.api.bing.com
@@ -16443,7 +16436,6 @@ rules:
   - domain_suffix: .bjqtsecbase.com
   - domain_suffix: .bjqtthirdbase.com
   - domain_suffix: .bjqtti.com
-  - domain_suffix: .bjqyjjlb.com
   - domain_suffix: .bjqykc.com
   - domain_suffix: .bjqzhd.com
   - domain_suffix: .bjraee.com
@@ -16666,7 +16658,6 @@ rules:
   - domain_suffix: .bk-cdn.com
   - domain_suffix: .bk-cdn01.com
   - domain_suffix: .bk3r.com
-  - domain_suffix: .bk41.net
   - domain_suffix: .bk5u.com
   - domain_suffix: .bkaivl2daed.com
   - domain_suffix: .bkapigw.com
@@ -17155,6 +17146,7 @@ rules:
   - domain_suffix: .bookersea.com
   - domain_suffix: .bookfedex.com
   - domain_suffix: .bookfeel.com
+  - domain_suffix: .bookgew.com
   - domain_suffix: .booking001.com
   - domain_suffix: .bookingtee.com
   - domain_suffix: .booknest.net
@@ -17695,7 +17687,6 @@ rules:
   - domain_suffix: .bukeyi.net
   - domain_suffix: .bulaisi.com
   - domain_suffix: .bulaoge.net
-  - domain_suffix: .bulapingc.com
   - domain_suffix: .bulbsquare.com
   - domain_suffix: .bulejie.com
   - domain_suffix: .bullcome.com
@@ -18117,7 +18108,6 @@ rules:
   - domain_suffix: .bzszyy.com
   - domain_suffix: .bzt120.com
   - domain_suffix: .bztdxxl.com
-  - domain_suffix: .bzvtc.com
   - domain_suffix: .bzwater.com
   - domain_suffix: .bzwz.com
   - domain_suffix: .bzwzw.com
@@ -18188,7 +18178,6 @@ rules:
   - domain_suffix: .c469f14b911012.beer
   - domain_suffix: .c4752e8a51.vip
   - domain_suffix: .c47cb27580c5de6b.com
-  - domain_suffix: .c49.com
   - domain_suffix: .c495f3eb10d6cf13.com
   - domain_suffix: .c4c6c49a6453534d.com
   - domain_suffix: .c4d.live
@@ -18584,6 +18573,7 @@ rules:
   - domain_suffix: .canghaiip.com
   - domain_suffix: .canghaimachine.com
   - domain_suffix: .cangjggame.com
+  - domain_suffix: .cangjie-lang.net
   - domain_suffix: .canglanghospital.com
   - domain_suffix: .cangmang.xyz
   - domain_suffix: .cangoonline.com
@@ -18769,7 +18759,6 @@ rules:
   - domain_suffix: .cartoonwin.com
   - domain_suffix: .cartx.cloud
   - domain_suffix: .carutoo.com
-  - domain_suffix: .carxinwen.com
   - domain_suffix: .carxoo.com
   - domain_suffix: .caryoud.com
   - domain_suffix: .carzd.com
@@ -18941,6 +18930,7 @@ rules:
   - domain_suffix: .cc06040d408f65b1.com
   - domain_suffix: .cc0808.com
   - domain_suffix: .cc11bh.com
+  - domain_suffix: .cc39ute.shop
   - domain_suffix: .cc55k.com
   - domain_suffix: .cc707.com
   - domain_suffix: .cc7m.com
@@ -19041,7 +19031,6 @@ rules:
   - domain_suffix: .ccggd.com
   - domain_suffix: .ccgim.com
   - domain_suffix: .ccgjbus.com
-  - domain_suffix: .ccgogogo.com
   - domain_suffix: .ccgoyi.com
   - domain_suffix: .ccgs120.net
   - domain_suffix: .ccgslb.com
@@ -19164,7 +19153,6 @@ rules:
   - domain_suffix: .ccostm.com
   - domain_suffix: .ccotcm.com
   - domain_suffix: .ccoymc.com
-  - domain_suffix: .ccp3060.com
   - domain_suffix: .ccpaie.com
   - domain_suffix: .ccpc.io
   - domain_suffix: .ccpc360.com
@@ -19458,7 +19446,6 @@ rules:
   - domain_suffix: .cdkjbg.com
   - domain_suffix: .cdkjw.org
   - domain_suffix: .cdks.run
-  - domain_suffix: .cdkyfc.com
   - domain_suffix: .cdlaobing.com
   - domain_suffix: .cdlbmy.com
   - domain_suffix: .cdlbyl.com
@@ -20667,6 +20654,7 @@ rules:
   - domain_suffix: .chengliwang.com
   - domain_suffix: .chengloongcishan.org
   - domain_suffix: .chenglou.net
+  - domain_suffix: .chengmei-trout.com
   - domain_suffix: .chengmei.games
   - domain_suffix: .chengmeiyouxuan.com
   - domain_suffix: .chengpan.com
@@ -21350,7 +21338,6 @@ rules:
   - domain_suffix: .chinadns.com
   - domain_suffix: .chinadns.org
   - domain_suffix: .chinadongchu.com
-  - domain_suffix: .chinadougong.com
   - domain_suffix: .chinadra.com
   - domain_suffix: .chinadrtv.com
   - domain_suffix: .chinadrum.net
@@ -22251,7 +22238,6 @@ rules:
   - domain_suffix: .chrmn.com
   - domain_suffix: .chrome64.com
   - domain_suffix: .chrome666.com
-  - domain_suffix: .chromecj.com
   - domain_suffix: .chromedownloads.net
   - domain_suffix: .chromefor.com
   - domain_suffix: .chromegw.com
@@ -22493,6 +22479,7 @@ rules:
   - domain_suffix: .ci800.com
   - domain_suffix: .ciaie.com
   - domain_suffix: .ciallo.cc
+  - domain_suffix: .ciallo.party
   - domain_suffix: .ciaoca.com
   - domain_suffix: .ciapst.org
   - domain_suffix: .cibaike.com
@@ -22748,7 +22735,6 @@ rules:
   - domain_suffix: .ciyynodegroup.cyou
   - domain_suffix: .cizip.com
   - domain_suffix: .cj0515.com
-  - domain_suffix: .cj5bs.net
   - domain_suffix: .cj8.ren
   - domain_suffix: .cjaljs.com
   - domain_suffix: .cjasen.com
@@ -23431,6 +23417,7 @@ rules:
   - domain_suffix: .cn-shine.com
   - domain_suffix: .cn-soft.com
   - domain_suffix: .cn-tf.com
+  - domain_suffix: .cn-tn.com
   - domain_suffix: .cn-tom.com
   - domain_suffix: .cn-truck.com
   - domain_suffix: .cn-unitech.com
@@ -23813,6 +23800,7 @@ rules:
   - domain_suffix: .cnhuafas.com
   - domain_suffix: .cnhuanya.com
   - domain_suffix: .cnhubei.com
+  - domain_suffix: .cnhuilv.com
   - domain_suffix: .cnhwjt.com
   - domain_suffix: .cnhyc.com
   - domain_suffix: .cnhyjt.com
@@ -24074,7 +24062,6 @@ rules:
   - domain_suffix: .cnpython.com
   - domain_suffix: .cnqc.com
   - domain_suffix: .cnqcc.com
-  - domain_suffix: .cnqd.net
   - domain_suffix: .cnqiang.com
   - domain_suffix: .cnqichun.com
   - domain_suffix: .cnqifeng88.com
@@ -24250,7 +24237,6 @@ rules:
   - domain_suffix: .cnxcjt.com
   - domain_suffix: .cnxclm.com
   - domain_suffix: .cnxct.com
-  - domain_suffix: .cnxds.com
   - domain_suffix: .cnxdw.com
   - domain_suffix: .cnxfans.com
   - domain_suffix: .cnxhyp.com
@@ -27754,7 +27740,6 @@ rules:
   - domain_suffix: .dbs724.com
   - domain_suffix: .dbscar.com
   - domain_suffix: .dbshop.net
-  - domain_suffix: .dbtclub.com
   - domain_suffix: .dbyun.net
   - domain_suffix: .dc-cn.com
   - domain_suffix: .dc0792.com
@@ -27867,7 +27852,6 @@ rules:
   - domain_suffix: .dddki.com
   - domain_suffix: .dddkq.com
   - domain_suffix: .dddwan.com
-  - domain_suffix: .dde-desktop.org
   - domain_suffix: .ddedush.com
   - domain_suffix: .ddfans.com
   - domain_suffix: .ddfchina.com
@@ -29058,6 +29042,7 @@ rules:
   - domain_suffix: .diy10.com
   - domain_suffix: .diyahz.com
   - domain_suffix: .diybcq.com
+  - domain_suffix: .diybuy.net
   - domain_suffix: .diydiymall.com
   - domain_suffix: .diygogogo.com
   - domain_suffix: .diygw.com
@@ -29301,12 +29286,10 @@ rules:
   - domain_suffix: .dm5u.com
   - domain_suffix: .dm67.com
   - domain_suffix: .dm9.com
-  - domain_suffix: .dma13.org
   - domain_suffix: .dmacg.net
   - domain_suffix: .dmaking.com
   - domain_suffix: .dmall.com
   - domain_suffix: .dmallcdn.com
-  - domain_suffix: .dmallovo.com
   - domain_suffix: .dmb168.com
   - domain_suffix: .dmcdn.com
   - domain_suffix: .dmd968.com
@@ -29684,7 +29667,6 @@ rules:
   - domain_suffix: .dongeejiao.com
   - domain_suffix: .dongfahouse.com
   - domain_suffix: .dongfang-heater.com
-  - domain_suffix: .dongfang-sisal.com
   - domain_suffix: .dongfang-wh.com
   - domain_suffix: .dongfang.com
   - domain_suffix: .dongfang77.com
@@ -29929,7 +29911,6 @@ rules:
   - domain_suffix: .doulongyun.com
   - domain_suffix: .doumenqu.com
   - domain_suffix: .doumi.com
-  - domain_suffix: .doumiip.com
   - domain_suffix: .doumistatic.com
   - domain_suffix: .doumob.com
   - domain_suffix: .douniwan.org
@@ -30297,6 +30278,7 @@ rules:
   - domain_suffix: .dt123.net
   - domain_suffix: .dt830.com
   - domain_suffix: .dtao.com
+  - domain_suffix: .dtcits.com
   - domain_suffix: .dtcj.com
   - domain_suffix: .dtcms.net
   - domain_suffix: .dtcoalmine.com
@@ -30446,7 +30428,6 @@ rules:
   - domain_suffix: .dumasoftware.com
   - domain_suffix: .dumi0898.com
   - domain_suffix: .dumpapp.com
-  - domain_suffix: .dun.la
   - domain_suffix: .dun222.com
   - domain_suffix: .dun555.com
   - domain_suffix: .dun599.com
@@ -31053,7 +31034,6 @@ rules:
   - domain_suffix: .e0734.com
   - domain_suffix: .e0838.com
   - domain_suffix: .e12345.com
-  - domain_suffix: .e1288.com
   - domain_suffix: .e1299.com
   - domain_suffix: .e12e.com
   - domain_suffix: .e13000d6f1019.beer
@@ -31335,6 +31315,7 @@ rules:
   - domain_suffix: .eatonbusbar.com
   - domain_suffix: .eatuo.com
   - domain_suffix: .eavic.com
+  - domain_suffix: .eaw4.com
   - domain_suffix: .eaydu.com
   - domain_suffix: .eayh.com
   - domain_suffix: .eayou.com
@@ -32732,6 +32713,7 @@ rules:
   - domain_suffix: .etian365.com
   - domain_suffix: .etiantian.com
   - domain_suffix: .etiantian.net
+  - domain_suffix: .etimbre.cc
   - domain_suffix: .etimeusa.com
   - domain_suffix: .etiv.me
   - domain_suffix: .etjy.com
@@ -32818,6 +32800,7 @@ rules:
   - domain_suffix: .eulike.com
   - domain_suffix: .eulixos.com
   - domain_suffix: .eumt.com
+  - domain_suffix: .euqwl.com
   - domain_suffix: .eur-go.com
   - domain_suffix: .eurasia.edu
   - domain_suffix: .euratao.com
@@ -32875,7 +32858,6 @@ rules:
   - domain_suffix: .evergrandeservice.com
   - domain_suffix: .evergrandespring.com
   - domain_suffix: .evergreen-plastics.com
-  - domain_suffix: .evergreen2012.org
   - domain_suffix: .everichgroup.com
   - domain_suffix: .everisker.com
   - domain_suffix: .everknight.net
@@ -32919,7 +32901,6 @@ rules:
   - domain_suffix: .evtrust.com
   - domain_suffix: .evyy.net
   - domain_suffix: .evzhidao.com
-  - domain_suffix: .evznl.org
   - domain_suffix: .evzs.com
   - domain_suffix: .ew-wirestripping.com
   - domain_suffix: .ew80.com
@@ -33059,7 +33040,6 @@ rules:
   - domain_suffix: .exprun.com
   - domain_suffix: .expsky.com
   - domain_suffix: .exquisite-automotive.com
-  - domain_suffix: .exscapesmoke.com
   - domain_suffix: .exsvc.net
   - domain_suffix: .ext2fsd.com
   - domain_suffix: .extech-sh.com
@@ -34461,7 +34441,6 @@ rules:
   - domain_suffix: .financialstreetforum.com
   - domain_suffix: .finchina.com
   - domain_suffix: .finclip.com
-  - domain_suffix: .finddanandlaura.com
   - domain_suffix: .finderweb.net
   - domain_suffix: .findhro.com
   - domain_suffix: .findic.com
@@ -34514,6 +34493,7 @@ rules:
   - domain_suffix: .finshell-cib.com
   - domain_suffix: .fintechinchina.com
   - domain_suffix: .fintechquan.com
+  - domain_suffix: .fintopia.tech
   - domain_suffix: .finupgroup.com
   - domain_suffix: .finzfin.com
   - domain_suffix: .finzjr.com
@@ -35467,6 +35447,7 @@ rules:
   - domain_suffix: .fsilon.com
   - domain_suffix: .fsjgchina.com
   - domain_suffix: .fsjgw.com
+  - domain_suffix: .fsjiaoyubang.com
   - domain_suffix: .fsjinlan.com
   - domain_suffix: .fsjinma.com
   - domain_suffix: .fsjoy.com
@@ -35819,7 +35800,6 @@ rules:
   - domain_suffix: .fuyang.net
   - domain_suffix: .fuyangbio.com
   - domain_suffix: .fuyangjituan.com
-  - domain_suffix: .fuyangren.org
   - domain_suffix: .fuyangtv.com
   - domain_suffix: .fuyaogroup.com
   - domain_suffix: .fuyaozb.com
@@ -36177,7 +36157,6 @@ rules:
   - domain_suffix: .g63.fun
   - domain_suffix: .g768r.com
   - domain_suffix: .g80mx.com
-  - domain_suffix: .g88885555.com
   - domain_suffix: .g8hh.com
   - domain_suffix: .g983.com
   - domain_suffix: .g9china.com
@@ -36687,6 +36666,7 @@ rules:
   - domain_suffix: .gcwith.com
   - domain_suffix: .gcykj.com
   - domain_suffix: .gcyts.com
+  - domain_suffix: .gcyvm.com
   - domain_suffix: .gd-chenxing.com
   - domain_suffix: .gd-chuangfu.com
   - domain_suffix: .gd-dl.com
@@ -36875,6 +36855,7 @@ rules:
   - domain_suffix: .gdhuana.com
   - domain_suffix: .gdhuaxun.net
   - domain_suffix: .gdhuaya.com
+  - domain_suffix: .gdhuazhuang.net
   - domain_suffix: .gdhwater.com
   - domain_suffix: .gdhwgf.com
   - domain_suffix: .gdhwjl.com
@@ -37294,7 +37275,6 @@ rules:
   - domain_suffix: .gegemm.work
   - domain_suffix: .gegeselect.hk
   - domain_suffix: .gegeyingshi.com
-  - domain_suffix: .gehaowu.com
   - domain_suffix: .gehope.com
   - domain_suffix: .gehua.com
   - domain_suffix: .gehua.net
@@ -37701,7 +37681,6 @@ rules:
   - domain_suffix: .ghdoor.com
   - domain_suffix: .ghed119.com
   - domain_suffix: .ghedu.com
-  - domain_suffix: .ghfdc.org
   - domain_suffix: .ghgglobal.com
   - domain_suffix: .ghglzx.com
   - domain_suffix: .ghgy.com
@@ -38143,7 +38122,6 @@ rules:
   - domain_suffix: .glosspp.com
   - domain_suffix: .glowapp.fun
   - domain_suffix: .glowapp.vip
-  - domain_suffix: .glowoman.org
   - domain_suffix: .glpenhui.com
   - domain_suffix: .glplyf.com
   - domain_suffix: .glqh.com
@@ -40225,7 +40203,6 @@ rules:
   - domain_suffix: .gxfxwh.com
   - domain_suffix: .gxfxzb.com
   - domain_suffix: .gxfybj.com
-  - domain_suffix: .gxfygp.com
   - domain_suffix: .gxfysteel.com
   - domain_suffix: .gxfyzx.com
   - domain_suffix: .gxfzf.com
@@ -40586,8 +40563,6 @@ rules:
   - domain_suffix: .gxjjfds.com
   - domain_suffix: .gxjjfjt.com
   - domain_suffix: .gxjjgy.com
-  - domain_suffix: .gxjjh.com
-  - domain_suffix: .gxjjyb.com
   - domain_suffix: .gxjkamc.com
   - domain_suffix: .gxjkhj.com
   - domain_suffix: .gxjkjg.com
@@ -41610,7 +41585,6 @@ rules:
   - domain_suffix: .gy818.com
   - domain_suffix: .gyaqyy.com
   - domain_suffix: .gyb086.com
-  - domain_suffix: .gybsn.com
   - domain_suffix: .gybyscy.com
   - domain_suffix: .gycharm.com
   - domain_suffix: .gycode.com
@@ -41672,7 +41646,6 @@ rules:
   - domain_suffix: .gysdzy.com
   - domain_suffix: .gyseals.com
   - domain_suffix: .gyshwl.online
-  - domain_suffix: .gysk.com
   - domain_suffix: .gysou.com
   - domain_suffix: .gysq.org
   - domain_suffix: .gysrmyy.com
@@ -41798,6 +41771,7 @@ rules:
   - domain_suffix: .gzcrdzbk.com
   - domain_suffix: .gzcsgs.com
   - domain_suffix: .gzcsjg.com
+  - domain_suffix: .gzculture.net
   - domain_suffix: .gzcxhd.com
   - domain_suffix: .gzcxlm.org
   - domain_suffix: .gzcycling.com
@@ -42018,7 +41992,6 @@ rules:
   - domain_suffix: .gzmc668.com
   - domain_suffix: .gzmcg.com
   - domain_suffix: .gzmcgjcpt.com
-  - domain_suffix: .gzmediaclick.com
   - domain_suffix: .gzmedri.com
   - domain_suffix: .gzmeichang.com
   - domain_suffix: .gzmiden.com
@@ -42562,6 +42535,7 @@ rules:
   - domain_suffix: .haima001.com
   - domain_suffix: .haimacloud.com
   - domain_suffix: .haimacloudpc.com
+  - domain_suffix: .haimaiedu.net
   - domain_suffix: .haiman.io
   - domain_suffix: .haimawan.com
   - domain_suffix: .haimeec.com
@@ -42603,6 +42577,7 @@ rules:
   - domain_suffix: .hainiuxy.com
   - domain_suffix: .hainuotech.com
   - domain_suffix: .haiotsys.com
+  - domain_suffix: .haiouchat.com
   - domain_suffix: .haipal.com
   - domain_suffix: .haipengtoy.com
   - domain_suffix: .haipinggroup.com
@@ -44713,7 +44688,6 @@ rules:
   - domain_suffix: .hfkjsd.com
   - domain_suffix: .hfkktt.com
   - domain_suffix: .hfksmdl.com
-  - domain_suffix: .hflbysm.com
   - domain_suffix: .hfleda.net
   - domain_suffix: .hflengku.com
   - domain_suffix: .hflp88.com
@@ -45015,6 +44989,7 @@ rules:
   - domain_suffix: .higer.com
   - domain_suffix: .higeshi.com
   - domain_suffix: .higgmm.net
+  - domain_suffix: .higgsweb.com
   - domain_suffix: .high-genius.com
   - domain_suffix: .highdigitizing.com
   - domain_suffix: .highfaststudio.com
@@ -45122,6 +45097,7 @@ rules:
   - domain_suffix: .hinpy.com
   - domain_suffix: .hinsyeow.org
   - domain_suffix: .hintsnet.com
+  - domain_suffix: .hiocloud.com
   - domain_suffix: .hiofd.com
   - domain_suffix: .hiosu.com
   - domain_suffix: .hiparking.com
@@ -45325,6 +45301,7 @@ rules:
   - domain_suffix: .hkance.com
   - domain_suffix: .hkanews.com
   - domain_suffix: .hkaohua.com
+  - domain_suffix: .hkatv.com
   - domain_suffix: .hkbchina.com
   - domain_suffix: .hkcd.com
   - domain_suffix: .hkcgart.com
@@ -45442,7 +45419,6 @@ rules:
   - domain_suffix: .hljdata.net
   - domain_suffix: .hljgvc.com
   - domain_suffix: .hljgwy.net
-  - domain_suffix: .hljgzkj.com
   - domain_suffix: .hljhgckj.com
   - domain_suffix: .hljiasen.com
   - domain_suffix: .hljjjb.com
@@ -45472,7 +45448,6 @@ rules:
   - domain_suffix: .hlnpm.com
   - domain_suffix: .hlo-trade.com
   - domain_suffix: .hlqiaojia.com
-  - domain_suffix: .hlread.com
   - domain_suffix: .hlsdq.com
   - domain_suffix: .hlstlyy.com
   - domain_suffix: .hltmsp.com
@@ -45634,7 +45609,6 @@ rules:
   - domain_suffix: .hndnews.com
   - domain_suffix: .hndpf.org
   - domain_suffix: .hndpx.com
-  - domain_suffix: .hnds88.com
   - domain_suffix: .hndscg.com
   - domain_suffix: .hndsyy.com
   - domain_suffix: .hndt.com
@@ -46406,6 +46380,7 @@ rules:
   - domain_suffix: .hotelbaijin.com
   - domain_suffix: .hotelcis.com
   - domain_suffix: .hotelgg.com
+  - domain_suffix: .hotelincn.com
   - domain_suffix: .hoteljianguo.com
   - domain_suffix: .hotelpanpacific.com
   - domain_suffix: .hotelsjianguo.com
@@ -46478,7 +46453,6 @@ rules:
   - domain_suffix: .house510.com
   - domain_suffix: .house86.com
   - domain_suffix: .houseimg.com
-  - domain_suffix: .houseoftantra.org
   - domain_suffix: .houshaoan.com
   - domain_suffix: .housoo.com
   - domain_suffix: .houwuedu.com
@@ -46686,6 +46660,7 @@ rules:
   - domain_suffix: .hrfoods.com
   - domain_suffix: .hrgsmz.com
   - domain_suffix: .hrgxyy.com
+  - domain_suffix: .hrhgstock.com
   - domain_suffix: .hrhuiyi.com
   - domain_suffix: .hrhy365.com
   - domain_suffix: .hrintl.com.hk
@@ -46913,6 +46888,7 @@ rules:
   - domain_suffix: .htjsq.com
   - domain_suffix: .htjsq.mobi
   - domain_suffix: .htkaoyan.com
+  - domain_suffix: .htkgsx.com
   - domain_suffix: .htknow.com
   - domain_suffix: .htky365.com
   - domain_suffix: .html5-app.com
@@ -48274,7 +48250,6 @@ rules:
   - domain_suffix: .hx36.net
   - domain_suffix: .hx416.com
   - domain_suffix: .hx5658.com
-  - domain_suffix: .hx818.com
   - domain_suffix: .hx8886.com
   - domain_suffix: .hx95.com
   - domain_suffix: .hx99.net
@@ -49100,7 +49075,6 @@ rules:
   - domain_suffix: .i-f.work
   - domain_suffix: .i-fanr.com
   - domain_suffix: .i-firefly.com
-  - domain_suffix: .i-haitao.com
   - domain_suffix: .i-iem.com
   - domain_suffix: .i-ktv.com
   - domain_suffix: .i-lewan.com
@@ -49358,6 +49332,7 @@ rules:
   - domain_suffix: .ibuscloud.net
   - domain_suffix: .ibuychem.com
   - domain_suffix: .ibw.cc
+  - domain_suffix: .ibwm5lynb6.com
   - domain_suffix: .ibytedapm.com
   - domain_suffix: .ibytepluses-test.com
   - domain_suffix: .ic-bro.com
@@ -49728,7 +49703,6 @@ rules:
   - domain_suffix: .ideapool.tv
   - domain_suffix: .ideappt.com
   - domain_suffix: .idearhanyu.com
-  - domain_suffix: .ideasr.com
   - domain_suffix: .ideassoft.com
   - domain_suffix: .ideation.love
   - domain_suffix: .ideazhao.com
@@ -50883,6 +50857,7 @@ rules:
   - domain_suffix: .int800.com
   - domain_suffix: .intaek.com
   - domain_suffix: .intdmp.com
+  - domain_suffix: .inte.net
   - domain_suffix: .intecheye.com
   - domain_suffix: .intecol-10iwc.com
   - domain_suffix: .intedc.com
@@ -51526,7 +51501,6 @@ rules:
   - domain_suffix: .itdog.com
   - domain_suffix: .itdog.plus
   - domain_suffix: .itdoisp.com
-  - domain_suffix: .itdoor.net
   - domain_suffix: .itdos.com
   - domain_suffix: .itdos.net
   - domain_suffix: .iteam-dress.com
@@ -52134,6 +52108,7 @@ rules:
   - domain_suffix: .jbs-kj.com
   - domain_suffix: .jbsmartcity.com
   - domain_suffix: .jbsx88.com
+  - domain_suffix: .jbsy20riz9.com
   - domain_suffix: .jbt.ink
   - domain_suffix: .jbtlj.com
   - domain_suffix: .jbtxy.net
@@ -52586,6 +52561,7 @@ rules:
   - domain_suffix: .jfydgame.com
   - domain_suffix: .jfyf.cc
   - domain_suffix: .jfyiyao.com
+  - domain_suffix: .jfyxw.com
   - domain_suffix: .jfz.com
   - domain_suffix: .jfzfund.com
   - domain_suffix: .jfzhcx.com
@@ -52636,7 +52612,6 @@ rules:
   - domain_suffix: .jhaoyou.com
   - domain_suffix: .jhcb.net
   - domain_suffix: .jhcfz.com
-  - domain_suffix: .jhcheku.com
   - domain_suffix: .jhcms.com
   - domain_suffix: .jhconba.com
   - domain_suffix: .jhctbank.com
@@ -52922,7 +52897,6 @@ rules:
   - domain_suffix: .jiangzidushu.com
   - domain_suffix: .jiangzikanshu.com
   - domain_suffix: .jiangziyuedu.com
-  - domain_suffix: .jiangzuoku.net
   - domain_suffix: .jianhaobao.com
   - domain_suffix: .jianhuagroup.com
   - domain_suffix: .jianhuasheng.com
@@ -52988,7 +52962,6 @@ rules:
   - domain_suffix: .jianshionline.com
   - domain_suffix: .jianshu.com
   - domain_suffix: .jianshu.io
-  - domain_suffix: .jianshu.tech
   - domain_suffix: .jianshuapi.com
   - domain_suffix: .jianshukeji.com
   - domain_suffix: .jiansuji001.com
@@ -53812,7 +53785,6 @@ rules:
   - domain_suffix: .jinshengtang.net
   - domain_suffix: .jinsheyi.com
   - domain_suffix: .jinshi-nj.com
-  - domain_suffix: .jinshier66.com
   - domain_suffix: .jinshileasing.com
   - domain_suffix: .jinshisoft.com
   - domain_suffix: .jinshitan.com
@@ -54071,6 +54043,7 @@ rules:
   - domain_suffix: .jiushiadx.com
   - domain_suffix: .jiushigong.com
   - domain_suffix: .jiushui.tv
+  - domain_suffix: .jiushuyun.com
   - domain_suffix: .jiushuyunshop.com
   - domain_suffix: .jiusi.com
   - domain_suffix: .jiusi.net
@@ -54626,6 +54599,7 @@ rules:
   - domain_suffix: .jnoec.com
   - domain_suffix: .jnpfsoft.com
   - domain_suffix: .jnpjyy.com
+  - domain_suffix: .jnpuz.com
   - domain_suffix: .jnqzyy.com
   - domain_suffix: .jnrain.com
   - domain_suffix: .jnreli.com
@@ -56234,6 +56208,7 @@ rules:
   - domain_suffix: .jxpp.com
   - domain_suffix: .jxpta.com
   - domain_suffix: .jxqcw.com
+  - domain_suffix: .jxqx.net
   - domain_suffix: .jxqy.city
   - domain_suffix: .jxqyfw.com
   - domain_suffix: .jxrays.com
@@ -56265,7 +56240,6 @@ rules:
   - domain_suffix: .jxslyw.com
   - domain_suffix: .jxsrjt.com
   - domain_suffix: .jxsrra.com
-  - domain_suffix: .jxssjx.com
   - domain_suffix: .jxssjy.com
   - domain_suffix: .jxstm.com
   - domain_suffix: .jxsuji.com
@@ -56583,7 +56557,6 @@ rules:
   - domain_suffix: .k3yes.com
   - domain_suffix: .k43439.com
   - domain_suffix: .k518.com
-  - domain_suffix: .k5hp4qte.work
   - domain_suffix: .k5n.com
   - domain_suffix: .k6uk.com
   - domain_suffix: .k73.com
@@ -57046,7 +57019,6 @@ rules:
   - domain_suffix: .kblin.com
   - domain_suffix: .kbmlifesci.com
   - domain_suffix: .kbn-zhejiang.com
-  - domain_suffix: .kbnqy.com
   - domain_suffix: .kbobo.com
   - domain_suffix: .kboth.com
   - domain_suffix: .kbrightlaw.com
@@ -57079,6 +57051,7 @@ rules:
   - domain_suffix: .kcrcb.com
   - domain_suffix: .kcrea.cc
   - domain_suffix: .kctgov.com
+  - domain_suffix: .kcttpa.com
   - domain_suffix: .kctzgroup.com
   - domain_suffix: .kcwiki.org
   - domain_suffix: .kcyuri.com
@@ -57265,6 +57238,7 @@ rules:
   - domain_suffix: .kelun.com
   - domain_suffix: .keluokelie.com
   - domain_suffix: .keluyjs.com
+  - domain_suffix: .kema.net
   - domain_suffix: .kema66.com
   - domain_suffix: .kemaicrm.com
   - domain_suffix: .keman.com
@@ -57657,6 +57631,7 @@ rules:
   - domain_suffix: .kiwifarms.net
   - domain_suffix: .kiwifarms.st
   - domain_suffix: .kiwimoore.com
+  - domain_suffix: .kiwiot.com
   - domain_suffix: .kiwisec.com
   - domain_suffix: .kiyuu.club
   - domain_suffix: .kj-pcb.com
@@ -57687,7 +57662,6 @@ rules:
   - domain_suffix: .kjkd.com
   - domain_suffix: .kjkp.com
   - domain_suffix: .kjks.net
-  - domain_suffix: .kjkxun.com
   - domain_suffix: .kjlww.com
   - domain_suffix: .kjmofang.com
   - domain_suffix: .kjmte.com
@@ -57945,6 +57919,7 @@ rules:
   - domain_suffix: .kodcloud.com
   - domain_suffix: .koderover.com
   - domain_suffix: .kodmp.com
+  - domain_suffix: .koebpmhcce.com
   - domain_suffix: .koenli.com
   - domain_suffix: .kof-kol.club
   - domain_suffix: .kofficemart.com
@@ -58093,6 +58068,7 @@ rules:
   - domain_suffix: .kpzip.com
   - domain_suffix: .kpzip.net
   - domain_suffix: .kpzpw.com
+  - domain_suffix: .kpzs.com
   - domain_suffix: .kpzuan.com
   - domain_suffix: .kq-cnmia.com
   - domain_suffix: .kq36.com
@@ -58480,6 +58456,7 @@ rules:
   - domain_suffix: .kucoin-in.work
   - domain_suffix: .kucunguanli.online
   - domain_suffix: .kudapp.com
+  - domain_suffix: .kudashi.com
   - domain_suffix: .kudianvip.com
   - domain_suffix: .kudiaoyu.com
   - domain_suffix: .kudingyu.com
@@ -58529,6 +58506,7 @@ rules:
   - domain_suffix: .kuke.com
   - domain_suffix: .kuke99.com
   - domain_suffix: .kukecloud.com
+  - domain_suffix: .kukongjian.com
   - domain_suffix: .kukseo.com
   - domain_suffix: .kukuda.net
   - domain_suffix: .kukulv.com
@@ -58752,7 +58730,6 @@ rules:
   - domain_suffix: .kxiaoshuo77.com
   - domain_suffix: .kxji.com
   - domain_suffix: .kxjlzx.com
-  - domain_suffix: .kxl100.com
   - domain_suffix: .kxlc.com
   - domain_suffix: .kxll.com
   - domain_suffix: .kxload.com
@@ -58770,7 +58747,6 @@ rules:
   - domain_suffix: .kxtwz.com
   - domain_suffix: .kxue.com
   - domain_suffix: .kxwell.com
-  - domain_suffix: .kxx.moe
   - domain_suffix: .kxx2.com
   - domain_suffix: .kxxsc.com
   - domain_suffix: .kxxxl.com
@@ -58917,7 +58893,6 @@ rules:
   - domain_suffix: .laichon.com
   - domain_suffix: .laichou.com
   - domain_suffix: .laichuanfeng.com
-  - domain_suffix: .laidacai.com
   - domain_suffix: .laidazi.com
   - domain_suffix: .laidingba.com
   - domain_suffix: .laidudu.com
@@ -59984,7 +59959,6 @@ rules:
   - domain_suffix: .leptv.com
   - domain_suffix: .lepudding.com
   - domain_suffix: .lepumedical.com
-  - domain_suffix: .leqi.us
   - domain_suffix: .leqian.com
   - domain_suffix: .leqiaobh.com
   - domain_suffix: .leqiaobhyy.com
@@ -60141,7 +60115,6 @@ rules:
   - domain_suffix: .lezhibo.com
   - domain_suffix: .lezhiyun.com
   - domain_suffix: .lezhuan365.com
-  - domain_suffix: .lezhuanwang.net
   - domain_suffix: .lezhudai.com
   - domain_suffix: .lezhufenqi.com
   - domain_suffix: .lezhun.com
@@ -61370,7 +61343,6 @@ rules:
   - domain_suffix: .ljsdk.com
   - domain_suffix: .ljsy2017.com
   - domain_suffix: .ljsz.xyz
-  - domain_suffix: .ljth.hk
   - domain_suffix: .ljw113.com
   - domain_suffix: .ljwebs.com
   - domain_suffix: .ljwit.com
@@ -61945,6 +61917,7 @@ rules:
   - domain_suffix: .loveteemo.com
   - domain_suffix: .loveu.life
   - domain_suffix: .loveuav.com
+  - domain_suffix: .loveutips.com
   - domain_suffix: .lovev.com
   - domain_suffix: .lovewith.me
   - domain_suffix: .lovfp.com
@@ -61992,7 +61965,6 @@ rules:
   - domain_suffix: .lqbj66.com
   - domain_suffix: .lqfeather.com
   - domain_suffix: .lqgy.com
-  - domain_suffix: .lqhualang.com
   - domain_suffix: .lqjob88.com
   - domain_suffix: .lqjt.com
   - domain_suffix: .lqlst.com
@@ -63418,7 +63390,6 @@ rules:
   - domain_suffix: .majiang520.com
   - domain_suffix: .majilive.com
   - domain_suffix: .majorbio.com
-  - domain_suffix: .majorprecious.com
   - domain_suffix: .majorsec.com
   - domain_suffix: .majsoul.com
   - domain_suffix: .maka.im
@@ -63655,6 +63626,7 @@ rules:
   - domain_suffix: .maoyigu.com
   - domain_suffix: .maoyingaipu.com
   - domain_suffix: .maoyouxi.com
+  - domain_suffix: .maoyt.com
   - domain_suffix: .maoyun.com
   - domain_suffix: .maoyuncloud.com
   - domain_suffix: .maozhishi.com
@@ -63730,7 +63702,6 @@ rules:
   - domain_suffix: .martincl2.me
   - domain_suffix: .marto.cc
   - domain_suffix: .maryek.net
-  - domain_suffix: .marylandtenthcavalry.org
   - domain_suffix: .mas10010.com
   - domain_suffix: .mas300275.com
   - domain_suffix: .masastack.com
@@ -64067,6 +64038,7 @@ rules:
   - domain_suffix: .mdex.com
   - domain_suffix: .mdfors.com
   - domain_suffix: .mdfull.com
+  - domain_suffix: .mdict.net
   - domain_suffix: .mditie.com
   - domain_suffix: .mdjgjjt.com
   - domain_suffix: .mdkj1.com
@@ -64274,6 +64246,7 @@ rules:
   - domain_suffix: .meijia51.com
   - domain_suffix: .meijiadaren.com
   - domain_suffix: .meijiaedu.com
+  - domain_suffix: .meijian.com
   - domain_suffix: .meijiandaojia.com
   - domain_suffix: .meijianpin.com
   - domain_suffix: .meijiashang.com
@@ -64856,6 +64829,7 @@ rules:
   - domain_suffix: .miaokan.com
   - domain_suffix: .miaokan100.com
   - domain_suffix: .miaolaoshi.com
+  - domain_suffix: .miaolaotai.com
   - domain_suffix: .miaolianyunapp.com
   - domain_suffix: .miaolingbio.com
   - domain_suffix: .miaomaicar.com
@@ -65257,6 +65231,7 @@ rules:
   - domain_suffix: .mingyuanmuye.com
   - domain_suffix: .mingyuanyun.com
   - domain_suffix: .mingyueqingfengshe.com
+  - domain_suffix: .mingyuhan.net
   - domain_suffix: .mingzhi-tech.com
   - domain_suffix: .mingzhucable.com
   - domain_suffix: .mingzhujs.com
@@ -65370,6 +65345,7 @@ rules:
   - domain_suffix: .miraclevision.net
   - domain_suffix: .miracomotor.com
   - domain_suffix: .mirahomes.shop
+  - domain_suffix: .miraiemby.com
   - domain_suffix: .miravia.es
   - domain_suffix: .miredian.com
   - domain_suffix: .miri.site
@@ -65757,6 +65733,7 @@ rules:
   - domain_suffix: .mocreak.com
   - domain_suffix: .mocusez.site
   - domain_suffix: .mocuz.com
+  - domain_suffix: .modaiyun.com
   - domain_suffix: .modao.cc
   - domain_suffix: .modao.com
   - domain_suffix: .modao.io
@@ -66155,7 +66132,6 @@ rules:
   - domain_suffix: .moxuangenet.com
   - domain_suffix: .moyangmoyang.com
   - domain_suffix: .moyann.com
-  - domain_suffix: .moyol.com
   - domain_suffix: .moyoyo.com
   - domain_suffix: .moypk.com
   - domain_suffix: .moyubuluo.com
@@ -66247,6 +66223,7 @@ rules:
   - domain_suffix: .mrsingsing.com
   - domain_suffix: .mrsjzt.com
   - domain_suffix: .mrsta.com
+  - domain_suffix: .mrtdephoto.net
   - domain_suffix: .mrts.com
   - domain_suffix: .mru-taste.com
   - domain_suffix: .mrutaste.com
@@ -66502,7 +66479,6 @@ rules:
   - domain_suffix: .musicedu8.com
   - domain_suffix: .musiceol.com
   - domain_suffix: .musicgw.com
-  - domain_suffix: .musiciansfriendsaleusa.shop
   - domain_suffix: .musiclemon.net
   - domain_suffix: .musiness.vip
   - domain_suffix: .muslimwww.com
@@ -67915,7 +67891,6 @@ rules:
   - domain_suffix: .newsyc.com
   - domain_suffix: .newszjk.com
   - domain_suffix: .newtab123.com
-  - domain_suffix: .newtalentaward.com
   - domain_suffix: .newtimeai.com
   - domain_suffix: .newtimevalve.com
   - domain_suffix: .newtonghua.com
@@ -68391,7 +68366,6 @@ rules:
   - domain_suffix: .njclwlkj.com
   - domain_suffix: .njcmotor.com
   - domain_suffix: .njcmsj.com
-  - domain_suffix: .njcnmc.com
   - domain_suffix: .njcomptech.com
   - domain_suffix: .njctcm.com
   - domain_suffix: .njcttq.com
@@ -68607,6 +68581,7 @@ rules:
   - domain_suffix: .njnysoft.com
   - domain_suffix: .njnzrs.com
   - domain_suffix: .njodu.com
+  - domain_suffix: .njonemall.com
   - domain_suffix: .njouman.com
   - domain_suffix: .njpeptide.com
   - domain_suffix: .njpkwater.com
@@ -69193,6 +69168,7 @@ rules:
   - domain_suffix: .nnzw168.com
   - domain_suffix: .nnzxtx.net
   - domain_suffix: .nnzyjob.com
+  - domain_suffix: .no-mad-sub.one
   - domain_suffix: .no-mad-world.club
   - domain_suffix: .no1news.com
   - domain_suffix: .no8ms.com
@@ -69261,7 +69237,6 @@ rules:
   - domain_suffix: .nongkeyu.com
   - domain_suffix: .nongli.com
   - domain_suffix: .nongli.net
-  - domain_suffix: .nonglirili.net
   - domain_suffix: .nongmintv.com
   - domain_suffix: .nongnet.com
   - domain_suffix: .nongshang.com
@@ -69806,6 +69781,7 @@ rules:
   - domain_suffix: .o0310o.com
   - domain_suffix: .o0o0w.com
   - domain_suffix: .o136.com
+  - domain_suffix: .o163.com
   - domain_suffix: .o2123.com
   - domain_suffix: .o2ee.com
   - domain_suffix: .o2moment.com
@@ -69944,7 +69920,7 @@ rules:
   - domain_suffix: .odinjilin.com
   - domain_suffix: .odinliu.com
   - domain_suffix: .odlkj.com
-  - domain_suffix: .odohx.org
+  - domain_suffix: .odmt.net
   - domain_suffix: .odyzj.com
   - domain_suffix: .oealy.com
   - domain_suffix: .oeasy.org
@@ -70304,7 +70280,6 @@ rules:
   - domain_suffix: .onixhiend.com
   - domain_suffix: .onjobedu.com
   - domain_suffix: .onkocares.com
-  - domain_suffix: .onlady.net
   - domain_suffix: .online-cmcc.net
   - domain_suffix: .online-edu.org
   - domain_suffix: .online-phaidon.shop
@@ -70567,6 +70542,7 @@ rules:
   - domain_suffix: .ordosqyjt.com
   - domain_suffix: .ordostonghui.com
   - domain_suffix: .orebotech.com
+  - domain_suffix: .orence.net
   - domain_suffix: .organo-sz.com
   - domain_suffix: .orgcc.com
   - domain_suffix: .orggd.com
@@ -70720,6 +70696,7 @@ rules:
   - domain_suffix: .oubiix.lol
   - domain_suffix: .ouchang.net
   - domain_suffix: .ouchengzl.com
+  - domain_suffix: .oucode.com
   - domain_suffix: .oudapay.com
   - domain_suffix: .oudas.tech
   - domain_suffix: .oudianyun.com
@@ -71164,6 +71141,7 @@ rules:
   - domain_suffix: .pangyuan.com
   - domain_suffix: .panjiayuan.com
   - domain_suffix: .panjin.net
+  - domain_suffix: .panjue.com
   - domain_suffix: .panku.cc
   - domain_suffix: .panlai.com
   - domain_suffix: .panlan.com
@@ -71273,6 +71251,7 @@ rules:
   - domain_suffix: .papocket.com
   - domain_suffix: .papuanewguineans.com
   - domain_suffix: .paquapp.com
+  - domain_suffix: .par656.com
   - domain_suffix: .parallelsras.com
   - domain_suffix: .paratera.com
   - domain_suffix: .parawikis.com
@@ -71413,7 +71392,6 @@ rules:
   - domain_suffix: .pccm88.com
   - domain_suffix: .pccpa.hk
   - domain_suffix: .pccppc.com
-  - domain_suffix: .pcdan.net
   - domain_suffix: .pcdn100.com
   - domain_suffix: .pcdog.com
   - domain_suffix: .pcdrv.com
@@ -71452,6 +71430,7 @@ rules:
   - domain_suffix: .pctutu.net
   - domain_suffix: .pctvx.com
   - domain_suffix: .pcw365.com
+  - domain_suffix: .pcwatch.com
   - domain_suffix: .pcwenti.com
   - domain_suffix: .pcwgu.com
   - domain_suffix: .pcwl.com
@@ -71666,7 +71645,6 @@ rules:
   - domain_suffix: .pesyun.com
   - domain_suffix: .pet-mri.com
   - domain_suffix: .pet86.com
-  - domain_suffix: .petaindonesia.org
   - domain_suffix: .petalmail.com
   - domain_suffix: .petalmaps.com
   - domain_suffix: .petalsdata.com
@@ -72072,6 +72050,7 @@ rules:
   - domain_suffix: .pinqugongxiangktv.com
   - domain_suffix: .pinqukeji.com
   - domain_suffix: .pinshu.com
+  - domain_suffix: .pinshuxsw.com
   - domain_suffix: .pinsuodesign.com
   - domain_suffix: .pintangshi.com
   - domain_suffix: .pintechpharma.com
@@ -72830,6 +72809,7 @@ rules:
   - domain_suffix: .psdee.com
   - domain_suffix: .psdiv.com
   - domain_suffix: .pse-meti.com
+  - domain_suffix: .psf0404.shop
   - domain_suffix: .psjdhhnkjahbn.cfd
   - domain_suffix: .psjia.com
   - domain_suffix: .psjxty.com
@@ -72927,6 +72907,7 @@ rules:
   - domain_suffix: .pubmed007.com
   - domain_suffix: .pubmedplus.com
   - domain_suffix: .pubone.cc
+  - domain_suffix: .pubsub.tech
   - domain_suffix: .pubtian.com
   - domain_suffix: .pubukeji.com
   - domain_suffix: .pubwinol.com
@@ -73085,7 +73066,6 @@ rules:
   - domain_suffix: .pxb7.com
   - domain_suffix: .pxbgp.com
   - domain_suffix: .pxc33.com
-  - domain_suffix: .pxcn168.com
   - domain_suffix: .pxcoex.com
   - domain_suffix: .pxdier.net
   - domain_suffix: .pxemba.com
@@ -74182,6 +74162,7 @@ rules:
   - domain_suffix: .qingmayun.com
   - domain_suffix: .qingmei.me
   - domain_suffix: .qingmh.com
+  - domain_suffix: .qingmings.com
   - domain_suffix: .qingmo.com
   - domain_suffix: .qingmob.com
   - domain_suffix: .qingmucdn.com
@@ -74996,7 +74977,6 @@ rules:
   - domain_suffix: .qtlgslbcn.info
   - domain_suffix: .qtlgslbcn.net
   - domain_suffix: .qtmojo.com
-  - domain_suffix: .qto-pay.com
   - domain_suffix: .qtonghua.com
   - domain_suffix: .qtool.net
   - domain_suffix: .qtrun.com
@@ -75486,7 +75466,6 @@ rules:
   - domain_suffix: .quqxphdm.com
   - domain_suffix: .qushixi.net
   - domain_suffix: .qushoumiao.com
-  - domain_suffix: .qushuba.com
   - domain_suffix: .qushuiying.net
   - domain_suffix: .qutaiwan.com
   - domain_suffix: .qutanme.com
@@ -75524,6 +75503,7 @@ rules:
   - domain_suffix: .quxintiaodong.com
   - domain_suffix: .quxiu.com
   - domain_suffix: .quxuan.com
+  - domain_suffix: .quxuanshu.com
   - domain_suffix: .quyangyizhong.com
   - domain_suffix: .quyaoya.com
   - domain_suffix: .quyibao.com
@@ -75962,6 +75942,7 @@ rules:
   - domain_suffix: .rantu.com
   - domain_suffix: .ranwen.net
   - domain_suffix: .ranwen.org
+  - domain_suffix: .ranwen.tw
   - domain_suffix: .ranwena.com
   - domain_suffix: .ranxi.net
   - domain_suffix: .ranyangrent.com
@@ -76513,7 +76494,6 @@ rules:
   - domain_suffix: .rfid-e.com
   - domain_suffix: .rfidcardcube.com
   - domain_suffix: .rfidfans.com
-  - domain_suffix: .rfidnfk.com
   - domain_suffix: .rfidtech.cc
   - domain_suffix: .rfilter.com
   - domain_suffix: .rfjd.com
@@ -76708,6 +76688,7 @@ rules:
   - domain_suffix: .rjoy.com
   - domain_suffix: .rjpharm.com
   - domain_suffix: .rjpharma.com
+  - domain_suffix: .rjqcfw.com
   - domain_suffix: .rjreducer.com
   - domain_suffix: .rjs.com
   - domain_suffix: .rjsjmbwx.com
@@ -77523,7 +77504,6 @@ rules:
   - domain_suffix: .s-jl.com
   - domain_suffix: .s-ns.com
   - domain_suffix: .s-pia.org
-  - domain_suffix: .s-q-s.net
   - domain_suffix: .s-reader.com
   - domain_suffix: .s-ss.cc
   - domain_suffix: .s-tech.com
@@ -79223,6 +79203,7 @@ rules:
   - domain_suffix: .senlinjimore.com
   - domain_suffix: .senmiaoliuxue.com
   - domain_suffix: .senmiaoschool.com
+  - domain_suffix: .senmuse.com
   - domain_suffix: .senorsen.com
   - domain_suffix: .senpet.com
   - domain_suffix: .senpian.com
@@ -79321,7 +79302,6 @@ rules:
   - domain_suffix: .sevnday.com
   - domain_suffix: .sevnz.com
   - domain_suffix: .sewise.com
-  - domain_suffix: .sex2yingtaoshipin.wiki
   - domain_suffix: .sexytea2013.com
   - domain_suffix: .seyoo.net
   - domain_suffix: .seyuma-cn.com
@@ -79960,7 +79940,6 @@ rules:
   - domain_suffix: .shaomingyang.com
   - domain_suffix: .shaoniandream.com
   - domain_suffix: .shaoshangwang.org
-  - domain_suffix: .shaoshilei.com
   - domain_suffix: .shaoxiao.net
   - domain_suffix: .shaoxingwater.com
   - domain_suffix: .shaoyangnews.net
@@ -81351,7 +81330,6 @@ rules:
   - domain_suffix: .shuitou001.com
   - domain_suffix: .shuiwushi.com
   - domain_suffix: .shuiwushi.net
-  - domain_suffix: .shuixin.tech
   - domain_suffix: .shuixing.com
   - domain_suffix: .shuiyaohuo.com
   - domain_suffix: .shuiye.cc
@@ -82422,6 +82400,7 @@ rules:
   - domain_suffix: .skinjc.com
   - domain_suffix: .skinme.cc
   - domain_suffix: .skjcsc.com
+  - domain_suffix: .skktec.com
   - domain_suffix: .skl.net
   - domain_suffix: .skland.com
   - domain_suffix: .skldoor.com
@@ -82440,6 +82419,7 @@ rules:
   - domain_suffix: .skstravel.com
   - domain_suffix: .sktcdn.com
   - domain_suffix: .sktecfibre.com
+  - domain_suffix: .sktqkf.com
   - domain_suffix: .skuking.com
   - domain_suffix: .skusoft.com
   - domain_suffix: .skwfls.com
@@ -84000,7 +83980,6 @@ rules:
   - domain_suffix: .stgiantfilms.com
   - domain_suffix: .stgowan.com
   - domain_suffix: .sthforme.com
-  - domain_suffix: .sthfsteel.com
   - domain_suffix: .sthifi.com
   - domain_suffix: .sthke.com
   - domain_suffix: .sthospital.com
@@ -85969,6 +85948,7 @@ rules:
   - domain_suffix: .sztncm.com
   - domain_suffix: .sztongwang.com
   - domain_suffix: .sztopbrand.com
+  - domain_suffix: .sztopten.com
   - domain_suffix: .sztower.com
   - domain_suffix: .sztoys.com
   - domain_suffix: .sztqjf.com
@@ -87053,7 +87033,6 @@ rules:
   - domain_suffix: .techbrood.com
   - domain_suffix: .techdow.com
   - domain_suffix: .techfine.net
-  - domain_suffix: .techgastronomy.com
   - domain_suffix: .techgogogo.com
   - domain_suffix: .techigh.net
   - domain_suffix: .techingrid.net
@@ -87640,7 +87619,6 @@ rules:
   - domain_suffix: .th-water.net
   - domain_suffix: .th.bing.com
   - domain_suffix: .th21333.com
-  - domain_suffix: .th38.com
   - domain_suffix: .th99.com
   - domain_suffix: .thaicn.com
   - domain_suffix: .thailycare.com
@@ -88000,6 +87978,7 @@ rules:
   - domain_suffix: .tianruihr.com
   - domain_suffix: .tianrunshunteng.com
   - domain_suffix: .tianruo.net
+  - domain_suffix: .tianruo.xyz
   - domain_suffix: .tianruoyun.com
   - domain_suffix: .tiansdl.com
   - domain_suffix: .tiansenjituan.com
@@ -88049,7 +88028,6 @@ rules:
   - domain_suffix: .tianxiamaimai.com
   - domain_suffix: .tianxianmao.com
   - domain_suffix: .tianxiaquanchengapp.com
-  - domain_suffix: .tianxiawangxiao.com
   - domain_suffix: .tianxiawushi.com
   - domain_suffix: .tianxiawuzei.org
   - domain_suffix: .tianxiaxiao.net
@@ -88296,7 +88274,6 @@ rules:
   - domain_suffix: .tingmimi.net
   - domain_suffix: .tingmubeef.com
   - domain_suffix: .tingniukeji.com
-  - domain_suffix: .tingood.com
   - domain_suffix: .tingpiting.com
   - domain_suffix: .tingroom.com
   - domain_suffix: .tingshubao.net
@@ -88659,6 +88636,7 @@ rules:
   - domain_suffix: .tltuan.net
   - domain_suffix: .tltzg.com
   - domain_suffix: .tlu5.com
+  - domain_suffix: .tluyou.com
   - domain_suffix: .tlwk.net
   - domain_suffix: .tlwok.com
   - domain_suffix: .tlxxw.com
@@ -89157,6 +89135,7 @@ rules:
   - domain_suffix: .touchealth.com
   - domain_suffix: .touchelf.com
   - domain_suffix: .touchev.com
+  - domain_suffix: .touchgal.ink
   - domain_suffix: .touchjoin.com
   - domain_suffix: .touchjoint.com
   - domain_suffix: .touchmark.art
@@ -90430,7 +90409,6 @@ rules:
   - domain_suffix: .tz8733.com
   - domain_suffix: .tz887.com
   - domain_suffix: .tz8966.com
-  - domain_suffix: .tzada.com
   - domain_suffix: .tzbank.com
   - domain_suffix: .tzbank.net
   - domain_suffix: .tzbao.com
@@ -90752,7 +90730,6 @@ rules:
   - domain_suffix: .ufida-lcwy.com
   - domain_suffix: .ufidaoa.com
   - domain_suffix: .ufileos.com
-  - domain_suffix: .ufirefly.com
   - domain_suffix: .ufizl.com
   - domain_suffix: .uflowx.com
   - domain_suffix: .ufo110.net
@@ -91168,7 +91145,6 @@ rules:
   - domain_suffix: .upchinapro.com
   - domain_suffix: .upchinaproduct.com
   - domain_suffix: .upd.kaspersky.com
-  - domain_suffix: .update1.cyou
   - domain_suffix: .update8.com
   - domain_suffix: .updeals.com
   - domain_suffix: .updf.com
@@ -91306,7 +91282,6 @@ rules:
   - domain_suffix: .usecubes.com
   - domain_suffix: .uselesses.com
   - domain_suffix: .usensejn.com
-  - domain_suffix: .userbp.com
   - domain_suffix: .userhostting.com
   - domain_suffix: .userresearch.net
   - domain_suffix: .useryun.net
@@ -91370,7 +91345,6 @@ rules:
   - domain_suffix: .utiao.com
   - domain_suffix: .utofairy.com
   - domain_suffix: .utogame.com
-  - domain_suffix: .utom.design
   - domain_suffix: .utoper.com
   - domain_suffix: .utopiafar.com
   - domain_suffix: .utoppromo.com
@@ -92017,6 +91991,7 @@ rules:
   - domain_suffix: .violetgo.com
   - domain_suffix: .violinstudy.net
   - domain_suffix: .violinww.com
+  - domain_suffix: .vip-cdn.com
   - domain_suffix: .vip-chn.com
   - domain_suffix: .vip-lexiang.com
   - domain_suffix: .vip-wifi.com
@@ -93388,7 +93363,6 @@ rules:
   - domain_suffix: .waysundata.com
   - domain_suffix: .waytit.com
   - domain_suffix: .waytoagi.com
-  - domain_suffix: .wayupss.store
   - domain_suffix: .wayzim.com
   - domain_suffix: .wazhuti.com
   - domain_suffix: .wb133.com
@@ -93465,7 +93439,6 @@ rules:
   - domain_suffix: .wddns.net
   - domain_suffix: .wddream.com
   - domain_suffix: .wdexam.com
-  - domain_suffix: .wdf1tz.net
   - domain_suffix: .wdfangyi.com
   - domain_suffix: .wdfxw.net
   - domain_suffix: .wdgf.com
@@ -93496,6 +93469,7 @@ rules:
   - domain_suffix: .wduw.com
   - domain_suffix: .wdw88.com
   - domain_suffix: .wdwd.com
+  - domain_suffix: .wdwdcdn.com
   - domain_suffix: .wdwlb.com
   - domain_suffix: .wdxmzy.com
   - domain_suffix: .wdxtub.com
@@ -94803,7 +94777,6 @@ rules:
   - domain_suffix: .whtpyy.com
   - domain_suffix: .whtpyzx.com
   - domain_suffix: .whtran.com
-  - domain_suffix: .whtryg.com
   - domain_suffix: .whtryine.com
   - domain_suffix: .whtsapp-part.team
   - domain_suffix: .whtto.com
@@ -95095,6 +95068,7 @@ rules:
   - domain_suffix: .winnershang.com
   - domain_suffix: .winnerway.com
   - domain_suffix: .winnet.cc
+  - domain_suffix: .winning11cn.com
   - domain_suffix: .winningdq.com
   - domain_suffix: .winos.me
   - domain_suffix: .winotes.net
@@ -95264,7 +95238,6 @@ rules:
   - domain_suffix: .wjinmiao.com
   - domain_suffix: .wjjfjt.com
   - domain_suffix: .wjjyxxw.com
-  - domain_suffix: .wjkjxcx.com
   - domain_suffix: .wjlxmedia.com
   - domain_suffix: .wjmh8.com
   - domain_suffix: .wjnin.cc
@@ -96516,6 +96489,7 @@ rules:
   - domain_suffix: .wxfr.net
   - domain_suffix: .wxfsdff.com
   - domain_suffix: .wxfsgj.com
+  - domain_suffix: .wxfuyou.com
   - domain_suffix: .wxfxw.com
   - domain_suffix: .wxgamemini.com
   - domain_suffix: .wxgamemini.work
@@ -96863,7 +96837,6 @@ rules:
   - domain_suffix: .wzzcd.com
   - domain_suffix: .wzzjzxx.com
   - domain_suffix: .wzzlovesli.com
-  - domain_suffix: .wzznft.com
   - domain_suffix: .wzzp.com
   - domain_suffix: .wzzpw.net
   - domain_suffix: .wzzqqh.com
@@ -97043,6 +97016,7 @@ rules:
   - domain_suffix: .xaygddc.com
   - domain_suffix: .xayhedu.com
   - domain_suffix: .xayizhou.com
+  - domain_suffix: .xaykxx.com
   - domain_suffix: .xayzjc.com
   - domain_suffix: .xazbts.com
   - domain_suffix: .xazcit.com
@@ -97566,7 +97540,6 @@ rules:
   - domain_suffix: .xhwater.com
   - domain_suffix: .xhwcdasha.com
   - domain_suffix: .xhwhouse.com
-  - domain_suffix: .xhwtech.com
   - domain_suffix: .xhwx100.com
   - domain_suffix: .xhwyzsd.com
   - domain_suffix: .xhxcedu.com
@@ -97665,6 +97638,7 @@ rules:
   - domain_suffix: .xiangguo.com
   - domain_suffix: .xiangguohe.com
   - domain_suffix: .xianghuanji.com
+  - domain_suffix: .xianghuiin.com
   - domain_suffix: .xianghumarathon.com
   - domain_suffix: .xianghunet.com
   - domain_suffix: .xianghus.com
@@ -97845,6 +97819,7 @@ rules:
   - domain_suffix: .xiaobu.xin
   - domain_suffix: .xiaobu121.com
   - domain_suffix: .xiaobuwq.com
+  - domain_suffix: .xiaocaiyuan.com
   - domain_suffix: .xiaocanapp.com
   - domain_suffix: .xiaocanhulian.com
   - domain_suffix: .xiaocantech.com
@@ -98233,6 +98208,7 @@ rules:
   - domain_suffix: .xiaoyouxiqun.com
   - domain_suffix: .xiaoyouzb.net
   - domain_suffix: .xiaoyu.com
+  - domain_suffix: .xiaoyuan888.com
   - domain_suffix: .xiaoyuananquantong.com
   - domain_suffix: .xiaoyuankousuan.com
   - domain_suffix: .xiaoyuansouti.com
@@ -98241,6 +98217,7 @@ rules:
   - domain_suffix: .xiaoyuanzhao.com
   - domain_suffix: .xiaoyuanzhaopin.net
   - domain_suffix: .xiaoyuer.com
+  - domain_suffix: .xiaoyueyun.com
   - domain_suffix: .xiaoyujia.com
   - domain_suffix: .xiaoyun.com
   - domain_suffix: .xiaoyusan.com
@@ -98442,7 +98419,6 @@ rules:
   - domain_suffix: .xili.fan
   - domain_suffix: .xilian-group.com
   - domain_suffix: .xiliangjituan.com
-  - domain_suffix: .xilichi.com
   - domain_suffix: .xiliguoji.com
   - domain_suffix: .xilinsi.org
   - domain_suffix: .xilinx-ic.com
@@ -98622,7 +98598,6 @@ rules:
   - domain_suffix: .xingjun-group.com
   - domain_suffix: .xingkec.com
   - domain_suffix: .xingkeqi.com
-  - domain_suffix: .xingketech.com
   - domain_suffix: .xingkongfy.xyz
   - domain_suffix: .xingkongmt.com
   - domain_suffix: .xingkupai.com
@@ -99961,7 +99936,6 @@ rules:
   - domain_suffix: .xresgrbw.com
   - domain_suffix: .xrhhg.com
   - domain_suffix: .xrichengapp.com
-  - domain_suffix: .xrjjk.com
   - domain_suffix: .xrkapp.com
   - domain_suffix: .xrkcdn.com
   - domain_suffix: .xrlmold.com
@@ -100377,6 +100351,7 @@ rules:
   - domain_suffix: .xuexigang.com
   - domain_suffix: .xuexili.com
   - domain_suffix: .xuexin365.com
+  - domain_suffix: .xuexiniu.com
   - domain_suffix: .xuexinjiaoshi.com
   - domain_suffix: .xuexito.com
   - domain_suffix: .xuexitong.com
@@ -100544,6 +100519,7 @@ rules:
   - domain_suffix: .xuyechem.com
   - domain_suffix: .xuyi.net
   - domain_suffix: .xuyongrongmei.com
+  - domain_suffix: .xuyuanyi.com
   - domain_suffix: .xuyueswkj.com
   - domain_suffix: .xuyunjt.com
   - domain_suffix: .xuzai.com
@@ -100639,6 +100615,7 @@ rules:
   - domain_suffix: .xxhrd.com
   - domain_suffix: .xxinficity.com
   - domain_suffix: .xxir.com
+  - domain_suffix: .xxjnjd.com
   - domain_suffix: .xxjqgs.com
   - domain_suffix: .xxjrjxc.com
   - domain_suffix: .xxjzg.com
@@ -100996,6 +100973,7 @@ rules:
   - domain_suffix: .xzlzf.com
   - domain_suffix: .xznqcc.com
   - domain_suffix: .xznqnews.com
+  - domain_suffix: .xzong.online
   - domain_suffix: .xzoo.org
   - domain_suffix: .xzpf110.com
   - domain_suffix: .xzpm.com
@@ -101043,6 +101021,7 @@ rules:
   - domain_suffix: .xzxxlcp.com
   - domain_suffix: .xzyhealth.com
   - domain_suffix: .xzynyy.com
+  - domain_suffix: .xzyseo.com
   - domain_suffix: .xzzh.com
   - domain_suffix: .xzzhbsq.com
   - domain_suffix: .xzzhongye.com
@@ -101556,7 +101535,6 @@ rules:
   - domain_suffix: .ybcxjd.com
   - domain_suffix: .ybcxz.com
   - domain_suffix: .ybdbz.com
-  - domain_suffix: .ybdlogistic.com
   - domain_suffix: .ybe.net
   - domain_suffix: .ybgkz.com
   - domain_suffix: .ybgz.com
@@ -101821,6 +101799,7 @@ rules:
   - domain_suffix: .ydtbl.com
   - domain_suffix: .ydtnotary.com
   - domain_suffix: .ydtqd.com
+  - domain_suffix: .ydtxisp.com
   - domain_suffix: .yduav.com
   - domain_suffix: .ydwatch.com
   - domain_suffix: .ydwgame.net
@@ -102277,6 +102256,7 @@ rules:
   - domain_suffix: .yibaixun.com
   - domain_suffix: .yiban.io
   - domain_suffix: .yiban1314.com
+  - domain_suffix: .yibanbianji.com
   - domain_suffix: .yibaogao.com
   - domain_suffix: .yibaojiankang.com
   - domain_suffix: .yibaotech.com
@@ -102704,6 +102684,7 @@ rules:
   - domain_suffix: .yingshe.com
   - domain_suffix: .yingsheng.com
   - domain_suffix: .yingshi-ai.com
+  - domain_suffix: .yingshi.dog
   - domain_suffix: .yingshiyou.com
   - domain_suffix: .yingso.fun
   - domain_suffix: .yingsoft.com
@@ -102920,7 +102901,6 @@ rules:
   - domain_suffix: .yiruituo.com
   - domain_suffix: .yirujs.com
   - domain_suffix: .yiruniot.com
-  - domain_suffix: .yiruwijojn1.com
   - domain_suffix: .yiryi.com
   - domain_suffix: .yisa.com
   - domain_suffix: .yisanban.com
@@ -103233,7 +103213,6 @@ rules:
   - domain_suffix: .ykccn.net
   - domain_suffix: .ykcer.com
   - domain_suffix: .ykclass.com
-  - domain_suffix: .ykcuqlt.com
   - domain_suffix: .ykdgd.com
   - domain_suffix: .ykelai.com
   - domain_suffix: .ykfc.net
@@ -103454,6 +103433,7 @@ rules:
   - domain_suffix: .ymxinke.com
   - domain_suffix: .ymxinxi.com
   - domain_suffix: .ymxlass.com
+  - domain_suffix: .ymy9.com
   - domain_suffix: .ymyun.com
   - domain_suffix: .ymyw.net
   - domain_suffix: .ymyxsw.com
@@ -103692,7 +103672,6 @@ rules:
   - domain_suffix: .yongnangroup.com
   - domain_suffix: .yongootech.com
   - domain_suffix: .yongqianbao.com
-  - domain_suffix: .yongqischool.net
   - domain_suffix: .yongridt.com
   - domain_suffix: .yongsheng-sl.com
   - domain_suffix: .yongshenggroup.com
@@ -104111,6 +104090,7 @@ rules:
   - domain_suffix: .youxishuo.com
   - domain_suffix: .youxitexiao.com
   - domain_suffix: .youxituoluo.com
+  - domain_suffix: .youxiuhr.com
   - domain_suffix: .youxiuhui.com
   - domain_suffix: .youxiwugui.com
   - domain_suffix: .youxixinzhi.com
@@ -104474,7 +104454,6 @@ rules:
   - domain_suffix: .yte1.com
   - domain_suffix: .ytecn.com
   - domain_suffix: .ytedi.com
-  - domain_suffix: .ytelc.com
   - domain_suffix: .yteng.net
   - domain_suffix: .ytesting.com
   - domain_suffix: .ytf8888.com
@@ -104632,6 +104611,7 @@ rules:
   - domain_suffix: .yuantest.com
   - domain_suffix: .yuantiku.biz
   - domain_suffix: .yuantiku.com
+  - domain_suffix: .yuantk.com
   - domain_suffix: .yuantongyizhan.com
   - domain_suffix: .yuantoushuo.com
   - domain_suffix: .yuantu.info
@@ -105107,7 +105087,6 @@ rules:
   - domain_suffix: .yunjifarm.com
   - domain_suffix: .yunjiglobal.com
   - domain_suffix: .yunjing720.com
-  - domain_suffix: .yunjingdian.net
   - domain_suffix: .yunjinggo.com
   - domain_suffix: .yunjinginc.com
   - domain_suffix: .yunjitele.com
@@ -105161,7 +105140,6 @@ rules:
   - domain_suffix: .yunpan.com
   - domain_suffix: .yunpanx.com
   - domain_suffix: .yunparking.cloud
-  - domain_suffix: .yunpay.cc
   - domain_suffix: .yunpei.com
   - domain_suffix: .yunpian.com
   - domain_suffix: .yunpiao.net
@@ -105594,7 +105572,6 @@ rules:
   - domain_suffix: .yxk120.com
   - domain_suffix: .yxkjlcd.com
   - domain_suffix: .yxkxyghx.org
-  - domain_suffix: .yxlaba.com
   - domain_suffix: .yxlady.com
   - domain_suffix: .yxlady.net
   - domain_suffix: .yxle.net
@@ -106470,7 +106447,6 @@ rules:
   - domain_suffix: .zeku.com
   - domain_suffix: .zekv.com
   - domain_suffix: .zelinai.com
-  - domain_suffix: .zemc.vip
   - domain_suffix: .zemismart.com
   - domain_suffix: .zen-est.com
   - domain_suffix: .zencheer.com
@@ -107253,7 +107229,6 @@ rules:
   - domain_suffix: .zhengcaimall.com
   - domain_suffix: .zhengcaishangcheng.com
   - domain_suffix: .zhengchang.com
-  - domain_suffix: .zhengdaijingji.com
   - domain_suffix: .zhengdaojiapei.com
   - domain_suffix: .zhengdapeanut.com
   - domain_suffix: .zhengdichaiqian.com
@@ -107711,7 +107686,6 @@ rules:
   - domain_suffix: .zhiyuanxinglvye.com
   - domain_suffix: .zhiyuanyun.com
   - domain_suffix: .zhiyuanzhongyi.com
-  - domain_suffix: .zhiyuapp.com
   - domain_suffix: .zhiyun-cn.com
   - domain_suffix: .zhiyun-tech.com
   - domain_suffix: .zhiyunwang.net
@@ -107772,7 +107746,6 @@ rules:
   - domain_suffix: .zhltech.net
   - domain_suffix: .zhltraffic.com
   - domain_suffix: .zhlyen.com
-  - domain_suffix: .zhlzw.com
   - domain_suffix: .zhmag.com
   - domain_suffix: .zhmedcenter.com
   - domain_suffix: .zhmf.com
@@ -108405,6 +108378,7 @@ rules:
   - domain_suffix: .zhyouliang.com
   - domain_suffix: .zhyourun.com
   - domain_suffix: .zhysdxl.com
+  - domain_suffix: .zhytstudio.com
   - domain_suffix: .zhyymall.com
   - domain_suffix: .zhyyz.com
   - domain_suffix: .zhz.com
@@ -109379,6 +109353,7 @@ rules:
   - domain_suffix: .zlkb.net
   - domain_suffix: .zlketang.com
   - domain_suffix: .zlkj20.com
+  - domain_suffix: .zllinks.com
   - domain_suffix: .zlm4.com
   - domain_suffix: .zlmlt.com
   - domain_suffix: .zlnewlife.com
@@ -110528,6 +110503,7 @@ rules:
   - domain_suffix: .zyxxlyg.com
   - domain_suffix: .zyxyfy.com
   - domain_suffix: .zyxzyyy.com
+  - domain_suffix: .zyyct.com
   - domain_suffix: .zyydb.com
   - domain_suffix: .zyydjk.net
   - domain_suffix: .zyyfy.com
@@ -110677,7 +110653,6 @@ rules:
   - domain_suffix: .zzsnewell.com
   - domain_suffix: .zzspider.com
   - domain_suffix: .zzsspnode.com
-  - domain_suffix: .zzssptop.com
   - domain_suffix: .zzsteel.com
   - domain_suffix: .zzstep.com
   - domain_suffix: .zzszbsw.com
@@ -110739,6 +110714,7 @@ rules:
   - domain_suffix: .zzzj.com
   - domain_suffix: .zzzla.com
   - domain_suffix: .zzzlsh.com
+  - domain_suffix: .zzzmap.com
   - domain_suffix: .zzznkq.com
   - domain_suffix: .zzzppp.com
   - domain_suffix: .zzzqqp.com
