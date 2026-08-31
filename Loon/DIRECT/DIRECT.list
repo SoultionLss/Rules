@@ -1,10 +1,10 @@
 # ============================================================
 # 规则策略: DIRECT
-# 规则总数: 111271 条
+# 规则总数: 111275 条
 # 规则来源条目总数: 1 条
 # 规则来源: Loyalsoldier/surge-rules@release/direct.txt
 # 作者: SoultionLss
-# 最后更新: 2026-08-30 16:20:44
+# 最后更新: 2026-08-31 18:57:26
 # ============================================================
 
 DOMAIN-SUFFIX,.0.zone,DIRECT
@@ -3104,6 +3104,7 @@ DOMAIN-SUFFIX,.25dx.com,DIRECT
 DOMAIN-SUFFIX,.25fe391eb68e3f9c.com,DIRECT
 DOMAIN-SUFFIX,.25game.com,DIRECT
 DOMAIN-SUFFIX,.25ku.com,DIRECT
+DOMAIN-SUFFIX,.25mao.com,DIRECT
 DOMAIN-SUFFIX,.25nc.com,DIRECT
 DOMAIN-SUFFIX,.25pp.com,DIRECT
 DOMAIN-SUFFIX,.25q7ekcc67.com,DIRECT
@@ -41916,6 +41917,7 @@ DOMAIN-SUFFIX,.gzjk120.com,DIRECT
 DOMAIN-SUFFIX,.gzjkfk.com,DIRECT
 DOMAIN-SUFFIX,.gzjkfund.com,DIRECT
 DOMAIN-SUFFIX,.gzjkjl.com,DIRECT
+DOMAIN-SUFFIX,.gzjkoa.com,DIRECT
 DOMAIN-SUFFIX,.gzjkqh.com,DIRECT
 DOMAIN-SUFFIX,.gzjkyljt.com,DIRECT
 DOMAIN-SUFFIX,.gzjlp.com,DIRECT
@@ -42871,6 +42873,7 @@ DOMAIN-SUFFIX,.hanpokou.com,DIRECT
 DOMAIN-SUFFIX,.hanpupharm.com,DIRECT
 DOMAIN-SUFFIX,.hanqigroup.com,DIRECT
 DOMAIN-SUFFIX,.hanqinghb.com,DIRECT
+DOMAIN-SUFFIX,.hanqiuming888.com,DIRECT
 DOMAIN-SUFFIX,.hanqunfeng.com,DIRECT
 DOMAIN-SUFFIX,.hans-ad.com,DIRECT
 DOMAIN-SUFFIX,.hanschen.site,DIRECT
@@ -90963,6 +90966,7 @@ DOMAIN-SUFFIX,.unclicks.com,DIRECT
 DOMAIN-SUFFIX,.under-5.shop,DIRECT
 DOMAIN-SUFFIX,.underfill.cc,DIRECT
 DOMAIN-SUFFIX,.uneed.com,DIRECT
+DOMAIN-SUFFIX,.uneedx.com,DIRECT
 DOMAIN-SUFFIX,.unfish.net,DIRECT
 DOMAIN-SUFFIX,.ungifts.com,DIRECT
 DOMAIN-SUFFIX,.uni-cent.com,DIRECT

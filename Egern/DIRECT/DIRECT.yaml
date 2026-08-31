@@ -1,10 +1,10 @@
 # ============================================================
 # 规则策略: DIRECT
-# 规则总数: 111271 条
+# 规则总数: 111275 条
 # 规则来源条目总数: 1 条
 # 规则来源: Loyalsoldier/surge-rules@release/direct.txt
 # 作者: SoultionLss
-# 最后更新: 2026-08-30 16:20:44
+# 最后更新: 2026-08-31 18:57:26
 # ============================================================
 
 rules:
@@ -3105,6 +3105,7 @@ rules:
   - domain_suffix: .25fe391eb68e3f9c.com
   - domain_suffix: .25game.com
   - domain_suffix: .25ku.com
+  - domain_suffix: .25mao.com
   - domain_suffix: .25nc.com
   - domain_suffix: .25pp.com
   - domain_suffix: .25q7ekcc67.com
@@ -41917,6 +41918,7 @@ rules:
   - domain_suffix: .gzjkfk.com
   - domain_suffix: .gzjkfund.com
   - domain_suffix: .gzjkjl.com
+  - domain_suffix: .gzjkoa.com
   - domain_suffix: .gzjkqh.com
   - domain_suffix: .gzjkyljt.com
   - domain_suffix: .gzjlp.com
@@ -42872,6 +42874,7 @@ rules:
   - domain_suffix: .hanpupharm.com
   - domain_suffix: .hanqigroup.com
   - domain_suffix: .hanqinghb.com
+  - domain_suffix: .hanqiuming888.com
   - domain_suffix: .hanqunfeng.com
   - domain_suffix: .hans-ad.com
   - domain_suffix: .hanschen.site
@@ -90964,6 +90967,7 @@ rules:
   - domain_suffix: .under-5.shop
   - domain_suffix: .underfill.cc
   - domain_suffix: .uneed.com
+  - domain_suffix: .uneedx.com
   - domain_suffix: .unfish.net
   - domain_suffix: .ungifts.com
   - domain_suffix: .uni-cent.com

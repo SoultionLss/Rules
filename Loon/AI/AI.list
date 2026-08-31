@@ -4,7 +4,7 @@
 # 规则来源条目总数: 1 条
 # 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/OpenAI/OpenAI.list
 # 作者: SoultionLss
-# 最后更新: 2026-08-30 16:20:44
+# 最后更新: 2026-08-31 18:57:26
 # ============================================================
 
 DOMAIN-SUFFIX,ai.com,AI
