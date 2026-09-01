@@ -1,0 +1,72 @@
+# ============================================================
+# 规则策略: HongKongBanking
+# 规则总数: 63 条
+# 规则来源条目总数: 3 条
+# 规则来源: Bwy999/Surge@fe4d122f120932bb2a40e4c992871c4ec89eb788/Ruleset/HKBank.list, LingJingMaster/Shadowrocket-Rules@refs/heads/main/HK_Banks_Direct.list, LingJingMaster/Shadowrocket-Rules@refs/heads/main/HSBC_HK.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-01 05:30:31
+# ============================================================
+
+airstarbank.com
+alipay.hk
+antbank.hk
+api.sc.com
+appcenter.ms
+asia.ccb.com
+bankcomm.com.hk
+bankofchina.com.hk
+boccc.com.hk
+bochk.com
+bochk.yundzh.com
+bochk01.etnet.com.hk
+bochk02.etnet.com.hk
+bochkapp01.etnet.com.hk
+bocpay.com.hk
+bodintl.com
+ccb.com.hk
+chbank.com
+chiyubank.com
+citi.com.hk
+cmbwinglungbank.com
+cncbinternational.com
+dahsing.com
+dahsing.com.hk
+dbs.com.hk
+fubon.com
+fubonbank.com.hk
+fundsupermart.com
+fusionbank.com
+go.trouter.teams.microsoft.com
+hangseng.com
+hkbea.com
+hsbc.com.hk
+icbcasia.com
+ifastgb.com
+igb-ai-cs-communication-app-prod.azurewebsites.net
+jylcpxrv.r.eu-west-2.awstrack.me
+livibank.com
+marmot-cloud.com
+mobile.eum-appdynamics.com
+mox.com
+myh2hk.alipay.com
+ncb.com.hk
+ocbc.com.hk
+ocbcwhhk.com
+online-metrix.net
+pandaremit.com
+paob.com.hk
+publicbank.com.hk
+saaszhhk.yundzh.com
+shacombank.com.hk
+standardchartered.com.hk
+starryblu.com
+tpns.hk.tencent.com
+trkd-hs.com
+tybhk.com.hk
+welab.bank
+winglungbank.com
+za.group
+zainvest.group
+zajourney.com
+zaticdn.com
+zimperium.com

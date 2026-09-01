@@ -1,0 +1,41 @@
+# ============================================================
+# 规则策略: Streaming
+# 规则总数: 32 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Netflix/Netflix.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-01 05:30:31
+# ============================================================
+
+DOMAIN-SUFFIX,cookielaw.org,Streaming
+DOMAIN-SUFFIX,e13252.dscg.akamaiedge.net,Streaming
+DOMAIN-SUFFIX,fast.com,Streaming
+DOMAIN-SUFFIX,flxvpn.net,Streaming
+DOMAIN-SUFFIX,h-netflix.online-metrix.net,Streaming
+DOMAIN-SUFFIX,netflix.ca,Streaming
+DOMAIN-SUFFIX,netflix.com,Streaming
+DOMAIN-SUFFIX,netflix.com.au,Streaming
+DOMAIN-SUFFIX,netflix.com.edgesuite.net,Streaming
+DOMAIN-SUFFIX,netflix.net,Streaming
+DOMAIN-SUFFIX,netflixdnstest0.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest1.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest10.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest2.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest3.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest4.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest5.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest6.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest7.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest8.com,Streaming
+DOMAIN-SUFFIX,netflixdnstest9.com,Streaming
+DOMAIN-SUFFIX,netflixinvestor.com,Streaming
+DOMAIN-SUFFIX,netflixstudios.com,Streaming
+DOMAIN-SUFFIX,netflixtechblog.com,Streaming
+DOMAIN-SUFFIX,nflxext.com,Streaming
+DOMAIN-SUFFIX,nflximg.com,Streaming
+DOMAIN-SUFFIX,nflximg.net,Streaming
+DOMAIN-SUFFIX,nflxsearch.net,Streaming
+DOMAIN-SUFFIX,nflxso.net,Streaming
+DOMAIN-SUFFIX,nflxvideo.net,Streaming
+DOMAIN-SUFFIX,onetrust.com,Streaming
+DOMAIN-SUFFIX,us-west-2.amazonaws.com,Streaming

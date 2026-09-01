@@ -1,0 +1,56 @@
+# ============================================================
+# 规则策略: Streaming
+# 规则总数: 47 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/HBO/HBO.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-01 05:30:31
+# ============================================================
+
+HOST-SUFFIX,bcbolthboa-a.akamaihd.net,Streaming
+HOST-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net,Streaming
+HOST-SUFFIX,cinemax.com,Streaming
+HOST-SUFFIX,dai3fd1oh325y.cloudfront.net,Streaming
+HOST-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,Streaming
+HOST-SUFFIX,execute-api.us-east-1.amazonaws.com,Streaming
+HOST-SUFFIX,forthethrone.com,Streaming
+HOST-SUFFIX,hbo.com,Streaming
+HOST-SUFFIX,hbo.com.c.footprint.net,Streaming
+HOST-SUFFIX,hbo.com.edgesuite.net,Streaming
+HOST-SUFFIX,hbo.map.fastly.net,Streaming
+HOST-SUFFIX,hboasia.com,Streaming
+HOST-SUFFIX,hboasia1-i.akamaihd.net,Streaming
+HOST-SUFFIX,hboasia2-i.akamaihd.net,Streaming
+HOST-SUFFIX,hboasia3-i.akamaihd.net,Streaming
+HOST-SUFFIX,hboasia4-i.akamaihd.net,Streaming
+HOST-SUFFIX,hboasia5-i.akamaihd.net,Streaming
+HOST-SUFFIX,hboasialive.akamaized.net,Streaming
+HOST-SUFFIX,hbogeo.cust.footprint.net,Streaming
+HOST-SUFFIX,hbogo.co.th,Streaming
+HOST-SUFFIX,hbogo.com,Streaming
+HOST-SUFFIX,hbogo.eu,Streaming
+HOST-SUFFIX,hbogoasia.com,Streaming
+HOST-SUFFIX,hbogoasia.hk,Streaming
+HOST-SUFFIX,hbogoasia.id,Streaming
+HOST-SUFFIX,hbogoasia.ph,Streaming
+HOST-SUFFIX,hbogoasia.sg,Streaming
+HOST-SUFFIX,hbogoasia.tw,Streaming
+HOST-SUFFIX,hbogoprod-vod.akamaized.net,Streaming
+HOST-SUFFIX,hbolb.onwardsmg.com,Streaming
+HOST-SUFFIX,hbomax.com,Streaming
+HOST-SUFFIX,hbomaxcdn.com,Streaming
+HOST-SUFFIX,hbomaxdash.s.llnwi.net,Streaming
+HOST-SUFFIX,hbonow.com,Streaming
+HOST-SUFFIX,hbounify-prod.evergent.com,Streaming
+HOST-SUFFIX,manifest.prod.boltdns.net,Streaming
+HOST-SUFFIX,max.com,Streaming
+HOST-SUFFIX,maxgo.com,Streaming
+HOST-SUFFIX,now-ashare.com,Streaming
+HOST-SUFFIX,now-tv.com,Streaming
+HOST-SUFFIX,now.com,Streaming
+HOST-SUFFIX,now.com.hk,Streaming
+HOST-SUFFIX,nowe.com,Streaming
+HOST-SUFFIX,nowe.hk,Streaming
+HOST-SUFFIX,players.brightcove.net,Streaming
+HOST-SUFFIX,warnermediacdn.com,Streaming
+HOST-SUFFIX,youboranqs01.com,Streaming

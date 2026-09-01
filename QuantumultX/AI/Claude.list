@@ -1,0 +1,12 @@
+# ============================================================
+# 规则策略: AI
+# 规则总数: 3 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Claude/Claude.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-01 05:30:31
+# ============================================================
+
+HOST-SUFFIX,anthropic.com,AI
+HOST-SUFFIX,cdn.usefathom.com,AI
+HOST-SUFFIX,claude.ai,AI

@@ -1,15 +1,53 @@
 # ============================================================
 # 规则策略: GitHub
-# 规则总数: 30 条
-# 规则来源条目总数: 1 条
-# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/GitHub/GitHub.list
+# 规则总数: 84 条
+# 规则来源条目总数: 4 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Atlassian/Atlassian.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Cloudflare/Cloudflare.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/GitHub/GitHub.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/GitLab/GitLab.list
 # 作者: SoultionLss
-# 最后更新: 2026-08-31 18:57:26
+# 最后更新: 2026-09-01 05:30:31
 # ============================================================
 
 payload:
+  - DOMAIN-SUFFIX,atlassian.com,GitHub
   - DOMAIN-SUFFIX,atom.io,GitHub
+  - DOMAIN-SUFFIX,bitbucket.org,GitHub
+  - DOMAIN-SUFFIX,cf-ipfs.com,GitHub
+  - DOMAIN-SUFFIX,cf-ns.com,GitHub
+  - DOMAIN-SUFFIX,cf-ns.net,GitHub
+  - DOMAIN-SUFFIX,cf-ns.site,GitHub
+  - DOMAIN-SUFFIX,cf-ns.tech,GitHub
+  - DOMAIN-SUFFIX,cftest5.cn,GitHub
+  - DOMAIN-SUFFIX,cftest6.cn,GitHub
+  - DOMAIN-SUFFIX,cftest7.com,GitHub
+  - DOMAIN-SUFFIX,cftest8.com,GitHub
+  - DOMAIN-SUFFIX,cloudflare-cn.com,GitHub
+  - DOMAIN-SUFFIX,cloudflare-dns.com,GitHub
+  - DOMAIN-SUFFIX,cloudflare-ipfs.com,GitHub
+  - DOMAIN-SUFFIX,cloudflare-quic.com,GitHub
+  - DOMAIN-SUFFIX,cloudflare.com,GitHub
+  - DOMAIN-SUFFIX,cloudflare.net,GitHub
+  - DOMAIN-SUFFIX,cloudflare.tv,GitHub
+  - DOMAIN-SUFFIX,cloudflareaccess.com,GitHub
+  - DOMAIN-SUFFIX,cloudflareapps.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarebolt.com,GitHub
+  - DOMAIN-SUFFIX,cloudflareclient.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarecn.net,GitHub
+  - DOMAIN-SUFFIX,cloudflareinsights-cn.com,GitHub
+  - DOMAIN-SUFFIX,cloudflareinsights.com,GitHub
+  - DOMAIN-SUFFIX,cloudflareok.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarepreview.com,GitHub
+  - DOMAIN-SUFFIX,cloudflareprod.com,GitHub
+  - DOMAIN-SUFFIX,cloudflareresolve.com,GitHub
+  - DOMAIN-SUFFIX,cloudflaressl.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarestaging.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarestatus.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarestorage.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarestoragegw.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarestream.com,GitHub
+  - DOMAIN-SUFFIX,cloudflaretest.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarewarp.com,GitHub
   - DOMAIN-SUFFIX,dependabot.com,GitHub
+  - DOMAIN-SUFFIX,every1dns.net,GitHub
   - DOMAIN-SUFFIX,ghcr.io,GitHub
   - DOMAIN-SUFFIX,git.io,GitHub
   - DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net,GitHub
@@ -29,12 +67,28 @@ payload:
   - DOMAIN-SUFFIX,githubstatus.com,GitHub
   - DOMAIN-SUFFIX,githubuniverse.com,GitHub
   - DOMAIN-SUFFIX,githubusercontent.com,GitHub
+  - DOMAIN-SUFFIX,gitlab-assets.oss-cn-hongkong.aliyuncs.com,GitHub
+  - DOMAIN-SUFFIX,gitlab-static.net,GitHub
+  - DOMAIN-SUFFIX,gitlab.com,GitHub
+  - DOMAIN-SUFFIX,gitlab.net,GitHub
+  - DOMAIN-SUFFIX,gitter-static.net,GitHub
+  - DOMAIN-SUFFIX,gitter.im,GitHub
   - DOMAIN-SUFFIX,myoctocat.com,GitHub
   - DOMAIN-SUFFIX,npm.community,GitHub
   - DOMAIN-SUFFIX,npmjs.com,GitHub
   - DOMAIN-SUFFIX,npmjs.org,GitHub
+  - DOMAIN-SUFFIX,one.one.one,GitHub
   - DOMAIN-SUFFIX,opensource.guide,GitHub
+  - DOMAIN-SUFFIX,pacloudflare.com,GitHub
+  - DOMAIN-SUFFIX,pages.dev,GitHub
   - DOMAIN-SUFFIX,rawgit.com,GitHub
   - DOMAIN-SUFFIX,rawgithub.com,GitHub
   - DOMAIN-SUFFIX,repo.new,GitHub
+  - DOMAIN-SUFFIX,statuspage.io,GitHub
   - DOMAIN-SUFFIX,thegithubshop.com,GitHub
+  - DOMAIN-SUFFIX,trello.com,GitHub
+  - DOMAIN-SUFFIX,trellocdn.com,GitHub
+  - DOMAIN-SUFFIX,trycloudflare.com,GitHub
+  - DOMAIN-SUFFIX,videodelivery.net,GitHub
+  - DOMAIN-SUFFIX,warp.plus,GitHub
+  - DOMAIN-SUFFIX,workers.dev,GitHub

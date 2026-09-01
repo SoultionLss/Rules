@@ -1,0 +1,19 @@
+# ============================================================
+# 规则策略: Google
+# 规则总数: 10 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Gemini/Gemini.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-01 05:30:31
+# ============================================================
+
+HOST-SUFFIX,ai.google.dev,Google
+HOST-SUFFIX,alkalimakersuite-pa.clients6.google.com,Google
+HOST-SUFFIX,apis.google.com,Google
+HOST-SUFFIX,bard.google.com,Google
+HOST-SUFFIX,deepmind.com,Google
+HOST-SUFFIX,deepmind.google,Google
+HOST-SUFFIX,gemini.google.com,Google
+HOST-SUFFIX,generativeai.google,Google
+HOST-SUFFIX,makersuite.google.com,Google
+HOST-SUFFIX,proactivebackend-pa.googleapis.com,Google

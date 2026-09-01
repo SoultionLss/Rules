@@ -1,10 +1,10 @@
 # ============================================================
 # 规则策略: Google
-# 规则总数: 684 条
-# 规则来源条目总数: 1 条
-# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Google/Google.list
+# 规则总数: 693 条
+# 规则来源条目总数: 2 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Gemini/Gemini.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Google/Google.list
 # 作者: SoultionLss
-# 最后更新: 2026-08-31 18:57:26
+# 最后更新: 2026-09-01 05:30:31
 # ============================================================
 
 HOST-SUFFIX,0emm.com,Google
@@ -27,6 +27,8 @@ HOST-SUFFIX,advertiserscommunity.com,Google
 HOST-SUFFIX,adwords-community.com,Google
 HOST-SUFFIX,adwords.com,Google
 HOST-SUFFIX,adwordsexpress.com,Google
+HOST-SUFFIX,ai.google.dev,Google
+HOST-SUFFIX,alkalimakersuite-pa.clients6.google.com,Google
 HOST-SUFFIX,amp.dev,Google
 HOST-SUFFIX,ampproject.com,Google
 HOST-SUFFIX,ampproject.net,Google
@@ -37,6 +39,7 @@ HOST-SUFFIX,androidtv.com,Google
 HOST-SUFFIX,angulardart.org,Google
 HOST-SUFFIX,api.ai,Google
 HOST-SUFFIX,apigee.com,Google
+HOST-SUFFIX,apis.google.com,Google
 HOST-SUFFIX,app-analytics-services.com,Google
 HOST-SUFFIX,app-measurement-cn.com,Google
 HOST-SUFFIX,app-measurement.com,Google
@@ -52,6 +55,7 @@ HOST-SUFFIX,asp-cc.com,Google
 HOST-SUFFIX,autodraw.com,Google
 HOST-SUFFIX,avail.googleflights.net,Google
 HOST-SUFFIX,bandpage.com,Google
+HOST-SUFFIX,bard.google.com,Google
 HOST-SUFFIX,baselinestudy.com,Google
 HOST-SUFFIX,baselinestudy.org,Google
 HOST-SUFFIX,bazel.build,Google
@@ -193,6 +197,7 @@ HOST-SUFFIX,dataliberation.org,Google
 HOST-SUFFIX,debug.com,Google
 HOST-SUFFIX,debugproject.com,Google
 HOST-SUFFIX,deepmind.com,Google
+HOST-SUFFIX,deepmind.google,Google
 HOST-SUFFIX,deja.com,Google
 HOST-SUFFIX,deps.dev,Google
 HOST-SUFFIX,deps.info,Google
@@ -225,6 +230,8 @@ HOST-SUFFIX,g.page,Google
 HOST-SUFFIX,gateway.dev,Google
 HOST-SUFFIX,gcp.gvt2.com,Google
 HOST-SUFFIX,gcr.io,Google
+HOST-SUFFIX,gemini.google.com,Google
+HOST-SUFFIX,generativeai.google,Google
 HOST-SUFFIX,gerritcodereview.com,Google
 HOST-SUFFIX,get.app,Google
 HOST-SUFFIX,get.dev,Google
@@ -547,6 +554,7 @@ HOST-SUFFIX,keytransparency.org,Google
 HOST-SUFFIX,lanternal.com,Google
 HOST-SUFFIX,like.com,Google
 HOST-SUFFIX,madewithcode.com,Google
+HOST-SUFFIX,makersuite.google.com,Google
 HOST-SUFFIX,material.io,Google
 HOST-SUFFIX,mdialog.com,Google
 HOST-SUFFIX,meet.new,Google
@@ -589,6 +597,7 @@ HOST-SUFFIX,polymer-project.org,Google
 HOST-SUFFIX,polymerproject.org,Google
 HOST-SUFFIX,postini.com,Google
 HOST-SUFFIX,privacysandbox.com,Google
+HOST-SUFFIX,proactivebackend-pa.googleapis.com,Google
 HOST-SUFFIX,prod-controlbe.floonet.goog,Google
 HOST-SUFFIX,prod-databe.floonet.goog,Google
 HOST-SUFFIX,prod.databe.floonet.goog,Google

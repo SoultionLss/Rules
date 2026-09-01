@@ -1,0 +1,72 @@
+# ============================================================
+# 规则策略: HongKongBanking
+# 规则总数: 63 条
+# 规则来源条目总数: 3 条
+# 规则来源: Bwy999/Surge@fe4d122f120932bb2a40e4c992871c4ec89eb788/Ruleset/HKBank.list, LingJingMaster/Shadowrocket-Rules@refs/heads/main/HK_Banks_Direct.list, LingJingMaster/Shadowrocket-Rules@refs/heads/main/HSBC_HK.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-01 05:30:31
+# ============================================================
+
+DOMAIN-SUFFIX,airstarbank.com,HongKongBanking
+DOMAIN-SUFFIX,alipay.hk,HongKongBanking
+DOMAIN-SUFFIX,antbank.hk,HongKongBanking
+DOMAIN-SUFFIX,api.sc.com,HongKongBanking
+DOMAIN-SUFFIX,appcenter.ms,HongKongBanking
+DOMAIN-SUFFIX,asia.ccb.com,HongKongBanking
+DOMAIN-SUFFIX,bankcomm.com.hk,HongKongBanking
+DOMAIN-SUFFIX,bankofchina.com.hk,HongKongBanking
+DOMAIN-SUFFIX,boccc.com.hk,HongKongBanking
+DOMAIN-SUFFIX,bochk.com,HongKongBanking
+DOMAIN-SUFFIX,bochk.yundzh.com,HongKongBanking
+DOMAIN-SUFFIX,bochk01.etnet.com.hk,HongKongBanking
+DOMAIN-SUFFIX,bochk02.etnet.com.hk,HongKongBanking
+DOMAIN-SUFFIX,bochkapp01.etnet.com.hk,HongKongBanking
+DOMAIN-SUFFIX,bocpay.com.hk,HongKongBanking
+DOMAIN-SUFFIX,bodintl.com,HongKongBanking
+DOMAIN-SUFFIX,ccb.com.hk,HongKongBanking
+DOMAIN-SUFFIX,chbank.com,HongKongBanking
+DOMAIN-SUFFIX,chiyubank.com,HongKongBanking
+DOMAIN-SUFFIX,citi.com.hk,HongKongBanking
+DOMAIN-SUFFIX,cmbwinglungbank.com,HongKongBanking
+DOMAIN-SUFFIX,cncbinternational.com,HongKongBanking
+DOMAIN-SUFFIX,dahsing.com,HongKongBanking
+DOMAIN-SUFFIX,dahsing.com.hk,HongKongBanking
+DOMAIN-SUFFIX,dbs.com.hk,HongKongBanking
+DOMAIN-SUFFIX,fubon.com,HongKongBanking
+DOMAIN-SUFFIX,fubonbank.com.hk,HongKongBanking
+DOMAIN-SUFFIX,fundsupermart.com,HongKongBanking
+DOMAIN-SUFFIX,fusionbank.com,HongKongBanking
+DOMAIN-SUFFIX,go.trouter.teams.microsoft.com,HongKongBanking
+DOMAIN-SUFFIX,hangseng.com,HongKongBanking
+DOMAIN-SUFFIX,hkbea.com,HongKongBanking
+DOMAIN-SUFFIX,hsbc.com.hk,HongKongBanking
+DOMAIN-SUFFIX,icbcasia.com,HongKongBanking
+DOMAIN-SUFFIX,ifastgb.com,HongKongBanking
+DOMAIN-SUFFIX,igb-ai-cs-communication-app-prod.azurewebsites.net,HongKongBanking
+DOMAIN-SUFFIX,jylcpxrv.r.eu-west-2.awstrack.me,HongKongBanking
+DOMAIN-SUFFIX,livibank.com,HongKongBanking
+DOMAIN-SUFFIX,marmot-cloud.com,HongKongBanking
+DOMAIN-SUFFIX,mobile.eum-appdynamics.com,HongKongBanking
+DOMAIN-SUFFIX,mox.com,HongKongBanking
+DOMAIN-SUFFIX,myh2hk.alipay.com,HongKongBanking
+DOMAIN-SUFFIX,ncb.com.hk,HongKongBanking
+DOMAIN-SUFFIX,ocbc.com.hk,HongKongBanking
+DOMAIN-SUFFIX,ocbcwhhk.com,HongKongBanking
+DOMAIN-SUFFIX,online-metrix.net,HongKongBanking
+DOMAIN-SUFFIX,pandaremit.com,HongKongBanking
+DOMAIN-SUFFIX,paob.com.hk,HongKongBanking
+DOMAIN-SUFFIX,publicbank.com.hk,HongKongBanking
+DOMAIN-SUFFIX,saaszhhk.yundzh.com,HongKongBanking
+DOMAIN-SUFFIX,shacombank.com.hk,HongKongBanking
+DOMAIN-SUFFIX,standardchartered.com.hk,HongKongBanking
+DOMAIN-SUFFIX,starryblu.com,HongKongBanking
+DOMAIN-SUFFIX,tpns.hk.tencent.com,HongKongBanking
+DOMAIN-SUFFIX,trkd-hs.com,HongKongBanking
+DOMAIN-SUFFIX,tybhk.com.hk,HongKongBanking
+DOMAIN-SUFFIX,welab.bank,HongKongBanking
+DOMAIN-SUFFIX,winglungbank.com,HongKongBanking
+DOMAIN-SUFFIX,za.group,HongKongBanking
+DOMAIN-SUFFIX,zainvest.group,HongKongBanking
+DOMAIN-SUFFIX,zajourney.com,HongKongBanking
+DOMAIN-SUFFIX,zaticdn.com,HongKongBanking
+DOMAIN-SUFFIX,zimperium.com,HongKongBanking

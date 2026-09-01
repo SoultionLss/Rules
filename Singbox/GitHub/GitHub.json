@@ -1,10 +1,10 @@
 # ============================================================
 # 规则策略: GitHub
-# 规则总数: 30 条
-# 规则来源条目总数: 1 条
-# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/GitHub/GitHub.list
+# 规则总数: 84 条
+# 规则来源条目总数: 4 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Atlassian/Atlassian.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Cloudflare/Cloudflare.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/GitHub/GitHub.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/GitLab/GitLab.list
 # 作者: SoultionLss
-# 最后更新: 2026-08-31 18:57:26
+# 最后更新: 2026-09-01 05:30:31
 # ============================================================
 
 {
@@ -12,8 +12,46 @@
   "rules": [
     {
       "domain_suffix": [
+        "atlassian.com",
         "atom.io",
+        "bitbucket.org",
+        "cf-ipfs.com",
+        "cf-ns.com",
+        "cf-ns.net",
+        "cf-ns.site",
+        "cf-ns.tech",
+        "cftest5.cn",
+        "cftest6.cn",
+        "cftest7.com",
+        "cftest8.com",
+        "cloudflare-cn.com",
+        "cloudflare-dns.com",
+        "cloudflare-ipfs.com",
+        "cloudflare-quic.com",
+        "cloudflare.com",
+        "cloudflare.net",
+        "cloudflare.tv",
+        "cloudflareaccess.com",
+        "cloudflareapps.com",
+        "cloudflarebolt.com",
+        "cloudflareclient.com",
+        "cloudflarecn.net",
+        "cloudflareinsights-cn.com",
+        "cloudflareinsights.com",
+        "cloudflareok.com",
+        "cloudflarepreview.com",
+        "cloudflareprod.com",
+        "cloudflareresolve.com",
+        "cloudflaressl.com",
+        "cloudflarestaging.com",
+        "cloudflarestatus.com",
+        "cloudflarestorage.com",
+        "cloudflarestoragegw.com",
+        "cloudflarestream.com",
+        "cloudflaretest.com",
+        "cloudflarewarp.com",
         "dependabot.com",
+        "every1dns.net",
         "ghcr.io",
         "git.io",
         "github-atom-io-herokuapp-com.freetls.fastly.net",
@@ -33,15 +71,31 @@
         "githubstatus.com",
         "githubuniverse.com",
         "githubusercontent.com",
+        "gitlab-assets.oss-cn-hongkong.aliyuncs.com",
+        "gitlab-static.net",
+        "gitlab.com",
+        "gitlab.net",
+        "gitter-static.net",
+        "gitter.im",
         "myoctocat.com",
         "npm.community",
         "npmjs.com",
         "npmjs.org",
+        "one.one.one",
         "opensource.guide",
+        "pacloudflare.com",
+        "pages.dev",
         "rawgit.com",
         "rawgithub.com",
         "repo.new",
-        "thegithubshop.com"
+        "statuspage.io",
+        "thegithubshop.com",
+        "trello.com",
+        "trellocdn.com",
+        "trycloudflare.com",
+        "videodelivery.net",
+        "warp.plus",
+        "workers.dev"
       ]
     }
   ]

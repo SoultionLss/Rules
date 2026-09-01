@@ -1,10 +1,10 @@
 # ============================================================
 # 规则策略: Google
-# 规则总数: 684 条
-# 规则来源条目总数: 1 条
-# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Google/Google.list
+# 规则总数: 693 条
+# 规则来源条目总数: 2 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Gemini/Gemini.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Google/Google.list
 # 作者: SoultionLss
-# 最后更新: 2026-08-31 18:57:26
+# 最后更新: 2026-09-01 05:30:31
 # ============================================================
 
 DOMAIN-SUFFIX,0emm.com,Google
@@ -27,6 +27,8 @@ DOMAIN-SUFFIX,advertiserscommunity.com,Google
 DOMAIN-SUFFIX,adwords-community.com,Google
 DOMAIN-SUFFIX,adwords.com,Google
 DOMAIN-SUFFIX,adwordsexpress.com,Google
+DOMAIN-SUFFIX,ai.google.dev,Google
+DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com,Google
 DOMAIN-SUFFIX,amp.dev,Google
 DOMAIN-SUFFIX,ampproject.com,Google
 DOMAIN-SUFFIX,ampproject.net,Google
@@ -37,6 +39,7 @@ DOMAIN-SUFFIX,androidtv.com,Google
 DOMAIN-SUFFIX,angulardart.org,Google
 DOMAIN-SUFFIX,api.ai,Google
 DOMAIN-SUFFIX,apigee.com,Google
+DOMAIN-SUFFIX,apis.google.com,Google
 DOMAIN-SUFFIX,app-analytics-services.com,Google
 DOMAIN-SUFFIX,app-measurement-cn.com,Google
 DOMAIN-SUFFIX,app-measurement.com,Google
@@ -52,6 +55,7 @@ DOMAIN-SUFFIX,asp-cc.com,Google
 DOMAIN-SUFFIX,autodraw.com,Google
 DOMAIN-SUFFIX,avail.googleflights.net,Google
 DOMAIN-SUFFIX,bandpage.com,Google
+DOMAIN-SUFFIX,bard.google.com,Google
 DOMAIN-SUFFIX,baselinestudy.com,Google
 DOMAIN-SUFFIX,baselinestudy.org,Google
 DOMAIN-SUFFIX,bazel.build,Google
@@ -193,6 +197,7 @@ DOMAIN-SUFFIX,dataliberation.org,Google
 DOMAIN-SUFFIX,debug.com,Google
 DOMAIN-SUFFIX,debugproject.com,Google
 DOMAIN-SUFFIX,deepmind.com,Google
+DOMAIN-SUFFIX,deepmind.google,Google
 DOMAIN-SUFFIX,deja.com,Google
 DOMAIN-SUFFIX,deps.dev,Google
 DOMAIN-SUFFIX,deps.info,Google
@@ -225,6 +230,8 @@ DOMAIN-SUFFIX,g.page,Google
 DOMAIN-SUFFIX,gateway.dev,Google
 DOMAIN-SUFFIX,gcp.gvt2.com,Google
 DOMAIN-SUFFIX,gcr.io,Google
+DOMAIN-SUFFIX,gemini.google.com,Google
+DOMAIN-SUFFIX,generativeai.google,Google
 DOMAIN-SUFFIX,gerritcodereview.com,Google
 DOMAIN-SUFFIX,get.app,Google
 DOMAIN-SUFFIX,get.dev,Google
@@ -547,6 +554,7 @@ DOMAIN-SUFFIX,keytransparency.org,Google
 DOMAIN-SUFFIX,lanternal.com,Google
 DOMAIN-SUFFIX,like.com,Google
 DOMAIN-SUFFIX,madewithcode.com,Google
+DOMAIN-SUFFIX,makersuite.google.com,Google
 DOMAIN-SUFFIX,material.io,Google
 DOMAIN-SUFFIX,mdialog.com,Google
 DOMAIN-SUFFIX,meet.new,Google
@@ -589,6 +597,7 @@ DOMAIN-SUFFIX,polymer-project.org,Google
 DOMAIN-SUFFIX,polymerproject.org,Google
 DOMAIN-SUFFIX,postini.com,Google
 DOMAIN-SUFFIX,privacysandbox.com,Google
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,Google
 DOMAIN-SUFFIX,prod-controlbe.floonet.goog,Google
 DOMAIN-SUFFIX,prod-databe.floonet.goog,Google
 DOMAIN-SUFFIX,prod.databe.floonet.goog,Google

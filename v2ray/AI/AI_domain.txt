@@ -1,20 +1,23 @@
 # ============================================================
 # 规则策略: AI
-# 规则总数: 31 条
-# 规则来源条目总数: 1 条
-# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/OpenAI/OpenAI.list
+# 规则总数: 35 条
+# 规则来源条目总数: 3 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Anthropic/Anthropic.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Claude/Claude.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/OpenAI/OpenAI.list
 # 作者: SoultionLss
-# 最后更新: 2026-08-31 18:57:26
+# 最后更新: 2026-09-01 05:30:31
 # ============================================================
 
 ai.com
 algolia.net
+anthropic.com
 api.statsig.com
 auth0.com
 browser-intake-datadoghq.com
+cdn.usefathom.com
 chat.openai.com.cdn.cloudflare.net
 chatgpt.com
 chatgpt.livekit.cloud
+claude.ai
 client-api.arkoselabs.com
 events.statsigapi.net
 featuregates.org
@@ -35,6 +38,7 @@ openaicomproductionae4b.blob.core.windows.net
 production-openaicom-storage.azureedge.net
 segment.io
 sentry.io
+servd-anthropic-website.b-cdn.net
 static.cloudflareinsights.com
 stripe.com
 turn.livekit.cloud

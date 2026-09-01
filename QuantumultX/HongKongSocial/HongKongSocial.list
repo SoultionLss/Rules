@@ -1,0 +1,17 @@
+# ============================================================
+# 规则策略: HongKongSocial
+# 规则总数: 8 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Line/Line.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-01 05:30:31
+# ============================================================
+
+HOST-SUFFIX,lin.ee,HongKongSocial
+HOST-SUFFIX,line-apps.com,HongKongSocial
+HOST-SUFFIX,line-cdn.net,HongKongSocial
+HOST-SUFFIX,line-scdn.net,HongKongSocial
+HOST-SUFFIX,line.me,HongKongSocial
+HOST-SUFFIX,linecorp.com,HongKongSocial
+HOST-SUFFIX,naver.jp,HongKongSocial
+HOST-SUFFIX,nhncorp.jp,HongKongSocial

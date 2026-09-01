@@ -1,0 +1,73 @@
+# ============================================================
+# 规则策略: HongKongBanking
+# 规则总数: 63 条
+# 规则来源条目总数: 3 条
+# 规则来源: Bwy999/Surge@fe4d122f120932bb2a40e4c992871c4ec89eb788/Ruleset/HKBank.list, LingJingMaster/Shadowrocket-Rules@refs/heads/main/HK_Banks_Direct.list, LingJingMaster/Shadowrocket-Rules@refs/heads/main/HSBC_HK.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-01 05:30:31
+# ============================================================
+
+rules:
+  - domain_suffix: airstarbank.com
+  - domain_suffix: alipay.hk
+  - domain_suffix: antbank.hk
+  - domain_suffix: api.sc.com
+  - domain_suffix: appcenter.ms
+  - domain_suffix: asia.ccb.com
+  - domain_suffix: bankcomm.com.hk
+  - domain_suffix: bankofchina.com.hk
+  - domain_suffix: boccc.com.hk
+  - domain_suffix: bochk.com
+  - domain_suffix: bochk.yundzh.com
+  - domain_suffix: bochk01.etnet.com.hk
+  - domain_suffix: bochk02.etnet.com.hk
+  - domain_suffix: bochkapp01.etnet.com.hk
+  - domain_suffix: bocpay.com.hk
+  - domain_suffix: bodintl.com
+  - domain_suffix: ccb.com.hk
+  - domain_suffix: chbank.com
+  - domain_suffix: chiyubank.com
+  - domain_suffix: citi.com.hk
+  - domain_suffix: cmbwinglungbank.com
+  - domain_suffix: cncbinternational.com
+  - domain_suffix: dahsing.com
+  - domain_suffix: dahsing.com.hk
+  - domain_suffix: dbs.com.hk
+  - domain_suffix: fubon.com
+  - domain_suffix: fubonbank.com.hk
+  - domain_suffix: fundsupermart.com
+  - domain_suffix: fusionbank.com
+  - domain_suffix: go.trouter.teams.microsoft.com
+  - domain_suffix: hangseng.com
+  - domain_suffix: hkbea.com
+  - domain_suffix: hsbc.com.hk
+  - domain_suffix: icbcasia.com
+  - domain_suffix: ifastgb.com
+  - domain_suffix: igb-ai-cs-communication-app-prod.azurewebsites.net
+  - domain_suffix: jylcpxrv.r.eu-west-2.awstrack.me
+  - domain_suffix: livibank.com
+  - domain_suffix: marmot-cloud.com
+  - domain_suffix: mobile.eum-appdynamics.com
+  - domain_suffix: mox.com
+  - domain_suffix: myh2hk.alipay.com
+  - domain_suffix: ncb.com.hk
+  - domain_suffix: ocbc.com.hk
+  - domain_suffix: ocbcwhhk.com
+  - domain_suffix: online-metrix.net
+  - domain_suffix: pandaremit.com
+  - domain_suffix: paob.com.hk
+  - domain_suffix: publicbank.com.hk
+  - domain_suffix: saaszhhk.yundzh.com
+  - domain_suffix: shacombank.com.hk
+  - domain_suffix: standardchartered.com.hk
+  - domain_suffix: starryblu.com
+  - domain_suffix: tpns.hk.tencent.com
+  - domain_suffix: trkd-hs.com
+  - domain_suffix: tybhk.com.hk
+  - domain_suffix: welab.bank
+  - domain_suffix: winglungbank.com
+  - domain_suffix: za.group
+  - domain_suffix: zainvest.group
+  - domain_suffix: zajourney.com
+  - domain_suffix: zaticdn.com
+  - domain_suffix: zimperium.com

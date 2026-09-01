@@ -1,0 +1,42 @@
+# ============================================================
+# 规则策略: Streaming
+# 规则总数: 32 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Netflix/Netflix.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-01 05:30:31
+# ============================================================
+
+rules:
+  - domain_suffix: cookielaw.org
+  - domain_suffix: e13252.dscg.akamaiedge.net
+  - domain_suffix: fast.com
+  - domain_suffix: flxvpn.net
+  - domain_suffix: h-netflix.online-metrix.net
+  - domain_suffix: netflix.ca
+  - domain_suffix: netflix.com
+  - domain_suffix: netflix.com.au
+  - domain_suffix: netflix.com.edgesuite.net
+  - domain_suffix: netflix.net
+  - domain_suffix: netflixdnstest0.com
+  - domain_suffix: netflixdnstest1.com
+  - domain_suffix: netflixdnstest10.com
+  - domain_suffix: netflixdnstest2.com
+  - domain_suffix: netflixdnstest3.com
+  - domain_suffix: netflixdnstest4.com
+  - domain_suffix: netflixdnstest5.com
+  - domain_suffix: netflixdnstest6.com
+  - domain_suffix: netflixdnstest7.com
+  - domain_suffix: netflixdnstest8.com
+  - domain_suffix: netflixdnstest9.com
+  - domain_suffix: netflixinvestor.com
+  - domain_suffix: netflixstudios.com
+  - domain_suffix: netflixtechblog.com
+  - domain_suffix: nflxext.com
+  - domain_suffix: nflximg.com
+  - domain_suffix: nflximg.net
+  - domain_suffix: nflxsearch.net
+  - domain_suffix: nflxso.net
+  - domain_suffix: nflxvideo.net
+  - domain_suffix: onetrust.com
+  - domain_suffix: us-west-2.amazonaws.com

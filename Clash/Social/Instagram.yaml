@@ -1,0 +1,13 @@
+# ============================================================
+# 规则策略: Social
+# 规则总数: 3 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Instagram/Instagram.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-01 05:30:31
+# ============================================================
+
+payload:
+  - DOMAIN-SUFFIX,cdninstagram.com,Social
+  - DOMAIN-SUFFIX,instagr.am,Social
+  - DOMAIN-SUFFIX,instagram.com,Social

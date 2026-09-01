@@ -1,0 +1,24 @@
+# ============================================================
+# 规则策略: Streaming
+# 规则总数: 15 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/PrimeVideo/PrimeVideo.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-01 05:30:31
+# ============================================================
+
+HOST-SUFFIX,aiv-cdn.net,Streaming
+HOST-SUFFIX,aiv-delivery.net,Streaming
+HOST-SUFFIX,amazonvideo.com,Streaming
+HOST-SUFFIX,atv-ps.amazon.com,Streaming
+HOST-SUFFIX,avodmp4s3ww-a.akamaihd.net,Streaming
+HOST-SUFFIX,d1v5ir2lpwr8os.cloudfront.net,Streaming
+HOST-SUFFIX,d22qjgkvxw22r6.cloudfront.net,Streaming
+HOST-SUFFIX,d25xi40x97liuc.cloudfront.net,Streaming
+HOST-SUFFIX,d27xxe7juh1us6.cloudfront.net,Streaming
+HOST-SUFFIX,dmqdd6hw24ucf.cloudfront.net,Streaming
+HOST-SUFFIX,fls-na.amazon.com,Streaming
+HOST-SUFFIX,media-amazon.com,Streaming
+HOST-SUFFIX,primevideo.com,Streaming
+HOST-SUFFIX,pv-cdn.net,Streaming
+HOST-SUFFIX,www.amazon.com,Streaming

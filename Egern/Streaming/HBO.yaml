@@ -1,0 +1,57 @@
+# ============================================================
+# 规则策略: Streaming
+# 规则总数: 47 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/HBO/HBO.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-01 05:30:31
+# ============================================================
+
+rules:
+  - domain_suffix: bcbolthboa-a.akamaihd.net
+  - domain_suffix: cf-images.ap-southeast-1.prod.boltdns.net
+  - domain_suffix: cinemax.com
+  - domain_suffix: dai3fd1oh325y.cloudfront.net
+  - domain_suffix: execute-api.ap-southeast-1.amazonaws.com
+  - domain_suffix: execute-api.us-east-1.amazonaws.com
+  - domain_suffix: forthethrone.com
+  - domain_suffix: hbo.com
+  - domain_suffix: hbo.com.c.footprint.net
+  - domain_suffix: hbo.com.edgesuite.net
+  - domain_suffix: hbo.map.fastly.net
+  - domain_suffix: hboasia.com
+  - domain_suffix: hboasia1-i.akamaihd.net
+  - domain_suffix: hboasia2-i.akamaihd.net
+  - domain_suffix: hboasia3-i.akamaihd.net
+  - domain_suffix: hboasia4-i.akamaihd.net
+  - domain_suffix: hboasia5-i.akamaihd.net
+  - domain_suffix: hboasialive.akamaized.net
+  - domain_suffix: hbogeo.cust.footprint.net
+  - domain_suffix: hbogo.co.th
+  - domain_suffix: hbogo.com
+  - domain_suffix: hbogo.eu
+  - domain_suffix: hbogoasia.com
+  - domain_suffix: hbogoasia.hk
+  - domain_suffix: hbogoasia.id
+  - domain_suffix: hbogoasia.ph
+  - domain_suffix: hbogoasia.sg
+  - domain_suffix: hbogoasia.tw
+  - domain_suffix: hbogoprod-vod.akamaized.net
+  - domain_suffix: hbolb.onwardsmg.com
+  - domain_suffix: hbomax.com
+  - domain_suffix: hbomaxcdn.com
+  - domain_suffix: hbomaxdash.s.llnwi.net
+  - domain_suffix: hbonow.com
+  - domain_suffix: hbounify-prod.evergent.com
+  - domain_suffix: manifest.prod.boltdns.net
+  - domain_suffix: max.com
+  - domain_suffix: maxgo.com
+  - domain_suffix: now-ashare.com
+  - domain_suffix: now-tv.com
+  - domain_suffix: now.com
+  - domain_suffix: now.com.hk
+  - domain_suffix: nowe.com
+  - domain_suffix: nowe.hk
+  - domain_suffix: players.brightcove.net
+  - domain_suffix: warnermediacdn.com
+  - domain_suffix: youboranqs01.com

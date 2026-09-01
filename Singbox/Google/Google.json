@@ -1,10 +1,10 @@
 # ============================================================
 # 规则策略: Google
-# 规则总数: 684 条
-# 规则来源条目总数: 1 条
-# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Google/Google.list
+# 规则总数: 693 条
+# 规则来源条目总数: 2 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Gemini/Gemini.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Google/Google.list
 # 作者: SoultionLss
-# 最后更新: 2026-08-31 18:57:26
+# 最后更新: 2026-09-01 05:30:31
 # ============================================================
 
 {
@@ -32,6 +32,8 @@
         "adwords-community.com",
         "adwords.com",
         "adwordsexpress.com",
+        "ai.google.dev",
+        "alkalimakersuite-pa.clients6.google.com",
         "amp.dev",
         "ampproject.com",
         "ampproject.net",
@@ -42,6 +44,7 @@
         "angulardart.org",
         "api.ai",
         "apigee.com",
+        "apis.google.com",
         "app-analytics-services.com",
         "app-measurement-cn.com",
         "app-measurement.com",
@@ -57,6 +60,7 @@
         "autodraw.com",
         "avail.googleflights.net",
         "bandpage.com",
+        "bard.google.com",
         "baselinestudy.com",
         "baselinestudy.org",
         "bazel.build",
@@ -198,6 +202,7 @@
         "debug.com",
         "debugproject.com",
         "deepmind.com",
+        "deepmind.google",
         "deja.com",
         "deps.dev",
         "deps.info",
@@ -230,6 +235,8 @@
         "gateway.dev",
         "gcp.gvt2.com",
         "gcr.io",
+        "gemini.google.com",
+        "generativeai.google",
         "gerritcodereview.com",
         "get.app",
         "get.dev",
@@ -552,6 +559,7 @@
         "lanternal.com",
         "like.com",
         "madewithcode.com",
+        "makersuite.google.com",
         "material.io",
         "mdialog.com",
         "meet.new",
@@ -594,6 +602,7 @@
         "polymerproject.org",
         "postini.com",
         "privacysandbox.com",
+        "proactivebackend-pa.googleapis.com",
         "prod-controlbe.floonet.goog",
         "prod-databe.floonet.goog",
         "prod.databe.floonet.goog",

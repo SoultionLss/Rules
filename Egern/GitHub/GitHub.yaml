@@ -1,15 +1,53 @@
 # ============================================================
 # 规则策略: GitHub
-# 规则总数: 30 条
-# 规则来源条目总数: 1 条
-# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/GitHub/GitHub.list
+# 规则总数: 84 条
+# 规则来源条目总数: 4 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Atlassian/Atlassian.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Cloudflare/Cloudflare.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/GitHub/GitHub.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/GitLab/GitLab.list
 # 作者: SoultionLss
-# 最后更新: 2026-08-31 18:57:26
+# 最后更新: 2026-09-01 05:30:31
 # ============================================================
 
 rules:
+  - domain_suffix: atlassian.com
   - domain_suffix: atom.io
+  - domain_suffix: bitbucket.org
+  - domain_suffix: cf-ipfs.com
+  - domain_suffix: cf-ns.com
+  - domain_suffix: cf-ns.net
+  - domain_suffix: cf-ns.site
+  - domain_suffix: cf-ns.tech
+  - domain_suffix: cftest5.cn
+  - domain_suffix: cftest6.cn
+  - domain_suffix: cftest7.com
+  - domain_suffix: cftest8.com
+  - domain_suffix: cloudflare-cn.com
+  - domain_suffix: cloudflare-dns.com
+  - domain_suffix: cloudflare-ipfs.com
+  - domain_suffix: cloudflare-quic.com
+  - domain_suffix: cloudflare.com
+  - domain_suffix: cloudflare.net
+  - domain_suffix: cloudflare.tv
+  - domain_suffix: cloudflareaccess.com
+  - domain_suffix: cloudflareapps.com
+  - domain_suffix: cloudflarebolt.com
+  - domain_suffix: cloudflareclient.com
+  - domain_suffix: cloudflarecn.net
+  - domain_suffix: cloudflareinsights-cn.com
+  - domain_suffix: cloudflareinsights.com
+  - domain_suffix: cloudflareok.com
+  - domain_suffix: cloudflarepreview.com
+  - domain_suffix: cloudflareprod.com
+  - domain_suffix: cloudflareresolve.com
+  - domain_suffix: cloudflaressl.com
+  - domain_suffix: cloudflarestaging.com
+  - domain_suffix: cloudflarestatus.com
+  - domain_suffix: cloudflarestorage.com
+  - domain_suffix: cloudflarestoragegw.com
+  - domain_suffix: cloudflarestream.com
+  - domain_suffix: cloudflaretest.com
+  - domain_suffix: cloudflarewarp.com
   - domain_suffix: dependabot.com
+  - domain_suffix: every1dns.net
   - domain_suffix: ghcr.io
   - domain_suffix: git.io
   - domain_suffix: github-atom-io-herokuapp-com.freetls.fastly.net
@@ -29,12 +67,28 @@ rules:
   - domain_suffix: githubstatus.com
   - domain_suffix: githubuniverse.com
   - domain_suffix: githubusercontent.com
+  - domain_suffix: gitlab-assets.oss-cn-hongkong.aliyuncs.com
+  - domain_suffix: gitlab-static.net
+  - domain_suffix: gitlab.com
+  - domain_suffix: gitlab.net
+  - domain_suffix: gitter-static.net
+  - domain_suffix: gitter.im
   - domain_suffix: myoctocat.com
   - domain_suffix: npm.community
   - domain_suffix: npmjs.com
   - domain_suffix: npmjs.org
+  - domain_suffix: one.one.one
   - domain_suffix: opensource.guide
+  - domain_suffix: pacloudflare.com
+  - domain_suffix: pages.dev
   - domain_suffix: rawgit.com
   - domain_suffix: rawgithub.com
   - domain_suffix: repo.new
+  - domain_suffix: statuspage.io
   - domain_suffix: thegithubshop.com
+  - domain_suffix: trello.com
+  - domain_suffix: trellocdn.com
+  - domain_suffix: trycloudflare.com
+  - domain_suffix: videodelivery.net
+  - domain_suffix: warp.plus
+  - domain_suffix: workers.dev

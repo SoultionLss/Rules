@@ -1,0 +1,67 @@
+# ============================================================
+# 规则策略: Streaming
+# 规则总数: 58 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Hulu/Hulu.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-01 05:30:31
+# ============================================================
+
+HOST-SUFFIX,112263.com,Streaming
+HOST-SUFFIX,assetshuluimcom-a.akamaihd.net,Streaming
+HOST-SUFFIX,callhulu.com,Streaming
+HOST-SUFFIX,cws-hulu.conviva.com,Streaming
+HOST-SUFFIX,findyourlimits.com,Streaming
+HOST-SUFFIX,freehulu.com,Streaming
+HOST-SUFFIX,happyon.jp,Streaming
+HOST-SUFFIX,hjholdings.jp,Streaming
+HOST-SUFFIX,hooloo.tv,Streaming
+HOST-SUFFIX,hoolu.com,Streaming
+HOST-SUFFIX,hoolu.tv,Streaming
+HOST-SUFFIX,hu1u.com,Streaming
+HOST-SUFFIX,huloo.cc,Streaming
+HOST-SUFFIX,huloo.tv,Streaming
+HOST-SUFFIX,hulu.com,Streaming
+HOST-SUFFIX,hulu.hb.omtrdc.net,Streaming
+HOST-SUFFIX,hulu.jp,Streaming
+HOST-SUFFIX,hulu.playback.edge.bamgrid.com,Streaming
+HOST-SUFFIX,hulu.sc.omtrdc.net,Streaming
+HOST-SUFFIX,hulu.tv,Streaming
+HOST-SUFFIX,hulu.us,Streaming
+HOST-SUFFIX,huluaction.com,Streaming
+HOST-SUFFIX,huluad.com,Streaming
+HOST-SUFFIX,huluapp.com,Streaming
+HOST-SUFFIX,huluasks.com,Streaming
+HOST-SUFFIX,hulucall.com,Streaming
+HOST-SUFFIX,hulufree.com,Streaming
+HOST-SUFFIX,hulugans.com,Streaming
+HOST-SUFFIX,hulugermany.com,Streaming
+HOST-SUFFIX,hulugo.com,Streaming
+HOST-SUFFIX,huluim.com,Streaming
+HOST-SUFFIX,huluinstantmessenger.com,Streaming
+HOST-SUFFIX,huluitaly.com,Streaming
+HOST-SUFFIX,hulunet.com,Streaming
+HOST-SUFFIX,hulunetwork.com,Streaming
+HOST-SUFFIX,huluplus.com,Streaming
+HOST-SUFFIX,hulupremium.com,Streaming
+HOST-SUFFIX,hulupurchase.com,Streaming
+HOST-SUFFIX,huluqa.com,Streaming
+HOST-SUFFIX,hulurussia.com,Streaming
+HOST-SUFFIX,huluspain.com,Streaming
+HOST-SUFFIX,hulusports.com,Streaming
+HOST-SUFFIX,hulustream.com,Streaming
+HOST-SUFFIX,huluteam.com,Streaming
+HOST-SUFFIX,hulutv.com,Streaming
+HOST-SUFFIX,huluusa.com,Streaming
+HOST-SUFFIX,joinmaidez.com,Streaming
+HOST-SUFFIX,live-mediashield-ava-hulustream-com.akamaized.net,Streaming
+HOST-SUFFIX,mushymush.tv,Streaming
+HOST-SUFFIX,myhulu.com,Streaming
+HOST-SUFFIX,originalhulu.com,Streaming
+HOST-SUFFIX,payhulu.com,Streaming
+HOST-SUFFIX,prod.hjholdings.tv,Streaming
+HOST-SUFFIX,registerhulu.com,Streaming
+HOST-SUFFIX,streaks.jp,Streaming
+HOST-SUFFIX,thehulubraintrust.com,Streaming
+HOST-SUFFIX,wwwhuluplus.com,Streaming
+HOST-SUFFIX,yb.uncn.jp,Streaming

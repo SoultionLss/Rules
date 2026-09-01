@@ -1,0 +1,16 @@
+# ============================================================
+# 规则策略: LowRate
+# 规则总数: 6 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/PikPak/PikPak.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-01 05:30:31
+# ============================================================
+
+rules:
+  - domain_suffix: dlandroid.rcv.sandai.net
+  - domain_suffix: hub5idx.v6.shub.sandai.net
+  - domain_suffix: hub5pn.wap.sandai.net
+  - domain_suffix: hub5pnc.sandai.net
+  - domain_suffix: hub5pr.v6.phub.sandai.net
+  - domain_suffix: hubciddata.sandai.net

@@ -2,9 +2,9 @@
 # 规则策略: TikTok
 # 规则总数: 29 条
 # 规则来源条目总数: 1 条
-# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/TikTok/TikTok.list
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/TikTok/TikTok.list
 # 作者: SoultionLss
-# 最后更新: 2026-08-31 18:57:26
+# 最后更新: 2026-09-01 05:30:31
 # ============================================================
 
 HOST-SUFFIX,bytedapm.com,TikTok

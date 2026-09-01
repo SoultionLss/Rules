@@ -1,10 +1,10 @@
 # ============================================================
 # 规则策略: Social
-# 规则总数: 29 条
-# 规则来源条目总数: 2 条
-# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Instagram/Instagram.list, blackmatrix7/ios_rule_script@master/rule/Surge/Twitter/Twitter.list
+# 规则总数: 38 条
+# 规则来源条目总数: 4 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Instagram/Instagram.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Reddit/Reddit.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Threads/Threads.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Twitter/Twitter.list
 # 作者: SoultionLss
-# 最后更新: 2026-08-31 18:57:26
+# 最后更新: 2026-09-01 05:30:31
 # ============================================================
 
 rules:
@@ -16,8 +16,17 @@ rules:
   - domain_suffix: instagram.com
   - domain_suffix: periscope.tv
   - domain_suffix: pscp.tv
+  - domain_suffix: redd.it
+  - domain_suffix: reddit.com
+  - domain_suffix: redditmail.com
+  - domain_suffix: redditmedia.com
+  - domain_suffix: redditstatic.com
+  - domain_suffix: reddituploads.com
+  - domain_suffix: reddituploads.com.cdn-cf.behance.net
+  - domain_suffix: reddituploads.com.cdn-cf.dropbox.com
   - domain_suffix: t.co
   - domain_suffix: tellapart.com
+  - domain_suffix: threads.net
   - domain_suffix: tweetdeck.com
   - domain_suffix: twimg.co
   - domain_suffix: twimg.com

@@ -1,0 +1,18 @@
+# ============================================================
+# 规则策略: Social
+# 规则总数: 8 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Reddit/Reddit.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-01 05:30:31
+# ============================================================
+
+payload:
+  - DOMAIN-SUFFIX,redd.it,Social
+  - DOMAIN-SUFFIX,reddit.com,Social
+  - DOMAIN-SUFFIX,redditmail.com,Social
+  - DOMAIN-SUFFIX,redditmedia.com,Social
+  - DOMAIN-SUFFIX,redditstatic.com,Social
+  - DOMAIN-SUFFIX,reddituploads.com,Social
+  - DOMAIN-SUFFIX,reddituploads.com.cdn-cf.behance.net,Social
+  - DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com,Social

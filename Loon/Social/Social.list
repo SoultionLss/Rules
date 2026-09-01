@@ -1,10 +1,10 @@
 # ============================================================
 # 规则策略: Social
-# 规则总数: 29 条
-# 规则来源条目总数: 2 条
-# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Instagram/Instagram.list, blackmatrix7/ios_rule_script@master/rule/Surge/Twitter/Twitter.list
+# 规则总数: 38 条
+# 规则来源条目总数: 4 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Instagram/Instagram.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Reddit/Reddit.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Threads/Threads.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Twitter/Twitter.list
 # 作者: SoultionLss
-# 最后更新: 2026-08-31 18:57:26
+# 最后更新: 2026-09-01 05:30:31
 # ============================================================
 
 DOMAIN-SUFFIX,ads-twitter.com,Social
@@ -15,8 +15,17 @@ DOMAIN-SUFFIX,instagr.am,Social
 DOMAIN-SUFFIX,instagram.com,Social
 DOMAIN-SUFFIX,periscope.tv,Social
 DOMAIN-SUFFIX,pscp.tv,Social
+DOMAIN-SUFFIX,redd.it,Social
+DOMAIN-SUFFIX,reddit.com,Social
+DOMAIN-SUFFIX,redditmail.com,Social
+DOMAIN-SUFFIX,redditmedia.com,Social
+DOMAIN-SUFFIX,redditstatic.com,Social
+DOMAIN-SUFFIX,reddituploads.com,Social
+DOMAIN-SUFFIX,reddituploads.com.cdn-cf.behance.net,Social
+DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com,Social
 DOMAIN-SUFFIX,t.co,Social
 DOMAIN-SUFFIX,tellapart.com,Social
+DOMAIN-SUFFIX,threads.net,Social
 DOMAIN-SUFFIX,tweetdeck.com,Social
 DOMAIN-SUFFIX,twimg.co,Social
 DOMAIN-SUFFIX,twimg.com,Social

@@ -1,10 +1,10 @@
 # ============================================================
 # 规则策略: Google
-# 规则总数: 684 条
-# 规则来源条目总数: 1 条
-# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Google/Google.list
+# 规则总数: 693 条
+# 规则来源条目总数: 2 条
+# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Gemini/Gemini.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Google/Google.list
 # 作者: SoultionLss
-# 最后更新: 2026-08-31 18:57:26
+# 最后更新: 2026-09-01 05:30:31
 # ============================================================
 
 rules:
@@ -28,6 +28,8 @@ rules:
   - domain_suffix: adwords-community.com
   - domain_suffix: adwords.com
   - domain_suffix: adwordsexpress.com
+  - domain_suffix: ai.google.dev
+  - domain_suffix: alkalimakersuite-pa.clients6.google.com
   - domain_suffix: amp.dev
   - domain_suffix: ampproject.com
   - domain_suffix: ampproject.net
@@ -38,6 +40,7 @@ rules:
   - domain_suffix: angulardart.org
   - domain_suffix: api.ai
   - domain_suffix: apigee.com
+  - domain_suffix: apis.google.com
   - domain_suffix: app-analytics-services.com
   - domain_suffix: app-measurement-cn.com
   - domain_suffix: app-measurement.com
@@ -53,6 +56,7 @@ rules:
   - domain_suffix: autodraw.com
   - domain_suffix: avail.googleflights.net
   - domain_suffix: bandpage.com
+  - domain_suffix: bard.google.com
   - domain_suffix: baselinestudy.com
   - domain_suffix: baselinestudy.org
   - domain_suffix: bazel.build
@@ -194,6 +198,7 @@ rules:
   - domain_suffix: debug.com
   - domain_suffix: debugproject.com
   - domain_suffix: deepmind.com
+  - domain_suffix: deepmind.google
   - domain_suffix: deja.com
   - domain_suffix: deps.dev
   - domain_suffix: deps.info
@@ -226,6 +231,8 @@ rules:
   - domain_suffix: gateway.dev
   - domain_suffix: gcp.gvt2.com
   - domain_suffix: gcr.io
+  - domain_suffix: gemini.google.com
+  - domain_suffix: generativeai.google
   - domain_suffix: gerritcodereview.com
   - domain_suffix: get.app
   - domain_suffix: get.dev
@@ -548,6 +555,7 @@ rules:
   - domain_suffix: lanternal.com
   - domain_suffix: like.com
   - domain_suffix: madewithcode.com
+  - domain_suffix: makersuite.google.com
   - domain_suffix: material.io
   - domain_suffix: mdialog.com
   - domain_suffix: meet.new
@@ -590,6 +598,7 @@ rules:
   - domain_suffix: polymerproject.org
   - domain_suffix: postini.com
   - domain_suffix: privacysandbox.com
+  - domain_suffix: proactivebackend-pa.googleapis.com
   - domain_suffix: prod-controlbe.floonet.goog
   - domain_suffix: prod-databe.floonet.goog
   - domain_suffix: prod.databe.floonet.goog
