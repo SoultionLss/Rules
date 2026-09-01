@@ -1,10 +1,11 @@
 # ============================================================
 # 规则策略: GitHub
-# 规则总数: 84 条
+# 域名规则总数: 84 条
+# IP-CIDR 规则总数: 22 条
 # 规则来源条目总数: 4 条
-# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Atlassian/Atlassian.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Cloudflare/Cloudflare.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/GitHub/GitHub.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/GitLab/GitLab.list
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Atlassian/Atlassian.list, blackmatrix7/ios_rule_script@master/rule/Surge/Cloudflare/Cloudflare.list, blackmatrix7/ios_rule_script@master/rule/Surge/GitHub/GitHub.list, blackmatrix7/ios_rule_script@master/rule/Surge/GitLab/GitLab.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-01 05:30:31
+# 最后更新: 2026-09-01 08:05:43
 # ============================================================
 
 rules:
@@ -92,3 +93,25 @@ rules:
   - domain_suffix: videodelivery.net
   - domain_suffix: warp.plus
   - domain_suffix: workers.dev
+  - ip_cidr: 103.21.244.0/22
+  - ip_cidr: 103.22.200.0/22
+  - ip_cidr: 103.31.4.0/22
+  - ip_cidr: 104.16.0.0/13
+  - ip_cidr: 104.24.0.0/14
+  - ip_cidr: 108.162.192.0/18
+  - ip_cidr: 131.0.72.0/22
+  - ip_cidr: 141.101.64.0/18
+  - ip_cidr: 162.158.0.0/15
+  - ip_cidr: 172.64.0.0/13
+  - ip_cidr: 173.245.48.0/20
+  - ip_cidr: 188.114.96.0/20
+  - ip_cidr: 190.93.240.0/20
+  - ip_cidr: 197.234.240.0/22
+  - ip_cidr: 198.41.128.0/17
+  - ip_cidr: 2400:cb00::/32
+  - ip_cidr: 2405:8100::/32
+  - ip_cidr: 2405:b500::/32
+  - ip_cidr: 2606:4700::/32
+  - ip_cidr: 2803:f800::/32
+  - ip_cidr: 2a06:98c0::/29
+  - ip_cidr: 2c0f:f248::/32

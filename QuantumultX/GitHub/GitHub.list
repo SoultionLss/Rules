@@ -1,10 +1,11 @@
 # ============================================================
 # 规则策略: GitHub
-# 规则总数: 84 条
+# 域名规则总数: 84 条
+# IP-CIDR 规则总数: 22 条
 # 规则来源条目总数: 4 条
-# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Atlassian/Atlassian.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Cloudflare/Cloudflare.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/GitHub/GitHub.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/GitLab/GitLab.list
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Atlassian/Atlassian.list, blackmatrix7/ios_rule_script@master/rule/Surge/Cloudflare/Cloudflare.list, blackmatrix7/ios_rule_script@master/rule/Surge/GitHub/GitHub.list, blackmatrix7/ios_rule_script@master/rule/Surge/GitLab/GitLab.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-01 05:30:31
+# 最后更新: 2026-09-01 08:05:43
 # ============================================================
 
 HOST-SUFFIX,atlassian.com,GitHub
@@ -91,3 +92,25 @@ HOST-SUFFIX,trycloudflare.com,GitHub
 HOST-SUFFIX,videodelivery.net,GitHub
 HOST-SUFFIX,warp.plus,GitHub
 HOST-SUFFIX,workers.dev,GitHub
+IP-CIDR,103.21.244.0/22,GitHub
+IP-CIDR,103.22.200.0/22,GitHub
+IP-CIDR,103.31.4.0/22,GitHub
+IP-CIDR,104.16.0.0/13,GitHub
+IP-CIDR,104.24.0.0/14,GitHub
+IP-CIDR,108.162.192.0/18,GitHub
+IP-CIDR,131.0.72.0/22,GitHub
+IP-CIDR,141.101.64.0/18,GitHub
+IP-CIDR,162.158.0.0/15,GitHub
+IP-CIDR,172.64.0.0/13,GitHub
+IP-CIDR,173.245.48.0/20,GitHub
+IP-CIDR,188.114.96.0/20,GitHub
+IP-CIDR,190.93.240.0/20,GitHub
+IP-CIDR,197.234.240.0/22,GitHub
+IP-CIDR,198.41.128.0/17,GitHub
+IP-CIDR,2400:cb00::/32,GitHub
+IP-CIDR,2405:8100::/32,GitHub
+IP-CIDR,2405:b500::/32,GitHub
+IP-CIDR,2606:4700::/32,GitHub
+IP-CIDR,2803:f800::/32,GitHub
+IP-CIDR,2a06:98c0::/29,GitHub
+IP-CIDR,2c0f:f248::/32,GitHub

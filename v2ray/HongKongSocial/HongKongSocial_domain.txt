@@ -1,12 +1,15 @@
 # ============================================================
 # 规则策略: HongKongSocial
-# 规则总数: 8 条
-# 规则来源条目总数: 1 条
-# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Line/Line.list
+# 域名规则总数: 13 条
+# IP-CIDR 规则总数: 27 条
+# 规则来源条目总数: 2 条
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Line/Line.list, blackmatrix7/ios_rule_script@master/rule/Surge/Whatsapp/Whatsapp.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-01 05:30:31
+# 最后更新: 2026-09-01 08:05:43
 # ============================================================
 
+bintray.com
+graph.facebook.com
 lin.ee
 line-apps.com
 line-cdn.net
@@ -15,3 +18,6 @@ line.me
 linecorp.com
 naver.jp
 nhncorp.jp
+whatsapp.biz
+whatsapp.com
+whatsapp.net

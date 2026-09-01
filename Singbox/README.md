@@ -11,6 +11,27 @@
   - `Anthropic.json`
   - `Claude.json`
   - `OpenAI.json`
+  - `xAI.json`
+
+### ApplePush
+
+- 合并文件: `ApplePush.json`
+
+### BiliBili
+
+- 合并文件: `BiliBili.json`
+
+### Brokerage
+
+- 合并文件: `Brokerage.json`
+
+### ChinaCIDR
+
+- 合并文件: `ChinaCIDR.json`
+
+### ChinaMax
+
+- 合并文件: `ChinaMax.json`
 
 ### DIRECT
 
@@ -40,6 +61,7 @@
 - 合并文件: `HongKongSocial.json`
 - 独立文件:
   - `Line.json`
+  - `Whatsapp.json`
 
 ### LowRate
 
@@ -50,6 +72,10 @@
 - 合并文件: `Microsoft.json`
 - 独立文件:
   - `Microsoft.json`
+
+### SOOP
+
+- 合并文件: `SOOP.json`
 
 ### Social
 
@@ -64,6 +90,7 @@
 
 - 合并文件: `Streaming.json`
 - 独立文件:
+  - `Crunchyroll.json`
   - `Disney.json`
   - `HBO.json`
   - `Hulu.json`

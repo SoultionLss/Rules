@@ -1,10 +1,11 @@
 # ============================================================
 # 规则策略: Google
-# 规则总数: 693 条
+# 域名规则总数: 693 条
+# IP-CIDR 规则总数: 5 条
 # 规则来源条目总数: 2 条
-# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Gemini/Gemini.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Google/Google.list
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Gemini/Gemini.list, blackmatrix7/ios_rule_script@master/rule/Surge/Google/Google.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-01 05:30:31
+# 最后更新: 2026-09-01 08:05:43
 # ============================================================
 
 rules:
@@ -701,3 +702,8 @@ rules:
   - domain_suffix: xplr.co
   - domain_suffix: zukunftswerkstatt.de
   - domain_suffix: zynamics.com
+  - ip_cidr: 172.110.32.0/21
+  - ip_cidr: 173.194.0.0/16
+  - ip_cidr: 216.73.80.0/20
+  - ip_cidr: 2620:120:e000::/40
+  - ip_cidr: 74.125.0.0/16

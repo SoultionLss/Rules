@@ -1,10 +1,11 @@
 # ============================================================
 # 规则策略: AI
-# 规则总数: 31 条
+# 域名规则总数: 31 条
+# IP-CIDR 规则总数: 2 条
 # 规则来源条目总数: 1 条
-# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/OpenAI/OpenAI.list
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/OpenAI/OpenAI.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-01 05:30:31
+# 最后更新: 2026-09-01 08:05:43
 # ============================================================
 
 payload:
@@ -39,3 +40,5 @@ payload:
   - DOMAIN-SUFFIX,static.cloudflareinsights.com,AI
   - DOMAIN-SUFFIX,stripe.com,AI
   - DOMAIN-SUFFIX,turn.livekit.cloud,AI
+  - IP-CIDR,24.199.123.28/32,AI
+  - IP-CIDR,64.23.132.171/32,AI

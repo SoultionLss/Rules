@@ -11,6 +11,27 @@
   - `Anthropic.list`
   - `Claude.list`
   - `OpenAI.list`
+  - `xAI.list`
+
+### ApplePush
+
+- 合并文件: `ApplePush.list`
+
+### BiliBili
+
+- 合并文件: `BiliBili.list`
+
+### Brokerage
+
+- 合并文件: `Brokerage.list`
+
+### ChinaCIDR
+
+- 合并文件: `ChinaCIDR.list`
+
+### ChinaMax
+
+- 合并文件: `ChinaMax.list`
 
 ### DIRECT
 
@@ -40,6 +61,7 @@
 - 合并文件: `HongKongSocial.list`
 - 独立文件:
   - `Line.list`
+  - `Whatsapp.list`
 
 ### LowRate
 
@@ -50,6 +72,10 @@
 - 合并文件: `Microsoft.list`
 - 独立文件:
   - `Microsoft.list`
+
+### SOOP
+
+- 合并文件: `SOOP.list`
 
 ### Social
 
@@ -64,6 +90,7 @@
 
 - 合并文件: `Streaming.list`
 - 独立文件:
+  - `Crunchyroll.list`
   - `Disney.list`
   - `HBO.list`
   - `Hulu.list`

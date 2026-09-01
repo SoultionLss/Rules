@@ -1,10 +1,11 @@
 # ============================================================
 # 规则策略: AI
-# 规则总数: 35 条
-# 规则来源条目总数: 3 条
-# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Anthropic/Anthropic.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Claude/Claude.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/OpenAI/OpenAI.list
+# 域名规则总数: 38 条
+# IP-CIDR 规则总数: 2 条
+# 规则来源条目总数: 4 条
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Anthropic/Anthropic.list, blackmatrix7/ios_rule_script@master/rule/Surge/Claude/Claude.list, blackmatrix7/ios_rule_script@master/rule/Surge/OpenAI/OpenAI.list, funnyzak/network-rules@91d7339ab4e80883cf57dac518d4e92cd102003d/Surge/Rulesets/xAI.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-01 05:30:31
+# 最后更新: 2026-09-01 08:05:43
 # ============================================================
 
 DOMAIN-SUFFIX,ai.com,AI
@@ -21,6 +22,8 @@ DOMAIN-SUFFIX,claude.ai,AI
 DOMAIN-SUFFIX,client-api.arkoselabs.com,AI
 DOMAIN-SUFFIX,events.statsigapi.net,AI
 DOMAIN-SUFFIX,featuregates.org,AI
+DOMAIN-SUFFIX,grok.com,AI
+DOMAIN-SUFFIX,groq.com,AI
 DOMAIN-SUFFIX,host.livekit.cloud,AI
 DOMAIN-SUFFIX,identrust.com,AI
 DOMAIN-SUFFIX,intercom.io,AI
@@ -42,3 +45,6 @@ DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net,AI
 DOMAIN-SUFFIX,static.cloudflareinsights.com,AI
 DOMAIN-SUFFIX,stripe.com,AI
 DOMAIN-SUFFIX,turn.livekit.cloud,AI
+DOMAIN-SUFFIX,x.ai,AI
+IP-CIDR,24.199.123.28/32,AI
+IP-CIDR,64.23.132.171/32,AI

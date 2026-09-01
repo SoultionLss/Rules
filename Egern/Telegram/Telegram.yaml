@@ -1,10 +1,11 @@
 # ============================================================
 # 规则策略: Telegram
-# 规则总数: 24 条
+# 域名规则总数: 24 条
+# IP-CIDR 规则总数: 10 条
 # 规则来源条目总数: 1 条
-# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Telegram/Telegram.list
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Telegram/Telegram.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-01 05:30:31
+# 最后更新: 2026-09-01 08:05:43
 # ============================================================
 
 rules:
@@ -32,3 +33,13 @@ rules:
   - domain_suffix: tg.dev
   - domain_suffix: tx.me
   - domain_suffix: usercontent.dev
+  - ip_cidr: 109.239.140.0/24
+  - ip_cidr: 139.59.210.98/32
+  - ip_cidr: 149.154.160.0/20
+  - ip_cidr: 196.55.216.167/32
+  - ip_cidr: 2001:67c:4e8::/48
+  - ip_cidr: 2001:b28:f23c::/47
+  - ip_cidr: 2001:b28:f23f::/48
+  - ip_cidr: 2a0a:f280::/29
+  - ip_cidr: 5.28.192.0/18
+  - ip_cidr: 91.108.0.0/16

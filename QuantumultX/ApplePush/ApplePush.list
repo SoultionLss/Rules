@@ -1,0 +1,14 @@
+# ============================================================
+# 规则策略: ApplePush
+# 域名规则总数: 4 条
+# IP-CIDR 规则总数: 0 条
+# 规则来源条目总数: 1 条
+# 规则来源: LingJingMaster/Shadowrocket-Rules@refs/heads/main/ApplePush.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-01 08:05:43
+# ============================================================
+
+HOST-SUFFIX,api.push.apple.com,ApplePush
+HOST-SUFFIX,gateway.push.apple.com,ApplePush
+HOST-SUFFIX,push.apple.com,ApplePush
+HOST-SUFFIX,sandbox.push.apple.com,ApplePush

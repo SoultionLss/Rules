@@ -1,10 +1,11 @@
 # ============================================================
 # 规则策略: Streaming
-# 规则总数: 324 条
-# 规则来源条目总数: 6 条
-# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Disney/Disney.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/HBO/HBO.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Hulu/Hulu.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Netflix/Netflix.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Peacock/Peacock.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/PrimeVideo/PrimeVideo.list
+# 域名规则总数: 325 条
+# IP-CIDR 规则总数: 1119 条
+# 规则来源条目总数: 7 条
+# 规则来源: HotKids/Rules@a06feb8eb0bfc42a406f738806a122a50e2b144f/Surge/RULE-SET/Crunchyroll.list, blackmatrix7/ios_rule_script@master/rule/Surge/Disney/Disney.list, blackmatrix7/ios_rule_script@master/rule/Surge/HBO/HBO.list, blackmatrix7/ios_rule_script@master/rule/Surge/Hulu/Hulu.list, blackmatrix7/ios_rule_script@master/rule/Surge/Netflix/Netflix.list, blackmatrix7/ios_rule_script@master/rule/Surge/Peacock/Peacock.list, blackmatrix7/ios_rule_script@master/rule/Surge/PrimeVideo/PrimeVideo.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-01 05:30:31
+# 最后更新: 2026-09-01 08:05:43
 # ============================================================
 
 112263.com
@@ -36,6 +37,7 @@ cf-images.ap-southeast-1.prod.boltdns.net
 cinemax.com
 conviva.com
 cookielaw.org
+crunchyroll.com
 cws-hulu.conviva.com
 d1v5ir2lpwr8os.cloudfront.net
 d22qjgkvxw22r6.cloudfront.net

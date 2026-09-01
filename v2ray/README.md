@@ -11,6 +11,27 @@
   - `Anthropic_domain.txt`
   - `Claude_domain.txt`
   - `OpenAI_domain.txt`
+  - `xAI_domain.txt`
+
+### ApplePush
+
+- 合并文件: `ApplePush_domain.txt`
+
+### BiliBili
+
+- 合并文件: `BiliBili_domain.txt`
+
+### Brokerage
+
+- 合并文件: `Brokerage_domain.txt`
+
+### ChinaCIDR
+
+- 合并文件: `ChinaCIDR_domain.txt`
+
+### ChinaMax
+
+- 合并文件: `ChinaMax_domain.txt`
 
 ### DIRECT
 
@@ -40,6 +61,7 @@
 - 合并文件: `HongKongSocial_domain.txt`
 - 独立文件:
   - `Line_domain.txt`
+  - `Whatsapp_domain.txt`
 
 ### LowRate
 
@@ -50,6 +72,10 @@
 - 合并文件: `Microsoft_domain.txt`
 - 独立文件:
   - `Microsoft_domain.txt`
+
+### SOOP
+
+- 合并文件: `SOOP_domain.txt`
 
 ### Social
 
@@ -64,6 +90,7 @@
 
 - 合并文件: `Streaming_domain.txt`
 - 独立文件:
+  - `Crunchyroll_domain.txt`
   - `Disney_domain.txt`
   - `HBO_domain.txt`
   - `Hulu_domain.txt`

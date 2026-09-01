@@ -1,10 +1,11 @@
 # ============================================================
 # 规则策略: Social
-# 规则总数: 38 条
+# 域名规则总数: 38 条
+# IP-CIDR 规则总数: 6 条
 # 规则来源条目总数: 4 条
-# 规则来源: blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Instagram/Instagram.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Reddit/Reddit.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Threads/Threads.list, blackmatrix7/ios_rule_script@refs/heads/master/rule/Surge/Twitter/Twitter.list
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Instagram/Instagram.list, blackmatrix7/ios_rule_script@master/rule/Surge/Reddit/Reddit.list, blackmatrix7/ios_rule_script@master/rule/Surge/Threads/Threads.list, blackmatrix7/ios_rule_script@master/rule/Surge/Twitter/Twitter.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-01 05:30:31
+# 最后更新: 2026-09-01 08:05:43
 # ============================================================
 
 rules:
@@ -46,3 +47,9 @@ rules:
   - domain_suffix: twvid.com
   - domain_suffix: vine.co
   - domain_suffix: x.com
+  - ip_cidr: 192.133.76.0/22
+  - ip_cidr: 199.59.148.0/22
+  - ip_cidr: 199.96.56.0/21
+  - ip_cidr: 202.160.128.0/22
+  - ip_cidr: 209.237.192.0/19
+  - ip_cidr: 69.195.160.0/19
