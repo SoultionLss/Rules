@@ -1,11 +1,11 @@
 # ============================================================
 # 规则策略: Brokerage
-# 域名规则总数: 112 条
+# 域名规则总数: 107 条
 # IP-CIDR 规则总数: 63 条
 # 规则来源条目总数: 1 条
 # 规则来源: forecho/broker-rules@refs/heads/main/rule/Surge/Broker.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-01 08:05:43
+# 最后更新: 2026-09-01 16:18:12
 # ============================================================
 
 9oju31.launches.appsflyersdk.com
@@ -101,11 +101,6 @@ tigerbrokers.com
 tigerbrokers.net
 tigerbrokers.nz
 tigerfintech.com
-topstep.com
-topstepbrokerage.com
-topstepfx.com
-topsteptrader.com
-topstepx.com
 trade.futunn.com
 trade.longportapp.com
 tradeup.com
