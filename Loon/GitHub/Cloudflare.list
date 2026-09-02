@@ -5,7 +5,7 @@
 # 规则来源条目总数: 1 条
 # 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Cloudflare/Cloudflare.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-02 17:56:12
+# 最后更新: 2026-09-02 18:05:49
 # ============================================================
 
 DOMAIN-SUFFIX,cf-ipfs.com,GitHub

@@ -83,98 +83,21 @@ policy_groups:
     name: 宝可梦
     urls:
     - YOUR_宝可梦_SUBSCRIPTION_URL
-- select:
-    name: 美国拼车
-    urls:
-    - YOUR_US_SUBSCRIPTION_URL
-    prev_hop: 🇺🇸 美国-故选
-- select:
-    name: 香港拼车
-    urls:
-    - YOUR_HK_SUBSCRIPTION_URL
-    prev_hop: 🇭🇰 香港-故选
+    filter: (?i)(?:0\.[1-9]X|1X)
 - select:
     name: 🇭🇰 香港-手选
     policies:
     - 良心云
-    urls:
-    - YOUR_宝可梦_SUBSCRIPTION_URL
-    filter: (?i)(香港|🇭🇰|\bHK\b|\bHongKong\b).*?(?:0\.[1-9]X|1X)\b
-- select:
-    name: 🇹🇼 台湾-手选
-    policies:
-    - 良心云
-    urls:
-    - YOUR_宝可梦_SUBSCRIPTION_URL
-    filter: (?i)(台湾|台北|🇹🇼|\bTW\b|\bTaiwan\b).*?(?:0\.[1-9]X|1X)\b
-- select:
-    name: 🇯🇵 日本-手选
-    policies:
-    - 良心云
-    urls:
-    - YOUR_宝可梦_SUBSCRIPTION_URL
-    filter: (?i)(日本|东京|大阪|🇯🇵|\bJP\b|\bJapan\b).*?(?:0\.[1-9]X|1X)\b
-- select:
-    name: 🇺🇸 美国-手选
-    policies:
-    - 良心云
-    urls:
-    - YOUR_宝可梦_SUBSCRIPTION_URL
-    filter: (?i)(美国|洛杉矶|圣何塞|纽约|🇺🇸|\bUS\b|\bUnited States\b).*?(?:0\.[1-9]X|1X)\b
-- select:
-    name: 🇸🇬 狮城-手选
-    policies:
-    - 良心云
-    urls:
-    - YOUR_宝可梦_SUBSCRIPTION_URL
-    filter: (?i)(新加坡|狮城|🇸🇬|\bSG\b|\bSingapore\b).*?(?:0\.[1-9]X|1X)\b
+    - 宝可梦
+    flatten: true
+    filter: (?i)🇭🇰|香港|(\b(HK|Hong|HongKong)\b)
 - auto_test:
     name: 🇭🇰 香港-智能
     policies:
     - 良心云
-    urls:
-    - YOUR_宝可梦_SUBSCRIPTION_URL
-    filter: (?i)(香港|🇭🇰|\bHK\b|\bHongKong\b).*?(?:0\.[1-9]X|1X)\b
-    interval: 300
-    timeout: 5
-    hidden: true
-- auto_test:
-    name: 🇹🇼 台湾-智能
-    policies:
-    - 良心云
-    urls:
-    - YOUR_宝可梦_SUBSCRIPTION_URL
-    filter: (?i)(台湾|台北|🇹🇼|\bTW\b|\bTaiwan\b).*?(?:0\.[1-9]X|1X)\b
-    interval: 300
-    timeout: 5
-    hidden: true
-- auto_test:
-    name: 🇯🇵 日本-智能
-    policies:
-    - 良心云
-    urls:
-    - YOUR_宝可梦_SUBSCRIPTION_URL
-    filter: (?i)(日本|东京|大阪|🇯🇵|\bJP\b|\bJapan\b).*?(?:0\.[1-9]X|1X)\b
-    interval: 300
-    timeout: 5
-    hidden: true
-- auto_test:
-    name: 🇺🇸 美国-智能
-    policies:
-    - 良心云
-    urls:
-    - YOUR_宝可梦_SUBSCRIPTION_URL
-    filter: (?i)(美国|洛杉矶|圣何塞|纽约|🇺🇸|\bUS\b|\bUnited States\b).*?(?:0\.[1-9]X|1X)\b
-    interval: 300
-    timeout: 5
-    hidden: true
-- auto_test:
-    name: 🇸🇬 狮城-智能
-    policies:
-    - 良心云
-    urls:
-    - YOUR_宝可梦_SUBSCRIPTION_URL
-    filter: (?i)(新加坡|狮城|🇸🇬|\bSG\b|\bSingapore\b).*?(?:0\.[1-9]X|1X)\b
+    - 宝可梦
+    flatten: true
+    filter: (?i)🇭🇰|香港|(\b(HK|Hong|HongKong)\b)
     interval: 300
     timeout: 5
     hidden: true
@@ -185,6 +108,23 @@ policy_groups:
     - 🇭🇰 香港-智能
     interval: 300
     timeout: 5
+- select:
+    name: 🇹🇼 台湾-手选
+    policies:
+    - 良心云
+    - 宝可梦
+    flatten: true
+    filter: (?i)🇹🇼|台湾|台北|(\b(TW|Tai|Taiwan)\b)
+- auto_test:
+    name: 🇹🇼 台湾-智能
+    policies:
+    - 良心云
+    - 宝可梦
+    flatten: true
+    filter: (?i)🇹🇼|台湾|台北|(\b(TW|Tai|Taiwan)\b)
+    interval: 300
+    timeout: 5
+    hidden: true
 - fallback:
     name: 🇹🇼 台湾-故选
     policies:
@@ -192,6 +132,23 @@ policy_groups:
     - 🇹🇼 台湾-智能
     interval: 300
     timeout: 5
+- select:
+    name: 🇯🇵 日本-手选
+    policies:
+    - 良心云
+    - 宝可梦
+    flatten: true
+    filter: (?i)🇯🇵|日本|东京|大阪|(\b(JP|Japan)\b)
+- auto_test:
+    name: 🇯🇵 日本-智能
+    policies:
+    - 良心云
+    - 宝可梦
+    flatten: true
+    filter: (?i)🇯🇵|日本|东京|大阪|(\b(JP|Japan)\b)
+    interval: 300
+    timeout: 5
+    hidden: true
 - fallback:
     name: 🇯🇵 日本-故选
     policies:
@@ -199,6 +156,23 @@ policy_groups:
     - 🇯🇵 日本-智能
     interval: 300
     timeout: 5
+- select:
+    name: 🇺🇸 美国-手选
+    policies:
+    - 良心云
+    - 宝可梦
+    flatten: true
+    filter: (?i)🇺🇸|美国|洛杉矶|圣何塞|纽约|(\b(US|United States)\b)
+- auto_test:
+    name: 🇺🇸 美国-智能
+    policies:
+    - 良心云
+    - 宝可梦
+    flatten: true
+    filter: (?i)🇺🇸|美国|洛杉矶|圣何塞|纽约|(\b(US|United States)\b)
+    interval: 300
+    timeout: 5
+    hidden: true
 - fallback:
     name: 🇺🇸 美国-故选
     policies:
@@ -206,33 +180,28 @@ policy_groups:
     - 🇺🇸 美国-智能
     interval: 300
     timeout: 5
+- select:
+    name: 🇸🇬 狮城-手选
+    policies:
+    - 良心云
+    - 宝可梦
+    flatten: true
+    filter: (?i)🇸🇬|新加坡|狮城|(\b(SG|Singapore)\b)
+- auto_test:
+    name: 🇸🇬 狮城-智能
+    policies:
+    - 良心云
+    - 宝可梦
+    flatten: true
+    filter: (?i)🇸🇬|新加坡|狮城|(\b(SG|Singapore)\b)
+    interval: 300
+    timeout: 5
+    hidden: true
 - fallback:
     name: 🇸🇬 狮城-故选
     policies:
     - 🇸🇬 狮城-手选
     - 🇸🇬 狮城-智能
-    interval: 300
-    timeout: 5
-- select:
-    name: 低倍率-手选
-    policies:
-    - 宝可梦
-    flatten: true
-    filter: (?i)(?:0\.[1-9]X|0\.[1-9]倍|低倍|\bLR\b|\bLow\b)
-- auto_test:
-    name: 低倍率-智能
-    policies:
-    - 宝可梦
-    flatten: true
-    filter: (?i)(?:0\.[1-9]X|0\.[1-9]倍|低倍|\bLR\b|\bLow\b)
-    interval: 300
-    timeout: 5
-    hidden: true
-- fallback:
-    name: 低倍率-故选
-    policies:
-    - 低倍率-手选
-    - 低倍率-智能
     interval: 300
     timeout: 5
 - select:
@@ -243,7 +212,6 @@ policy_groups:
     - 🇺🇸 美国-故选
     - 🇸🇬 狮城-故选
     - 🇹🇼 台湾-故选
-    - 低倍率-故选
     - 美国拼车
     - 香港拼车
     - DIRECT

@@ -13,62 +13,16 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
-- name: 美国拼车
-  type: select
-  proxies:
-  - DIRECT
-- name: 香港拼车
-  type: select
-  proxies:
-  - DIRECT
 - name: 🇭🇰 香港-手选
   type: select
   proxies:
   - 良心云
-- name: 🇹🇼 台湾-手选
-  type: select
-  proxies:
-  - 良心云
-- name: 🇯🇵 日本-手选
-  type: select
-  proxies:
-  - 良心云
-- name: 🇺🇸 美国-手选
-  type: select
-  proxies:
-  - 良心云
-- name: 🇸🇬 狮城-手选
-  type: select
-  proxies:
-  - 良心云
+  - 宝可梦
 - name: 🇭🇰 香港-智能
   type: url-test
   proxies:
   - 良心云
-  url: http://1.1.1.1/generate_204
-  interval: 600
-- name: 🇹🇼 台湾-智能
-  type: url-test
-  proxies:
-  - 良心云
-  url: http://1.1.1.1/generate_204
-  interval: 600
-- name: 🇯🇵 日本-智能
-  type: url-test
-  proxies:
-  - 良心云
-  url: http://1.1.1.1/generate_204
-  interval: 600
-- name: 🇺🇸 美国-智能
-  type: url-test
-  proxies:
-  - 良心云
-  url: http://1.1.1.1/generate_204
-  interval: 600
-- name: 🇸🇬 狮城-智能
-  type: url-test
-  proxies:
-  - 良心云
+  - 宝可梦
   url: http://1.1.1.1/generate_204
   interval: 600
 - name: 🇭🇰 香港-故选
@@ -76,41 +30,74 @@ proxy-groups:
   proxies:
   - 🇭🇰 香港-手选
   - 🇭🇰 香港-智能
+- name: 🇹🇼 台湾-手选
+  type: select
+  proxies:
+  - 良心云
+  - 宝可梦
+- name: 🇹🇼 台湾-智能
+  type: url-test
+  proxies:
+  - 良心云
+  - 宝可梦
+  url: http://1.1.1.1/generate_204
+  interval: 600
 - name: 🇹🇼 台湾-故选
   type: fallback
   proxies:
   - 🇹🇼 台湾-手选
   - 🇹🇼 台湾-智能
+- name: 🇯🇵 日本-手选
+  type: select
+  proxies:
+  - 良心云
+  - 宝可梦
+- name: 🇯🇵 日本-智能
+  type: url-test
+  proxies:
+  - 良心云
+  - 宝可梦
+  url: http://1.1.1.1/generate_204
+  interval: 600
 - name: 🇯🇵 日本-故选
   type: fallback
   proxies:
   - 🇯🇵 日本-手选
   - 🇯🇵 日本-智能
+- name: 🇺🇸 美国-手选
+  type: select
+  proxies:
+  - 良心云
+  - 宝可梦
+- name: 🇺🇸 美国-智能
+  type: url-test
+  proxies:
+  - 良心云
+  - 宝可梦
+  url: http://1.1.1.1/generate_204
+  interval: 600
 - name: 🇺🇸 美国-故选
   type: fallback
   proxies:
   - 🇺🇸 美国-手选
   - 🇺🇸 美国-智能
+- name: 🇸🇬 狮城-手选
+  type: select
+  proxies:
+  - 良心云
+  - 宝可梦
+- name: 🇸🇬 狮城-智能
+  type: url-test
+  proxies:
+  - 良心云
+  - 宝可梦
+  url: http://1.1.1.1/generate_204
+  interval: 600
 - name: 🇸🇬 狮城-故选
   type: fallback
   proxies:
   - 🇸🇬 狮城-手选
   - 🇸🇬 狮城-智能
-- name: 低倍率-手选
-  type: select
-  proxies:
-  - 宝可梦
-- name: 低倍率-智能
-  type: url-test
-  proxies:
-  - 宝可梦
-  url: http://1.1.1.1/generate_204
-  interval: 600
-- name: 低倍率-故选
-  type: fallback
-  proxies:
-  - 低倍率-手选
-  - 低倍率-智能
 - name: 兜底节点
   type: select
   proxies:
@@ -119,7 +106,6 @@ proxy-groups:
   - 🇺🇸 美国-故选
   - 🇸🇬 狮城-故选
   - 🇹🇼 台湾-故选
-  - 低倍率-故选
   - 美国拼车
   - 香港拼车
   - DIRECT
