@@ -1,5 +1,3 @@
-## 📄 `README.md`（完整版）
-
 ```markdown
 # Rules · 多平台分流规则集
 
