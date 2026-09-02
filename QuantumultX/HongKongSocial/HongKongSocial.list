@@ -5,7 +5,7 @@
 # 规则来源条目总数: 2 条
 # 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Line/Line.list, blackmatrix7/ios_rule_script@master/rule/Surge/Whatsapp/Whatsapp.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-02 14:44:02
+# 最后更新: 2026-09-02 16:15:04
 # ============================================================
 
 HOST-SUFFIX,bintray.com,HongKongSocial
