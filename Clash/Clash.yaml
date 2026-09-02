@@ -109,6 +109,7 @@ proxy-groups:
   - 美国拼车
   - 香港拼车
   - DIRECT
+
 rule-providers:
   REJECT:
     type: http
@@ -226,41 +227,41 @@ rule-providers:
     interval: 86400
     behavior: classical
 rules:
-- '  # 合并源: BlockHttpDNS (共 1 个源)'
-- '  - RULE-SET, REJECT, REJECT'
-- '  # 合并源: Gemini, Google (共 2 个源)'
-- '  - RULE-SET, Google, Google'
-- '  # 合并源: Anthropic, Claude, OpenAI (共 3 个源)'
-- '  - RULE-SET, AI, AI'
-- '  # 合并源: TikTok (共 1 个源)'
-- '  - RULE-SET, TikTok, TikTok'
-- '  # 合并源: Crunchyroll, Disney, HBO, Hulu, Netflix, Peacock, PrimeVideo (共 7 个源)'
-- '  - RULE-SET, Streaming, Streaming'
-- '  # 合并源: Instagram, Reddit, Threads, Twitter (共 4 个源)'
-- '  - RULE-SET, Social, Social'
-- '  # 合并源: YouTube (共 1 个源)'
-- '  - RULE-SET, YouTube, YouTube'
-- '  # 合并源: Telegram (共 1 个源)'
-- '  - RULE-SET, Telegram, Telegram'
-- '  # 合并源: Atlassian, GitHub, GitLab (共 3 个源)'
-- '  - RULE-SET, GitHub, GitHub'
-- '  # 合并源: Microsoft (共 1 个源)'
-- '  - RULE-SET, Microsoft, Microsoft'
-- '  # 合并源: Line, Whatsapp (共 2 个源)'
-- '  - RULE-SET, HongKongSocial, HongKongSocial'
-- '  # 合并源: HKBank, HK_Banks_Direct, HSBC_HK (共 3 个源)'
-- '  - RULE-SET, HongKongBanking, HongKongBanking'
-- '  # 合并源: Broker (共 1 个源)'
-- '  - RULE-SET, Brokerage, Brokerage'
-- '  # 合并源: PikPak, TeraBox (共 2 个源)'
-- '  - RULE-SET, LowRate, LowRate'
-- '  - RULE-SET, DouYin, DIRECT'
-- '  - RULE-SET, BiliBili, DIRECT'
-- '  - RULE-SET, Cloudflare, GitHub'
-- '  - RULE-SET, ApplePush, ApplePush'
-- '  - RULE-SET, apple, DIRECT'
-- '  - RULE-SET, Soop, DIRECT'
-- '  - RULE-SET, cn, DIRECT'
-- '  - RULE-SET, ChinaMax, DIRECT'
-- '  - RULE-SET, ChinaCIDR, DIRECT'
-- '  - MATCH, PROXY'
+  # 合并源: BlockHttpDNS (共 1 个源)
+  - RULE-SET, REJECT, REJECT
+  # 合并源: Gemini, Google (共 2 个源)
+  - RULE-SET, Google, Google
+  # 合并源: Anthropic, Claude, OpenAI (共 3 个源)
+  - RULE-SET, AI, AI
+  # 合并源: TikTok (共 1 个源)
+  - RULE-SET, TikTok, TikTok
+  # 合并源: Crunchyroll, Disney, HBO, Hulu, Netflix, Peacock, PrimeVideo (共 7 个源)
+  - RULE-SET, Streaming, Streaming
+  # 合并源: Instagram, Reddit, Threads, Twitter (共 4 个源)
+  - RULE-SET, Social, Social
+  # 合并源: YouTube (共 1 个源)
+  - RULE-SET, YouTube, YouTube
+  # 合并源: Telegram (共 1 个源)
+  - RULE-SET, Telegram, Telegram
+  # 合并源: Atlassian, GitHub, GitLab (共 3 个源)
+  - RULE-SET, GitHub, GitHub
+  # 合并源: Microsoft (共 1 个源)
+  - RULE-SET, Microsoft, Microsoft
+  # 合并源: Line, Whatsapp (共 2 个源)
+  - RULE-SET, HongKongSocial, HongKongSocial
+  # 合并源: HKBank, HK_Banks_Direct, HSBC_HK (共 3 个源)
+  - RULE-SET, HongKongBanking, HongKongBanking
+  # 合并源: Broker (共 1 个源)
+  - RULE-SET, Brokerage, Brokerage
+  # 合并源: PikPak, TeraBox (共 2 个源)
+  - RULE-SET, LowRate, LowRate
+  - RULE-SET, DouYin, DIRECT
+  - RULE-SET, BiliBili, DIRECT
+  - RULE-SET, Cloudflare, GitHub
+  - RULE-SET, ApplePush, ApplePush
+  - RULE-SET, apple, DIRECT
+  - RULE-SET, Soop, DIRECT
+  - RULE-SET, cn, DIRECT
+  - RULE-SET, ChinaMax, DIRECT
+  - RULE-SET, ChinaCIDR, DIRECT
+  - MATCH, PROXY

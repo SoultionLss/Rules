@@ -104,9 +104,7 @@ v2ray/
 {
   "routing": {
     "rules": [
-      # 合并源: OpenAI, Claude, Grok (共 3 个源)
       { "domain": ["geosite:AI"] },
-      # 独立源
       { "domain": ["geosite:Google"] }
     ]
   }
@@ -123,4 +121,4 @@ v2ray/
 
 ---
 
-*最后更新: 2026-09-02 18:17:38*
+*最后更新: 2026-09-02 18:29:26*
