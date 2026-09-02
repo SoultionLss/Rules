@@ -10,7 +10,6 @@
 - 独立文件:
   - `Anthropic.json`
   - `Claude.json`
-  - `OpenAI.json`
   - `xAI.json`
 
 ### ApplePush
@@ -28,15 +27,6 @@
 ### GitHub
 
 - 合并文件: `GitHub.json`
-- 独立文件:
-  - `GitHub.json`
-
-### Google
-
-- 合并文件: `Google.json`
-- 独立文件:
-  - `Gemini.json`
-  - `Google.json`
 
 ### HongKongBanking
 
@@ -55,17 +45,10 @@
 
 - 合并文件: `LowRate.json`
 
-### Microsoft
-
-- 合并文件: `Microsoft.json`
-- 独立文件:
-  - `Microsoft.json`
-
 ### Social
 
 - 合并文件: `Social.json`
 - 独立文件:
-  - `Instagram.json`
   - `Reddit.json`
   - `Threads.json`
   - `Twitter.json`
@@ -75,30 +58,6 @@
 - 合并文件: `Streaming.json`
 - 独立文件:
   - `Crunchyroll.json`
-  - `Disney.json`
-  - `HBO.json`
-  - `Hulu.json`
-  - `Netflix.json`
-  - `Peacock.json`
-  - `PrimeVideo.json`
-
-### Telegram
-
-- 合并文件: `Telegram.json`
-- 独立文件:
-  - `Telegram.json`
-
-### TikTok
-
-- 合并文件: `TikTok.json`
-- 独立文件:
-  - `TikTok.json`
-
-### YouTube
-
-- 合并文件: `YouTube.json`
-- 独立文件:
-  - `YouTube.json`
 
 ## 使用方式
 在客户端配置中按需引用对应文件，推荐顺序：独立文件优先，合并文件兜底。

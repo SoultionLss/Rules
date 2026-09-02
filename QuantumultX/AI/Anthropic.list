@@ -1,13 +1,11 @@
 # ============================================================
 # 规则策略: AI
-# 域名规则总数: 3 条
+# 域名规则总数: 1 条
 # IP-CIDR 规则总数: 0 条
 # 规则来源条目总数: 1 条
 # 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Anthropic/Anthropic.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-02 12:07:37
+# 最后更新: 2026-09-02 12:23:24
 # ============================================================
 
-HOST-SUFFIX,anthropic.com,AI
 HOST-SUFFIX,claude.ai,AI
-HOST-SUFFIX,servd-anthropic-website.b-cdn.net,AI

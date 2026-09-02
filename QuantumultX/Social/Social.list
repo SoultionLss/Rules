@@ -1,54 +1,13 @@
 # ============================================================
 # 规则策略: Social
-# 域名规则总数: 38 条
-# IP-CIDR 规则总数: 6 条
-# 规则来源条目总数: 4 条
-# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Instagram/Instagram.list, blackmatrix7/ios_rule_script@master/rule/Surge/Reddit/Reddit.list, blackmatrix7/ios_rule_script@master/rule/Surge/Threads/Threads.list, blackmatrix7/ios_rule_script@master/rule/Surge/Twitter/Twitter.list
+# 域名规则总数: 2 条
+# IP-CIDR 规则总数: 1 条
+# 规则来源条目总数: 3 条
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Reddit/Reddit.list, blackmatrix7/ios_rule_script@master/rule/Surge/Threads/Threads.list, blackmatrix7/ios_rule_script@master/rule/Surge/Twitter/Twitter.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-02 12:07:37
+# 最后更新: 2026-09-02 12:23:24
 # ============================================================
 
-HOST-SUFFIX,ads-twitter.com,Social
-HOST-SUFFIX,cdninstagram.com,Social
-HOST-SUFFIX,cms-twdigitalassets.com,Social
-HOST-SUFFIX,grok.com,Social
-HOST-SUFFIX,instagr.am,Social
-HOST-SUFFIX,instagram.com,Social
-HOST-SUFFIX,periscope.tv,Social
-HOST-SUFFIX,pscp.tv,Social
-HOST-SUFFIX,redd.it,Social
-HOST-SUFFIX,reddit.com,Social
-HOST-SUFFIX,redditmail.com,Social
-HOST-SUFFIX,redditmedia.com,Social
-HOST-SUFFIX,redditstatic.com,Social
-HOST-SUFFIX,reddituploads.com,Social
-HOST-SUFFIX,reddituploads.com.cdn-cf.behance.net,Social
 HOST-SUFFIX,reddituploads.com.cdn-cf.dropbox.com,Social
-HOST-SUFFIX,t.co,Social
-HOST-SUFFIX,tellapart.com,Social
 HOST-SUFFIX,threads.net,Social
-HOST-SUFFIX,tweetdeck.com,Social
-HOST-SUFFIX,twimg.co,Social
-HOST-SUFFIX,twimg.com,Social
-HOST-SUFFIX,twimg.org,Social
-HOST-SUFFIX,twitpic.com,Social
-HOST-SUFFIX,twitter.biz,Social
-HOST-SUFFIX,twitter.com,Social
-HOST-SUFFIX,twitter.jp,Social
-HOST-SUFFIX,twittercommunity.com,Social
-HOST-SUFFIX,twitterflightschool.com,Social
-HOST-SUFFIX,twitterinc.com,Social
-HOST-SUFFIX,twitteroauth.com,Social
-HOST-SUFFIX,twitterstat.us,Social
-HOST-SUFFIX,twtrdns.net,Social
-HOST-SUFFIX,twttr.com,Social
-HOST-SUFFIX,twttr.net,Social
-HOST-SUFFIX,twvid.com,Social
-HOST-SUFFIX,vine.co,Social
-HOST-SUFFIX,x.com,Social
-IP-CIDR,192.133.76.0/22,Social
-IP-CIDR,199.59.148.0/22,Social
-IP-CIDR,199.96.56.0/21,Social
-IP-CIDR,202.160.128.0/22,Social
-IP-CIDR,209.237.192.0/19,Social
 IP-CIDR,69.195.160.0/19,Social

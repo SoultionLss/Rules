@@ -1,42 +1,11 @@
 # ============================================================
 # 规则策略: Social
-# 域名规则总数: 26 条
-# IP-CIDR 规则总数: 6 条
+# 域名规则总数: 0 条
+# IP-CIDR 规则总数: 1 条
 # 规则来源条目总数: 1 条
 # 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Twitter/Twitter.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-02 12:07:37
+# 最后更新: 2026-09-02 12:23:24
 # ============================================================
 
-DOMAIN-SUFFIX,ads-twitter.com,Social
-DOMAIN-SUFFIX,cms-twdigitalassets.com,Social
-DOMAIN-SUFFIX,grok.com,Social
-DOMAIN-SUFFIX,periscope.tv,Social
-DOMAIN-SUFFIX,pscp.tv,Social
-DOMAIN-SUFFIX,t.co,Social
-DOMAIN-SUFFIX,tellapart.com,Social
-DOMAIN-SUFFIX,tweetdeck.com,Social
-DOMAIN-SUFFIX,twimg.co,Social
-DOMAIN-SUFFIX,twimg.com,Social
-DOMAIN-SUFFIX,twimg.org,Social
-DOMAIN-SUFFIX,twitpic.com,Social
-DOMAIN-SUFFIX,twitter.biz,Social
-DOMAIN-SUFFIX,twitter.com,Social
-DOMAIN-SUFFIX,twitter.jp,Social
-DOMAIN-SUFFIX,twittercommunity.com,Social
-DOMAIN-SUFFIX,twitterflightschool.com,Social
-DOMAIN-SUFFIX,twitterinc.com,Social
-DOMAIN-SUFFIX,twitteroauth.com,Social
-DOMAIN-SUFFIX,twitterstat.us,Social
-DOMAIN-SUFFIX,twtrdns.net,Social
-DOMAIN-SUFFIX,twttr.com,Social
-DOMAIN-SUFFIX,twttr.net,Social
-DOMAIN-SUFFIX,twvid.com,Social
-DOMAIN-SUFFIX,vine.co,Social
-DOMAIN-SUFFIX,x.com,Social
-IP-CIDR,192.133.76.0/22,Social
-IP-CIDR,199.59.148.0/22,Social
-IP-CIDR,199.96.56.0/21,Social
-IP-CIDR,202.160.128.0/22,Social
-IP-CIDR,209.237.192.0/19,Social
 IP-CIDR,69.195.160.0/19,Social

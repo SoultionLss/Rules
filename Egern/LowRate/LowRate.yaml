@@ -1,19 +1,12 @@
 # ============================================================
 # 规则策略: LowRate
-# 域名规则总数: 8 条
+# 域名规则总数: 1 条
 # IP-CIDR 规则总数: 0 条
-# 规则来源条目总数: 2 条
-# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/PikPak/PikPak.list, blackmatrix7/ios_rule_script@master/rule/Surge/TeraBox/TeraBox.list
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/TeraBox/TeraBox.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-02 12:07:37
+# 最后更新: 2026-09-02 12:23:24
 # ============================================================
 
 rules:
-  - domain_suffix: dlandroid.rcv.sandai.net
-  - domain_suffix: hub5idx.v6.shub.sandai.net
-  - domain_suffix: hub5pn.wap.sandai.net
-  - domain_suffix: hub5pnc.sandai.net
-  - domain_suffix: hub5pr.v6.phub.sandai.net
-  - domain_suffix: hubciddata.sandai.net
-  - domain_suffix: terabox.com
   - domain_suffix: teraboxcdn.com
