@@ -1,0 +1,75 @@
+# ============================================================
+# 规则策略: GitHub
+# 域名规则总数: 43 条
+# IP-CIDR 规则总数: 22 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Cloudflare/Cloudflare.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-02 17:02:18
+# ============================================================
+
+HOST-SUFFIX,cf-ipfs.com,GitHub
+HOST-SUFFIX,cf-ns.com,GitHub
+HOST-SUFFIX,cf-ns.net,GitHub
+HOST-SUFFIX,cf-ns.site,GitHub
+HOST-SUFFIX,cf-ns.tech,GitHub
+HOST-SUFFIX,cftest5.cn,GitHub
+HOST-SUFFIX,cftest6.cn,GitHub
+HOST-SUFFIX,cftest7.com,GitHub
+HOST-SUFFIX,cftest8.com,GitHub
+HOST-SUFFIX,cloudflare-cn.com,GitHub
+HOST-SUFFIX,cloudflare-dns.com,GitHub
+HOST-SUFFIX,cloudflare-ipfs.com,GitHub
+HOST-SUFFIX,cloudflare-quic.com,GitHub
+HOST-SUFFIX,cloudflare.com,GitHub
+HOST-SUFFIX,cloudflare.net,GitHub
+HOST-SUFFIX,cloudflare.tv,GitHub
+HOST-SUFFIX,cloudflareaccess.com,GitHub
+HOST-SUFFIX,cloudflareapps.com,GitHub
+HOST-SUFFIX,cloudflarebolt.com,GitHub
+HOST-SUFFIX,cloudflareclient.com,GitHub
+HOST-SUFFIX,cloudflarecn.net,GitHub
+HOST-SUFFIX,cloudflareinsights-cn.com,GitHub
+HOST-SUFFIX,cloudflareinsights.com,GitHub
+HOST-SUFFIX,cloudflareok.com,GitHub
+HOST-SUFFIX,cloudflarepreview.com,GitHub
+HOST-SUFFIX,cloudflareprod.com,GitHub
+HOST-SUFFIX,cloudflareresolve.com,GitHub
+HOST-SUFFIX,cloudflaressl.com,GitHub
+HOST-SUFFIX,cloudflarestaging.com,GitHub
+HOST-SUFFIX,cloudflarestatus.com,GitHub
+HOST-SUFFIX,cloudflarestorage.com,GitHub
+HOST-SUFFIX,cloudflarestoragegw.com,GitHub
+HOST-SUFFIX,cloudflarestream.com,GitHub
+HOST-SUFFIX,cloudflaretest.com,GitHub
+HOST-SUFFIX,cloudflarewarp.com,GitHub
+HOST-SUFFIX,every1dns.net,GitHub
+HOST-SUFFIX,one.one.one,GitHub
+HOST-SUFFIX,pacloudflare.com,GitHub
+HOST-SUFFIX,pages.dev,GitHub
+HOST-SUFFIX,trycloudflare.com,GitHub
+HOST-SUFFIX,videodelivery.net,GitHub
+HOST-SUFFIX,warp.plus,GitHub
+HOST-SUFFIX,workers.dev,GitHub
+IP-CIDR,103.21.244.0/22,GitHub
+IP-CIDR,103.22.200.0/22,GitHub
+IP-CIDR,103.31.4.0/22,GitHub
+IP-CIDR,104.16.0.0/13,GitHub
+IP-CIDR,104.24.0.0/14,GitHub
+IP-CIDR,108.162.192.0/18,GitHub
+IP-CIDR,131.0.72.0/22,GitHub
+IP-CIDR,141.101.64.0/18,GitHub
+IP-CIDR,162.158.0.0/15,GitHub
+IP-CIDR,172.64.0.0/13,GitHub
+IP-CIDR,173.245.48.0/20,GitHub
+IP-CIDR,188.114.96.0/20,GitHub
+IP-CIDR,190.93.240.0/20,GitHub
+IP-CIDR,197.234.240.0/22,GitHub
+IP-CIDR,198.41.128.0/17,GitHub
+IP-CIDR,2400:cb00::/32,GitHub
+IP-CIDR,2405:8100::/32,GitHub
+IP-CIDR,2405:b500::/32,GitHub
+IP-CIDR,2606:4700::/32,GitHub
+IP-CIDR,2803:f800::/32,GitHub
+IP-CIDR,2a06:98c0::/29,GitHub
+IP-CIDR,2c0f:f248::/32,GitHub

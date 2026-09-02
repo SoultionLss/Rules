@@ -220,6 +220,11 @@ proxy-groups:
   - 低倍率-故转
   - Manual
 rule-providers:
+  REJECT:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/REJECT/REJECT.yaml
+    interval: 86400
+    behavior: classical
   Google:
     type: http
     url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Google/Google.yaml
@@ -292,7 +297,12 @@ rule-providers:
     behavior: classical
   BiliBili:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/BiliBili/BiliBili.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/BiliBili.yaml
+    interval: 86400
+    behavior: classical
+  Cloudflare:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/GitHub/Cloudflare.yaml
     interval: 86400
     behavior: classical
   ApplePush:
@@ -302,33 +312,35 @@ rule-providers:
     behavior: classical
   apple:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/AppleDirect/apple.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/apple.yaml
     interval: 86400
     behavior: classical
   Soop:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/SOOP/Soop.yaml
-    interval: 86400
-    behavior: classical
-  ChinaMax:
-    type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/ChinaMax/ChinaMax.yaml
-    interval: 86400
-    behavior: classical
-  ChinaCIDR:
-    type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/ChinaCIDR/ChinaCIDR.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/Soop.yaml
     interval: 86400
     behavior: classical
   cn:
     type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/ChinaCIDR/cn.yaml
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/cn.yaml
+    interval: 86400
+    behavior: classical
+  ChinaMax:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/ChinaMax.yaml
+    interval: 86400
+    behavior: classical
+  ChinaCIDR:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/ChinaCIDR.yaml
     interval: 86400
     behavior: classical
 rules:
+- '  # 合并源: BlockHttpDNS (共 1 个源)'
+- '  - RULE-SET, REJECT, REJECT'
 - '  # 合并源: Gemini, Google (共 2 个源)'
 - '  - RULE-SET, Google, Google'
-- '  # 合并源: Anthropic, Claude, OpenAI, xAI (共 4 个源)'
+- '  # 合并源: Anthropic, Claude, OpenAI (共 3 个源)'
 - '  - RULE-SET, AI, AI'
 - '  # 合并源: TikTok (共 1 个源)'
 - '  - RULE-SET, TikTok, TikTok'
@@ -340,7 +352,7 @@ rules:
 - '  - RULE-SET, YouTube, YouTube'
 - '  # 合并源: Telegram (共 1 个源)'
 - '  - RULE-SET, Telegram, Telegram'
-- '  # 合并源: Atlassian, Cloudflare, GitHub, GitLab (共 4 个源)'
+- '  # 合并源: Atlassian, GitHub, GitLab (共 3 个源)'
 - '  - RULE-SET, GitHub, GitHub'
 - '  # 合并源: Microsoft (共 1 个源)'
 - '  - RULE-SET, Microsoft, Microsoft'
@@ -353,11 +365,12 @@ rules:
 - '  # 合并源: PikPak, TeraBox (共 2 个源)'
 - '  - RULE-SET, LowRate, LowRate'
 - '  - RULE-SET, DouYin, DIRECT'
-- '  - RULE-SET, BiliBili, BiliBili'
+- '  - RULE-SET, BiliBili, DIRECT'
+- '  - RULE-SET, Cloudflare, GitHub'
 - '  - RULE-SET, ApplePush, ApplePush'
-- '  - RULE-SET, apple, AppleDirect'
-- '  - RULE-SET, Soop, SOOP'
-- '  - RULE-SET, ChinaMax, ChinaMax'
-- '  - RULE-SET, ChinaCIDR, ChinaCIDR'
-- '  - RULE-SET, cn, ChinaCIDR'
+- '  - RULE-SET, apple, DIRECT'
+- '  - RULE-SET, Soop, DIRECT'
+- '  - RULE-SET, cn, DIRECT'
+- '  - RULE-SET, ChinaMax, DIRECT'
+- '  - RULE-SET, ChinaCIDR, DIRECT'
 - '  - MATCH, PROXY'

@@ -1,0 +1,76 @@
+# ============================================================
+# 规则策略: GitHub
+# 域名规则总数: 43 条
+# IP-CIDR 规则总数: 22 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Cloudflare/Cloudflare.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-02 17:02:18
+# ============================================================
+
+rules:
+  - domain_suffix: cf-ipfs.com
+  - domain_suffix: cf-ns.com
+  - domain_suffix: cf-ns.net
+  - domain_suffix: cf-ns.site
+  - domain_suffix: cf-ns.tech
+  - domain_suffix: cftest5.cn
+  - domain_suffix: cftest6.cn
+  - domain_suffix: cftest7.com
+  - domain_suffix: cftest8.com
+  - domain_suffix: cloudflare-cn.com
+  - domain_suffix: cloudflare-dns.com
+  - domain_suffix: cloudflare-ipfs.com
+  - domain_suffix: cloudflare-quic.com
+  - domain_suffix: cloudflare.com
+  - domain_suffix: cloudflare.net
+  - domain_suffix: cloudflare.tv
+  - domain_suffix: cloudflareaccess.com
+  - domain_suffix: cloudflareapps.com
+  - domain_suffix: cloudflarebolt.com
+  - domain_suffix: cloudflareclient.com
+  - domain_suffix: cloudflarecn.net
+  - domain_suffix: cloudflareinsights-cn.com
+  - domain_suffix: cloudflareinsights.com
+  - domain_suffix: cloudflareok.com
+  - domain_suffix: cloudflarepreview.com
+  - domain_suffix: cloudflareprod.com
+  - domain_suffix: cloudflareresolve.com
+  - domain_suffix: cloudflaressl.com
+  - domain_suffix: cloudflarestaging.com
+  - domain_suffix: cloudflarestatus.com
+  - domain_suffix: cloudflarestorage.com
+  - domain_suffix: cloudflarestoragegw.com
+  - domain_suffix: cloudflarestream.com
+  - domain_suffix: cloudflaretest.com
+  - domain_suffix: cloudflarewarp.com
+  - domain_suffix: every1dns.net
+  - domain_suffix: one.one.one
+  - domain_suffix: pacloudflare.com
+  - domain_suffix: pages.dev
+  - domain_suffix: trycloudflare.com
+  - domain_suffix: videodelivery.net
+  - domain_suffix: warp.plus
+  - domain_suffix: workers.dev
+  - ip_cidr: 103.21.244.0/22
+  - ip_cidr: 103.22.200.0/22
+  - ip_cidr: 103.31.4.0/22
+  - ip_cidr: 104.16.0.0/13
+  - ip_cidr: 104.24.0.0/14
+  - ip_cidr: 108.162.192.0/18
+  - ip_cidr: 131.0.72.0/22
+  - ip_cidr: 141.101.64.0/18
+  - ip_cidr: 162.158.0.0/15
+  - ip_cidr: 172.64.0.0/13
+  - ip_cidr: 173.245.48.0/20
+  - ip_cidr: 188.114.96.0/20
+  - ip_cidr: 190.93.240.0/20
+  - ip_cidr: 197.234.240.0/22
+  - ip_cidr: 198.41.128.0/17
+  - ip_cidr: 2400:cb00::/32
+  - ip_cidr: 2405:8100::/32
+  - ip_cidr: 2405:b500::/32
+  - ip_cidr: 2606:4700::/32
+  - ip_cidr: 2803:f800::/32
+  - ip_cidr: 2a06:98c0::/29
+  - ip_cidr: 2c0f:f248::/32

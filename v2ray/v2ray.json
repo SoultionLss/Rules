@@ -1,9 +1,11 @@
 {
   "routing": {
     "rules": [
+      "    # 合并源: BlockHttpDNS (共 1 个源)",
+      "    { \"domain\": [\"geosite:REJECT\"] },",
       "    # 合并源: Gemini, Google (共 2 个源)",
       "    { \"domain\": [\"geosite:Google\"] },",
-      "    # 合并源: Anthropic, Claude, OpenAI, xAI (共 4 个源)",
+      "    # 合并源: Anthropic, Claude, OpenAI (共 3 个源)",
       "    { \"domain\": [\"geosite:AI\"] },",
       "    # 合并源: TikTok (共 1 个源)",
       "    { \"domain\": [\"geosite:TikTok\"] },",
@@ -15,7 +17,7 @@
       "    { \"domain\": [\"geosite:YouTube\"] },",
       "    # 合并源: Telegram (共 1 个源)",
       "    { \"domain\": [\"geosite:Telegram\"] },",
-      "    # 合并源: Atlassian, Cloudflare, GitHub, GitLab (共 4 个源)",
+      "    # 合并源: Atlassian, GitHub, GitLab (共 3 个源)",
       "    { \"domain\": [\"geosite:GitHub\"] },",
       "    # 合并源: Microsoft (共 1 个源)",
       "    { \"domain\": [\"geosite:Microsoft\"] },",
@@ -29,12 +31,13 @@
       "    { \"domain\": [\"geosite:LowRate\"] },",
       "    { \"domain\": [\"geosite:DouYin\"] },",
       "    { \"domain\": [\"geosite:BiliBili\"] },",
+      "    { \"domain\": [\"geosite:Cloudflare\"] },",
       "    { \"domain\": [\"geosite:ApplePush\"] },",
       "    { \"domain\": [\"geosite:apple\"] },",
       "    { \"domain\": [\"geosite:Soop\"] },",
+      "    { \"domain\": [\"geosite:cn\"] },",
       "    { \"domain\": [\"geosite:ChinaMax\"] },",
-      "    { \"domain\": [\"geosite:ChinaCIDR\"] },",
-      "    { \"domain\": [\"geosite:cn\"] }"
+      "    { \"domain\": [\"geosite:ChinaCIDR\"] }"
     ]
   },
   "http_port": 6152,

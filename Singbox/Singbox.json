@@ -1,9 +1,11 @@
 {
   "route": {
     "rules": [
+      "    # 合并源: BlockHttpDNS (共 1 个源)",
+      "    { \"rule_set\": \"REJECT\" },",
       "    # 合并源: Gemini, Google (共 2 个源)",
       "    { \"rule_set\": \"Google\" },",
-      "    # 合并源: Anthropic, Claude, OpenAI, xAI (共 4 个源)",
+      "    # 合并源: Anthropic, Claude, OpenAI (共 3 个源)",
       "    { \"rule_set\": \"AI\" },",
       "    # 合并源: TikTok (共 1 个源)",
       "    { \"rule_set\": \"TikTok\" },",
@@ -15,7 +17,7 @@
       "    { \"rule_set\": \"YouTube\" },",
       "    # 合并源: Telegram (共 1 个源)",
       "    { \"rule_set\": \"Telegram\" },",
-      "    # 合并源: Atlassian, Cloudflare, GitHub, GitLab (共 4 个源)",
+      "    # 合并源: Atlassian, GitHub, GitLab (共 3 个源)",
       "    { \"rule_set\": \"GitHub\" },",
       "    # 合并源: Microsoft (共 1 个源)",
       "    { \"rule_set\": \"Microsoft\" },",
@@ -29,14 +31,21 @@
       "    { \"rule_set\": \"LowRate\" },",
       "    { \"rule_set\": \"DouYin\" },",
       "    { \"rule_set\": \"BiliBili\" },",
+      "    { \"rule_set\": \"Cloudflare\" },",
       "    { \"rule_set\": \"ApplePush\" },",
       "    { \"rule_set\": \"apple\" },",
       "    { \"rule_set\": \"Soop\" },",
+      "    { \"rule_set\": \"cn\" },",
       "    { \"rule_set\": \"ChinaMax\" },",
-      "    { \"rule_set\": \"ChinaCIDR\" },",
-      "    { \"rule_set\": \"cn\" }"
+      "    { \"rule_set\": \"ChinaCIDR\" }"
     ],
     "rule_set": [
+      {
+        "tag": "REJECT",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/REJECT/REJECT.json"
+      },
       {
         "tag": "Google",
         "type": "remote",
@@ -125,7 +134,13 @@
         "tag": "BiliBili",
         "type": "remote",
         "format": "source",
-        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/BiliBili/BiliBili.json"
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/DIRECT/BiliBili.json"
+      },
+      {
+        "tag": "Cloudflare",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/GitHub/Cloudflare.json"
       },
       {
         "tag": "ApplePush",
@@ -137,31 +152,31 @@
         "tag": "apple",
         "type": "remote",
         "format": "source",
-        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/AppleDirect/apple.json"
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/DIRECT/apple.json"
       },
       {
         "tag": "Soop",
         "type": "remote",
         "format": "source",
-        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/SOOP/Soop.json"
-      },
-      {
-        "tag": "ChinaMax",
-        "type": "remote",
-        "format": "source",
-        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/ChinaMax/ChinaMax.json"
-      },
-      {
-        "tag": "ChinaCIDR",
-        "type": "remote",
-        "format": "source",
-        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/ChinaCIDR/ChinaCIDR.json"
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/DIRECT/Soop.json"
       },
       {
         "tag": "cn",
         "type": "remote",
         "format": "source",
-        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/ChinaCIDR/cn.json"
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/DIRECT/cn.json"
+      },
+      {
+        "tag": "ChinaMax",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/DIRECT/ChinaMax.json"
+      },
+      {
+        "tag": "ChinaCIDR",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/DIRECT/ChinaCIDR.json"
       }
     ]
   },

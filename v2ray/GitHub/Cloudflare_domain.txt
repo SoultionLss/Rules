@@ -1,0 +1,53 @@
+# ============================================================
+# 规则策略: GitHub
+# 域名规则总数: 43 条
+# IP-CIDR 规则总数: 22 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Cloudflare/Cloudflare.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-02 17:02:18
+# ============================================================
+
+cf-ipfs.com
+cf-ns.com
+cf-ns.net
+cf-ns.site
+cf-ns.tech
+cftest5.cn
+cftest6.cn
+cftest7.com
+cftest8.com
+cloudflare-cn.com
+cloudflare-dns.com
+cloudflare-ipfs.com
+cloudflare-quic.com
+cloudflare.com
+cloudflare.net
+cloudflare.tv
+cloudflareaccess.com
+cloudflareapps.com
+cloudflarebolt.com
+cloudflareclient.com
+cloudflarecn.net
+cloudflareinsights-cn.com
+cloudflareinsights.com
+cloudflareok.com
+cloudflarepreview.com
+cloudflareprod.com
+cloudflareresolve.com
+cloudflaressl.com
+cloudflarestaging.com
+cloudflarestatus.com
+cloudflarestorage.com
+cloudflarestoragegw.com
+cloudflarestream.com
+cloudflaretest.com
+cloudflarewarp.com
+every1dns.net
+one.one.one
+pacloudflare.com
+pages.dev
+trycloudflare.com
+videodelivery.net
+warp.plus
+workers.dev

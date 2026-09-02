@@ -16,40 +16,30 @@ v2ray/
 
 ### AI
 
-- **合集** `AI`：包含 Anthropic, Claude, OpenAI, xAI
-
-### AppleDirect
-
-- **独立** `apple`
+- **合集** `AI`：包含 Anthropic, Claude, OpenAI
 
 ### ApplePush
 
 - **独立** `ApplePush`
 
-### BiliBili
-
-- **独立** `BiliBili`
-
 ### Brokerage
 
 - **合集** `Brokerage`：包含 Broker
 
-### ChinaCIDR
-
-- **独立** `ChinaCIDR`
-- **独立** `cn`
-
-### ChinaMax
-
-- **独立** `ChinaMax`
-
 ### DIRECT
 
 - **独立** `DouYin`
+- **独立** `BiliBili`
+- **独立** `apple`
+- **独立** `Soop`
+- **独立** `cn`
+- **独立** `ChinaMax`
+- **独立** `ChinaCIDR`
 
 ### GitHub
 
-- **合集** `GitHub`：包含 Atlassian, Cloudflare, GitHub, GitLab
+- **合集** `GitHub`：包含 Atlassian, GitHub, GitLab
+- **独立** `Cloudflare`
 
 ### Google
 
@@ -71,9 +61,9 @@ v2ray/
 
 - **合集** `Microsoft`：包含 Microsoft
 
-### SOOP
+### REJECT
 
-- **独立** `Soop`
+- **合集** `REJECT`：包含 BlockHttpDNS
 
 ### Social
 
@@ -135,4 +125,4 @@ v2ray/
 
 ---
 
-*最后更新: 2026-09-02 16:15:04*
+*最后更新: 2026-09-02 17:02:19*
