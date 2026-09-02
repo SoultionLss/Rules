@@ -220,64 +220,9 @@ proxy-groups:
   - 低倍率-故转
   - Manual
 rule-providers:
-  REJECT:
-    type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/REJECT/REJECT.yaml
-    interval: 86400
-    behavior: classical
-  DIRECT:
-    type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/DIRECT.yaml
-    interval: 86400
-    behavior: classical
-  TikTok:
-    type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/TikTok/TikTok.yaml
-    interval: 86400
-    behavior: classical
-  Global:
-    type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Global/Global.yaml
-    interval: 86400
-    behavior: classical
-  Streaming:
-    type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Streaming/Streaming.yaml
-    interval: 86400
-    behavior: classical
-  Microsoft:
-    type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Microsoft/Microsoft.yaml
-    interval: 86400
-    behavior: classical
-  GitHub:
-    type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/GitHub/GitHub.yaml
-    interval: 86400
-    behavior: classical
-  Telegram:
-    type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Telegram/Telegram.yaml
-    interval: 86400
-    behavior: classical
-  HongKongSocial:
-    type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/HongKongSocial/HongKongSocial.yaml
-    interval: 86400
-    behavior: classical
-  Social:
-    type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Social/Social.yaml
-    interval: 86400
-    behavior: classical
   Google:
     type: http
     url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Google/Google.yaml
-    interval: 86400
-    behavior: classical
-  YouTube:
-    type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/YouTube/YouTube.yaml
     interval: 86400
     behavior: classical
   AI:
@@ -285,33 +230,134 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/AI/AI.yaml
     interval: 86400
     behavior: classical
+  TikTok:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/TikTok/TikTok.yaml
+    interval: 86400
+    behavior: classical
+  Streaming:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Streaming/Streaming.yaml
+    interval: 86400
+    behavior: classical
+  Social:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Social/Social.yaml
+    interval: 86400
+    behavior: classical
+  YouTube:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/YouTube/YouTube.yaml
+    interval: 86400
+    behavior: classical
+  Telegram:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Telegram/Telegram.yaml
+    interval: 86400
+    behavior: classical
+  GitHub:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/GitHub/GitHub.yaml
+    interval: 86400
+    behavior: classical
+  Microsoft:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Microsoft/Microsoft.yaml
+    interval: 86400
+    behavior: classical
+  HongKongSocial:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/HongKongSocial/HongKongSocial.yaml
+    interval: 86400
+    behavior: classical
+  HongKongBanking:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/HongKongBanking/HongKongBanking.yaml
+    interval: 86400
+    behavior: classical
+  Brokerage:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Brokerage/Brokerage.yaml
+    interval: 86400
+    behavior: classical
+  LowRate:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/LowRate/LowRate.yaml
+    interval: 86400
+    behavior: classical
+  DouYin:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/DouYin.yaml
+    interval: 86400
+    behavior: classical
+  BiliBili:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/BiliBili/BiliBili.yaml
+    interval: 86400
+    behavior: classical
+  ApplePush:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/ApplePush/ApplePush.yaml
+    interval: 86400
+    behavior: classical
+  apple:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/AppleDirect/apple.yaml
+    interval: 86400
+    behavior: classical
+  Soop:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/SOOP/Soop.yaml
+    interval: 86400
+    behavior: classical
+  ChinaMax:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/ChinaMax/ChinaMax.yaml
+    interval: 86400
+    behavior: classical
+  ChinaCIDR:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/ChinaCIDR/ChinaCIDR.yaml
+    interval: 86400
+    behavior: classical
+  cn:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/ChinaCIDR/cn.yaml
+    interval: 86400
+    behavior: classical
 rules:
-- '  - RULE-SET, REJECT, REJECT'
-- '  - RULE-SET, DIRECT, DIRECT'
-- '  - RULE-SET, TikTok, TikTok'
-- '  - RULE-SET, DIRECT, DIRECT'
-- '  - RULE-SET, Global, Global'
-- '  - RULE-SET, Streaming, Streaming'
-- '  - RULE-SET, Microsoft, Microsoft'
-- '  - RULE-SET, GitHub, GitHub'
-- '  - RULE-SET, Telegram, Telegram'
-- '  - RULE-SET, HongKongSocial, HongKongSocial'
-- '  - RULE-SET, HongKongSocial, HongKongSocial'
-- '  - RULE-SET, Social, Social'
-- '  - RULE-SET, Social, Social'
-- '  - RULE-SET, Social, Social'
-- '  - RULE-SET, Social, Social'
-- '  - RULE-SET, Streaming, Streaming'
-- '  - RULE-SET, Streaming, Streaming'
-- '  - RULE-SET, Streaming, Streaming'
-- '  - RULE-SET, Streaming, Streaming'
-- '  - RULE-SET, Streaming, Streaming'
-- '  - RULE-SET, Streaming, Streaming'
-- '  - RULE-SET, Streaming, Streaming'
+- '  # 合并源: Gemini, Google (共 2 个源)'
 - '  - RULE-SET, Google, Google'
-- '  - RULE-SET, YouTube, YouTube'
-- '  - RULE-SET, Global, Global'
+- '  # 合并源: Anthropic, Claude, OpenAI, xAI (共 4 个源)'
 - '  - RULE-SET, AI, AI'
-- '  - RULE-SET, DIRECT, DIRECT'
-- '  - RULE-SET, DIRECT, DIRECT'
+- '  # 合并源: TikTok (共 1 个源)'
+- '  - RULE-SET, TikTok, TikTok'
+- '  # 合并源: Crunchyroll, Disney, HBO, Hulu, Netflix, Peacock, PrimeVideo (共 7 个源)'
+- '  - RULE-SET, Streaming, Streaming'
+- '  # 合并源: Instagram, Reddit, Threads, Twitter (共 4 个源)'
+- '  - RULE-SET, Social, Social'
+- '  # 合并源: YouTube (共 1 个源)'
+- '  - RULE-SET, YouTube, YouTube'
+- '  # 合并源: Telegram (共 1 个源)'
+- '  - RULE-SET, Telegram, Telegram'
+- '  # 合并源: Atlassian, Cloudflare, GitHub, GitLab (共 4 个源)'
+- '  - RULE-SET, GitHub, GitHub'
+- '  # 合并源: Microsoft (共 1 个源)'
+- '  - RULE-SET, Microsoft, Microsoft'
+- '  # 合并源: Line, Whatsapp (共 2 个源)'
+- '  - RULE-SET, HongKongSocial, HongKongSocial'
+- '  # 合并源: HKBank, HK_Banks_Direct, HSBC_HK (共 3 个源)'
+- '  - RULE-SET, HongKongBanking, HongKongBanking'
+- '  # 合并源: Broker (共 1 个源)'
+- '  - RULE-SET, Brokerage, Brokerage'
+- '  # 合并源: PikPak, TeraBox (共 2 个源)'
+- '  - RULE-SET, LowRate, LowRate'
+- '  - RULE-SET, DouYin, DIRECT'
+- '  - RULE-SET, BiliBili, BiliBili'
+- '  - RULE-SET, ApplePush, ApplePush'
+- '  - RULE-SET, apple, AppleDirect'
+- '  - RULE-SET, Soop, SOOP'
+- '  - RULE-SET, ChinaMax, ChinaMax'
+- '  - RULE-SET, ChinaCIDR, ChinaCIDR'
+- '  - RULE-SET, cn, ChinaCIDR'
 - '  - MATCH, PROXY'

@@ -375,141 +375,102 @@ policy_groups:
     - Manual
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
 rules:
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/REJECT/REJECT.yaml
-    policy: REJECT
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT/DIRECT.yaml
-    policy: DIRECT
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/TikTok/TikTok.yaml
-    policy: TikTok
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT/DIRECT.yaml
-    policy: DIRECT
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Global/Global.yaml
-    policy: Global
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml
-    policy: Streaming
-    disabled: false
-- domain:
-    match: copilot.microsoft.com
-    policy: AI
-- domain:
-    match: api.microsoftapp.net
-    policy: AI
-- domain:
-    match: copilot.azure.com
-    policy: AI
-- domain:
-    match: openai.azure.com
-    policy: AI
-- domain:
-    match: edgeservices.bing.com
-    policy: AI
-- domain:
-    match: sydney.bing.com
-    policy: AI
-- domain:
-    match: img.bing.com
-    policy: AI
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Microsoft/Microsoft.yaml
-    policy: Microsoft
-- domain:
-    match: cn.bing.com
-    policy: DIRECT
-- domain:
-    match: '*.cn.bing.com'
-    policy: DIRECT
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/GitHub/GitHub.yaml
-    policy: GitHub
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Telegram/Telegram.yaml
-    policy: Telegram
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/HongKongSocial/HongKongSocial.yaml
-    policy: HongKongSocial
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/HongKongSocial/HongKongSocial.yaml
-    policy: HongKongSocial
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social/Social.yaml
-    policy: Social
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social/Social.yaml
-    policy: Social
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social/Social.yaml
-    policy: Social
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social/Social.yaml
-    policy: Social
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml
-    policy: Streaming
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml
-    policy: Streaming
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml
-    policy: Streaming
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml
-    policy: Streaming
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml
-    policy: Streaming
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml
-    policy: Streaming
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml
-    policy: Streaming
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Google/Google.yaml
-    policy: Google
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/YouTube/YouTube.yaml
-    policy: YouTube
-- user_agent:
-    match: yt-dlp|youtube-dl
-    policy: DIRECT
-- domain:
-    match: access.pikpakdrive.com
-    policy: REJECT
-- domain:
-    match: access.mypikpak.com
-    policy: REJECT
-- domain:
-    match: access.mypikpak.net
-    policy: REJECT
-- domain:
-    match: access.pikpak.me
-    policy: REJECT
-- domain_keyword:
-    match: dl-a10b-
-    policy: DIRECT
-- domain_keyword:
-    match: dl-z01a-
-    policy: DIRECT
-- domain_regex:
-    match: ^dl-[A-Za-z0-9-]+\.mypikpak\.com$
-    policy: DIRECT
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Global/Global.yaml
-    policy: Global
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/AI/AI.yaml
-    policy: AI
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT/DIRECT.yaml
-    policy: DIRECT
-- rule_set:
-    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT/DIRECT.yaml
-    policy: DIRECT
-- default:
-    policy: Final
+- '  # 合并源: Gemini, Google (共 2 个源)'
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Google/Google.yaml'
+- '      policy: Google'
+- ''
+- '  # 合并源: Anthropic, Claude, OpenAI, xAI (共 4 个源)'
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/AI/AI.yaml'
+- '      policy: AI'
+- ''
+- '  # 合并源: TikTok (共 1 个源)'
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/TikTok/TikTok.yaml'
+- '      policy: TikTok'
+- ''
+- '  # 合并源: Crunchyroll, Disney, HBO, Hulu, Netflix, Peacock, PrimeVideo (共 7 个源)'
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Streaming.yaml'
+- '      policy: Streaming'
+- ''
+- '  # 合并源: Instagram, Reddit, Threads, Twitter (共 4 个源)'
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social/Social.yaml'
+- '      policy: Social'
+- ''
+- '  # 合并源: YouTube (共 1 个源)'
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/YouTube/YouTube.yaml'
+- '      policy: YouTube'
+- ''
+- '  # 合并源: Telegram (共 1 个源)'
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Telegram/Telegram.yaml'
+- '      policy: Telegram'
+- ''
+- '  # 合并源: Atlassian, Cloudflare, GitHub, GitLab (共 4 个源)'
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/GitHub/GitHub.yaml'
+- '      policy: GitHub'
+- ''
+- '  # 合并源: Microsoft (共 1 个源)'
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Microsoft/Microsoft.yaml'
+- '      policy: Microsoft'
+- ''
+- '  # 合并源: Line, Whatsapp (共 2 个源)'
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/HongKongSocial/HongKongSocial.yaml'
+- '      policy: HongKongSocial'
+- ''
+- '  # 合并源: HKBank, HK_Banks_Direct, HSBC_HK (共 3 个源)'
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/HongKongBanking/HongKongBanking.yaml'
+- '      policy: HongKongBanking'
+- ''
+- '  # 合并源: Broker (共 1 个源)'
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Brokerage/Brokerage.yaml'
+- '      policy: Brokerage'
+- ''
+- '  # 合并源: PikPak, TeraBox (共 2 个源)'
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/LowRate/LowRate.yaml'
+- '      policy: LowRate'
+- ''
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT/DouYin.yaml'
+- '      policy: DIRECT'
+- ''
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/BiliBili/BiliBili.yaml'
+- '      policy: BiliBili'
+- ''
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/ApplePush/ApplePush.yaml'
+- '      policy: ApplePush'
+- ''
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/AppleDirect/apple.yaml'
+- '      policy: AppleDirect'
+- ''
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/SOOP/Soop.yaml'
+- '      policy: SOOP'
+- ''
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/ChinaMax/ChinaMax.yaml'
+- '      policy: ChinaMax'
+- ''
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/ChinaCIDR/ChinaCIDR.yaml'
+- '      policy: ChinaCIDR'
+- ''
+- '  - rule_set:'
+- '      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/ChinaCIDR/cn.yaml'
+- '      policy: ChinaCIDR'
+- ''
+- '  - default:'
+- '      policy: PROXY'

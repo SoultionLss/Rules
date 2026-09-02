@@ -1,0 +1,144 @@
+{
+  "routing": {
+    "rules": [
+      "    # 合并源: Gemini, Google (共 2 个源)",
+      "    { \"domain\": [\"geosite:Google\"] },",
+      "    # 合并源: Anthropic, Claude, OpenAI, xAI (共 4 个源)",
+      "    { \"domain\": [\"geosite:AI\"] },",
+      "    # 合并源: TikTok (共 1 个源)",
+      "    { \"domain\": [\"geosite:TikTok\"] },",
+      "    # 合并源: Crunchyroll, Disney, HBO, Hulu, Netflix, Peacock, PrimeVideo (共 7 个源)",
+      "    { \"domain\": [\"geosite:Streaming\"] },",
+      "    # 合并源: Instagram, Reddit, Threads, Twitter (共 4 个源)",
+      "    { \"domain\": [\"geosite:Social\"] },",
+      "    # 合并源: YouTube (共 1 个源)",
+      "    { \"domain\": [\"geosite:YouTube\"] },",
+      "    # 合并源: Telegram (共 1 个源)",
+      "    { \"domain\": [\"geosite:Telegram\"] },",
+      "    # 合并源: Atlassian, Cloudflare, GitHub, GitLab (共 4 个源)",
+      "    { \"domain\": [\"geosite:GitHub\"] },",
+      "    # 合并源: Microsoft (共 1 个源)",
+      "    { \"domain\": [\"geosite:Microsoft\"] },",
+      "    # 合并源: Line, Whatsapp (共 2 个源)",
+      "    { \"domain\": [\"geosite:HongKongSocial\"] },",
+      "    # 合并源: HKBank, HK_Banks_Direct, HSBC_HK (共 3 个源)",
+      "    { \"domain\": [\"geosite:HongKongBanking\"] },",
+      "    # 合并源: Broker (共 1 个源)",
+      "    { \"domain\": [\"geosite:Brokerage\"] },",
+      "    # 合并源: PikPak, TeraBox (共 2 个源)",
+      "    { \"domain\": [\"geosite:LowRate\"] },",
+      "    { \"domain\": [\"geosite:DouYin\"] },",
+      "    { \"domain\": [\"geosite:BiliBili\"] },",
+      "    { \"domain\": [\"geosite:ApplePush\"] },",
+      "    { \"domain\": [\"geosite:apple\"] },",
+      "    { \"domain\": [\"geosite:Soop\"] },",
+      "    { \"domain\": [\"geosite:ChinaMax\"] },",
+      "    { \"domain\": [\"geosite:ChinaCIDR\"] },",
+      "    { \"domain\": [\"geosite:cn\"] }"
+    ]
+  },
+  "http_port": 6152,
+  "socks_port": 6153,
+  "vif_only": true,
+  "hijack_dns": [
+    "*:53"
+  ],
+  "geoip_db_url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb",
+  "asn_db_url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-ASN.mmdb",
+  "proxy_latency_test_url": "http://1.1.1.1/generate_204",
+  "direct_latency_test_url": "http://wifi.vivo.com.cn/generate_204",
+  "dns": {
+    "bootstrap": [
+      "system"
+    ],
+    "upstreams": {
+      "Domestic-DNS": [
+        "223.5.5.5",
+        "119.29.29.29"
+      ],
+      "Domestic-Encrypted-DNS": [
+        "https://dns.alidns.com/dns-query",
+        "https://doh.pub/dns-query"
+      ],
+      "Foreign-Encrypted-DNS": [
+        "https://cloudflare-dns.com/dns-query",
+        "https://dns.google/dns-query"
+      ]
+    },
+    "forward": [
+      {
+        "proxy_rule_set": {
+          "match": "https://cdn.jsdelivr.net/gh/Repcz/Tool@X/Egern/Rules/Reject.yaml",
+          "value": "REJECT",
+          "disabled": false
+        }
+      },
+      {
+        "proxy_rule_set": {
+          "match": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeositeCN/GeositeCN.yaml",
+          "value": "Domestic-DNS",
+          "disabled": false
+        }
+      },
+      {
+        "domain_wildcard": {
+          "match": "*",
+          "value": "Domestic-Encrypted-DNS",
+          "disabled": false
+        }
+      }
+    ],
+    "hosts": {
+      "dns.google": [
+        "8.8.8.8, 8.8.4.4, 2001:4860:4860::8888, 2001:4860:4860::8844"
+      ],
+      "cloudflare-dns.com": [
+        "104.16.249.249, 104.16.248.249, 2606:4700::6810:f8f9, 2606:4700::6810:f9f9"
+      ],
+      "dns.alidns.com": [
+        "223.5.5.5, 223.6.6.6, 2400:3200:baba::1, 2400:3200::1"
+      ],
+      "doh.pub": [
+        "1.12.12.12, 120.53.53.53"
+      ],
+      "dot.pub": [
+        "1.12.12.12, 120.53.53.53"
+      ]
+    },
+    "proxy_nameservers": [
+      "https://dns.alidns.com/dns-query",
+      "https://doh.pub/dns-query"
+    ]
+  },
+  "real_ip_domains": [
+    "lancache.steamcontent.com",
+    "*.msftconnecttest.com",
+    "*.msftncsi.com",
+    "*.srv.nintendo.net",
+    "*.stun.playstation.net",
+    "xbox.*.microsoft.com",
+    "*.xboxlive.com",
+    "*.logon.battlenet.com.cn",
+    "*.logon.battle.net",
+    "stun.l.google.com",
+    "easy-login.10099.com.cn",
+    "*-update.xoyocdn.com",
+    "*.prod.cloud.netflix.com",
+    "appboot.netflix.com",
+    "*-appboot.netflix.com"
+  ],
+  "mitm": {
+    "enabled": true,
+    "hostnames": {
+      "includes": [
+        "weather-data.apple.com",
+        "weather-analytics-events.apple.com",
+        "pluginhub.kelee.one",
+        "hub.kelee.one",
+        "surge.qingr.moe",
+        "t.me",
+        "telegram.me"
+      ]
+    }
+  }
+}

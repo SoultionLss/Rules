@@ -1,0 +1,272 @@
+{
+  "route": {
+    "rules": [
+      "    # 合并源: Gemini, Google (共 2 个源)",
+      "    { \"rule_set\": \"Google\" },",
+      "    # 合并源: Anthropic, Claude, OpenAI, xAI (共 4 个源)",
+      "    { \"rule_set\": \"AI\" },",
+      "    # 合并源: TikTok (共 1 个源)",
+      "    { \"rule_set\": \"TikTok\" },",
+      "    # 合并源: Crunchyroll, Disney, HBO, Hulu, Netflix, Peacock, PrimeVideo (共 7 个源)",
+      "    { \"rule_set\": \"Streaming\" },",
+      "    # 合并源: Instagram, Reddit, Threads, Twitter (共 4 个源)",
+      "    { \"rule_set\": \"Social\" },",
+      "    # 合并源: YouTube (共 1 个源)",
+      "    { \"rule_set\": \"YouTube\" },",
+      "    # 合并源: Telegram (共 1 个源)",
+      "    { \"rule_set\": \"Telegram\" },",
+      "    # 合并源: Atlassian, Cloudflare, GitHub, GitLab (共 4 个源)",
+      "    { \"rule_set\": \"GitHub\" },",
+      "    # 合并源: Microsoft (共 1 个源)",
+      "    { \"rule_set\": \"Microsoft\" },",
+      "    # 合并源: Line, Whatsapp (共 2 个源)",
+      "    { \"rule_set\": \"HongKongSocial\" },",
+      "    # 合并源: HKBank, HK_Banks_Direct, HSBC_HK (共 3 个源)",
+      "    { \"rule_set\": \"HongKongBanking\" },",
+      "    # 合并源: Broker (共 1 个源)",
+      "    { \"rule_set\": \"Brokerage\" },",
+      "    # 合并源: PikPak, TeraBox (共 2 个源)",
+      "    { \"rule_set\": \"LowRate\" },",
+      "    { \"rule_set\": \"DouYin\" },",
+      "    { \"rule_set\": \"BiliBili\" },",
+      "    { \"rule_set\": \"ApplePush\" },",
+      "    { \"rule_set\": \"apple\" },",
+      "    { \"rule_set\": \"Soop\" },",
+      "    { \"rule_set\": \"ChinaMax\" },",
+      "    { \"rule_set\": \"ChinaCIDR\" },",
+      "    { \"rule_set\": \"cn\" }"
+    ],
+    "rule_set": [
+      {
+        "tag": "Google",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Google/Google.json"
+      },
+      {
+        "tag": "AI",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/AI/AI.json"
+      },
+      {
+        "tag": "TikTok",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/TikTok/TikTok.json"
+      },
+      {
+        "tag": "Streaming",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Streaming/Streaming.json"
+      },
+      {
+        "tag": "Social",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Social/Social.json"
+      },
+      {
+        "tag": "YouTube",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/YouTube/YouTube.json"
+      },
+      {
+        "tag": "Telegram",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Telegram/Telegram.json"
+      },
+      {
+        "tag": "GitHub",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/GitHub/GitHub.json"
+      },
+      {
+        "tag": "Microsoft",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Microsoft/Microsoft.json"
+      },
+      {
+        "tag": "HongKongSocial",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/HongKongSocial/HongKongSocial.json"
+      },
+      {
+        "tag": "HongKongBanking",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/HongKongBanking/HongKongBanking.json"
+      },
+      {
+        "tag": "Brokerage",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Brokerage/Brokerage.json"
+      },
+      {
+        "tag": "LowRate",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/LowRate/LowRate.json"
+      },
+      {
+        "tag": "DouYin",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/DIRECT/DouYin.json"
+      },
+      {
+        "tag": "BiliBili",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/BiliBili/BiliBili.json"
+      },
+      {
+        "tag": "ApplePush",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/ApplePush/ApplePush.json"
+      },
+      {
+        "tag": "apple",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/AppleDirect/apple.json"
+      },
+      {
+        "tag": "Soop",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/SOOP/Soop.json"
+      },
+      {
+        "tag": "ChinaMax",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/ChinaMax/ChinaMax.json"
+      },
+      {
+        "tag": "ChinaCIDR",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/ChinaCIDR/ChinaCIDR.json"
+      },
+      {
+        "tag": "cn",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/ChinaCIDR/cn.json"
+      }
+    ]
+  },
+  "http_port": 6152,
+  "socks_port": 6153,
+  "vif_only": true,
+  "hijack_dns": [
+    "*:53"
+  ],
+  "geoip_db_url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb",
+  "asn_db_url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-ASN.mmdb",
+  "proxy_latency_test_url": "http://1.1.1.1/generate_204",
+  "direct_latency_test_url": "http://wifi.vivo.com.cn/generate_204",
+  "dns": {
+    "bootstrap": [
+      "system"
+    ],
+    "upstreams": {
+      "Domestic-DNS": [
+        "223.5.5.5",
+        "119.29.29.29"
+      ],
+      "Domestic-Encrypted-DNS": [
+        "https://dns.alidns.com/dns-query",
+        "https://doh.pub/dns-query"
+      ],
+      "Foreign-Encrypted-DNS": [
+        "https://cloudflare-dns.com/dns-query",
+        "https://dns.google/dns-query"
+      ]
+    },
+    "forward": [
+      {
+        "proxy_rule_set": {
+          "match": "https://cdn.jsdelivr.net/gh/Repcz/Tool@X/Egern/Rules/Reject.yaml",
+          "value": "REJECT",
+          "disabled": false
+        }
+      },
+      {
+        "proxy_rule_set": {
+          "match": "https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeositeCN/GeositeCN.yaml",
+          "value": "Domestic-DNS",
+          "disabled": false
+        }
+      },
+      {
+        "domain_wildcard": {
+          "match": "*",
+          "value": "Domestic-Encrypted-DNS",
+          "disabled": false
+        }
+      }
+    ],
+    "hosts": {
+      "dns.google": [
+        "8.8.8.8, 8.8.4.4, 2001:4860:4860::8888, 2001:4860:4860::8844"
+      ],
+      "cloudflare-dns.com": [
+        "104.16.249.249, 104.16.248.249, 2606:4700::6810:f8f9, 2606:4700::6810:f9f9"
+      ],
+      "dns.alidns.com": [
+        "223.5.5.5, 223.6.6.6, 2400:3200:baba::1, 2400:3200::1"
+      ],
+      "doh.pub": [
+        "1.12.12.12, 120.53.53.53"
+      ],
+      "dot.pub": [
+        "1.12.12.12, 120.53.53.53"
+      ]
+    },
+    "proxy_nameservers": [
+      "https://dns.alidns.com/dns-query",
+      "https://doh.pub/dns-query"
+    ]
+  },
+  "real_ip_domains": [
+    "lancache.steamcontent.com",
+    "*.msftconnecttest.com",
+    "*.msftncsi.com",
+    "*.srv.nintendo.net",
+    "*.stun.playstation.net",
+    "xbox.*.microsoft.com",
+    "*.xboxlive.com",
+    "*.logon.battlenet.com.cn",
+    "*.logon.battle.net",
+    "stun.l.google.com",
+    "easy-login.10099.com.cn",
+    "*-update.xoyocdn.com",
+    "*.prod.cloud.netflix.com",
+    "appboot.netflix.com",
+    "*-appboot.netflix.com"
+  ],
+  "mitm": {
+    "enabled": true,
+    "hostnames": {
+      "includes": [
+        "weather-data.apple.com",
+        "weather-analytics-events.apple.com",
+        "pluginhub.kelee.one",
+        "hub.kelee.one",
+        "surge.qingr.moe",
+        "t.me",
+        "telegram.me"
+      ]
+    }
+  }
+}
