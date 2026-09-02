@@ -5,220 +5,124 @@ allow-lan: false
 external-controller: 127.0.0.1:9090
 proxies: []
 proxy-groups:
-- name: 全部节点-手选
+- name: 良心云
   type: select
   proxies:
-  - Manual
-- name: 家宽-手选
+  - DIRECT
+- name: 宝可梦
   type: select
   proxies:
-  - Manual
-- name: 香港-手选
+  - DIRECT
+- name: 美国拼车
   type: select
   proxies:
-  - Manual
-- name: 台湾-手选
+  - DIRECT
+- name: 香港拼车
   type: select
   proxies:
-  - Manual
-- name: 日本-手选
+  - DIRECT
+- name: 🇭🇰 香港-手选
   type: select
   proxies:
-  - Manual
-- name: 狮城-手选
+  - 良心云
+- name: 🇹🇼 台湾-手选
   type: select
   proxies:
-  - Manual
-- name: 美国-手选
+  - 良心云
+- name: 🇯🇵 日本-手选
   type: select
   proxies:
-  - Manual
+  - 良心云
+- name: 🇺🇸 美国-手选
+  type: select
+  proxies:
+  - 良心云
+- name: 🇸🇬 狮城-手选
+  type: select
+  proxies:
+  - 良心云
+- name: 🇭🇰 香港-智能
+  type: url-test
+  proxies:
+  - 良心云
+  url: http://1.1.1.1/generate_204
+  interval: 600
+- name: 🇹🇼 台湾-智能
+  type: url-test
+  proxies:
+  - 良心云
+  url: http://1.1.1.1/generate_204
+  interval: 600
+- name: 🇯🇵 日本-智能
+  type: url-test
+  proxies:
+  - 良心云
+  url: http://1.1.1.1/generate_204
+  interval: 600
+- name: 🇺🇸 美国-智能
+  type: url-test
+  proxies:
+  - 良心云
+  url: http://1.1.1.1/generate_204
+  interval: 600
+- name: 🇸🇬 狮城-智能
+  type: url-test
+  proxies:
+  - 良心云
+  url: http://1.1.1.1/generate_204
+  interval: 600
+- name: 🇭🇰 香港-故选
+  type: fallback
+  proxies:
+  - 🇭🇰 香港-手选
+  - 🇭🇰 香港-智能
+- name: 🇹🇼 台湾-故选
+  type: fallback
+  proxies:
+  - 🇹🇼 台湾-手选
+  - 🇹🇼 台湾-智能
+- name: 🇯🇵 日本-故选
+  type: fallback
+  proxies:
+  - 🇯🇵 日本-手选
+  - 🇯🇵 日本-智能
+- name: 🇺🇸 美国-故选
+  type: fallback
+  proxies:
+  - 🇺🇸 美国-手选
+  - 🇺🇸 美国-智能
+- name: 🇸🇬 狮城-故选
+  type: fallback
+  proxies:
+  - 🇸🇬 狮城-手选
+  - 🇸🇬 狮城-智能
 - name: 低倍率-手选
   type: select
   proxies:
-  - Manual
-- name: 高倍率-手选
-  type: select
-  proxies:
-  - Manual
-- name: 冷门节点-手选
-  type: select
-  proxies:
-  - Manual
-- name: 香港-智能
-  type: url-test
-  proxies:
-  - Manual
-  url: http://1.1.1.1/generate_204
-  interval: 600
-- name: 台湾-智能
-  type: url-test
-  proxies:
-  - Manual
-  url: http://1.1.1.1/generate_204
-  interval: 600
-- name: 日本-智能
-  type: url-test
-  proxies:
-  - Manual
-  url: http://1.1.1.1/generate_204
-  interval: 600
-- name: 狮城-智能
-  type: url-test
-  proxies:
-  - Manual
-  url: http://1.1.1.1/generate_204
-  interval: 600
-- name: 美国-智能
-  type: url-test
-  proxies:
-  - Manual
-  url: http://1.1.1.1/generate_204
-  interval: 600
+  - 宝可梦
 - name: 低倍率-智能
   type: url-test
   proxies:
-  - Manual
+  - 宝可梦
   url: http://1.1.1.1/generate_204
   interval: 600
-- name: 冷门节点-智能
-  type: url-test
-  proxies:
-  - Manual
-  url: http://1.1.1.1/generate_204
-  interval: 600
-- name: 香港-故转
-  type: fallback
-  proxies:
-  - 香港-手选
-  - 香港-智能
-- name: 台湾-故转
-  type: fallback
-  proxies:
-  - 台湾-手选
-  - 台湾-智能
-- name: 日本-故转
-  type: fallback
-  proxies:
-  - 日本-手选
-  - 日本-智能
-- name: 狮城-故转
-  type: fallback
-  proxies:
-  - 狮城-手选
-  - 狮城-智能
-- name: 美国-故转
-  type: fallback
-  proxies:
-  - 美国-手选
-  - 美国-智能
-- name: 低倍率-故转
+- name: 低倍率-故选
   type: fallback
   proxies:
   - 低倍率-手选
   - 低倍率-智能
-- name: Global
+- name: 兜底节点
   type: select
   proxies:
-  - 美国-故转
-  - 香港-故转
-  - 狮城-故转
-  - 日本-故转
-  - 台湾-故转
-  - 低倍率-故转
-  - Manual
-- name: Streaming
-  type: select
-  proxies:
-  - 美国-故转
-  - 香港-故转
-  - 狮城-故转
-  - 日本-故转
-  - 台湾-故转
-  - Manual
-- name: YouTube
-  type: select
-  proxies:
-  - 美国-故转
-  - 香港-故转
-  - 狮城-故转
-  - 日本-故转
-  - 台湾-故转
-  - Manual
-- name: TikTok
-  type: select
-  proxies:
-  - 美国-故转
-  - 香港-故转
-  - 狮城-故转
-  - 日本-故转
-  - 台湾-故转
-  - Manual
-- name: GitHub
-  type: select
-  proxies:
-  - 美国-故转
-  - 香港-故转
-  - 狮城-故转
-  - 日本-故转
-  - 台湾-故转
-  - Manual
-- name: Microsoft
-  type: select
-  proxies:
-  - 美国-故转
-  - 香港-故转
-  - 狮城-故转
-  - 日本-故转
-  - 台湾-故转
-  - Manual
-- name: Google
-  type: select
-  proxies:
-  - 美国-故转
-  - 香港-故转
-  - 狮城-故转
-  - 日本-故转
-  - 台湾-故转
-  - Manual
-- name: AI
-  type: select
-  proxies:
-  - 美国-故转
-  - 香港-故转
-  - 狮城-故转
-  - 日本-故转
-  - 台湾-故转
-  - Manual
-- name: Social
-  type: select
-  proxies:
-  - 美国-故转
-  - 香港-故转
-  - 狮城-故转
-  - 日本-故转
-  - 台湾-故转
-  - Manual
-- name: Telegram
-  type: select
-  proxies:
-  - 美国-故转
-  - Manual
-- name: HongKongSocial
-  type: select
-  proxies:
-  - 香港-故转
-  - Manual
-- name: Final
-  type: select
-  proxies:
-  - 美国-故转
-  - 香港-故转
-  - 狮城-故转
-  - 日本-故转
-  - 台湾-故转
-  - 低倍率-故转
-  - Manual
+  - 🇭🇰 香港-故选
+  - 🇯🇵 日本-故选
+  - 🇺🇸 美国-故选
+  - 🇸🇬 狮城-故选
+  - 🇹🇼 台湾-故选
+  - 低倍率-故选
+  - 美国拼车
+  - 香港拼车
+  - DIRECT
 rule-providers:
   REJECT:
     type: http
