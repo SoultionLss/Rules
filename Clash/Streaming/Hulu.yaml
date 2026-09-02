@@ -1,0 +1,69 @@
+# ============================================================
+# 规则策略: Streaming
+# 域名规则总数: 58 条
+# IP-CIDR 规则总数: 0 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Hulu/Hulu.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-02 12:26:12
+# ============================================================
+
+payload:
+  - DOMAIN-SUFFIX,112263.com,Streaming
+  - DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net,Streaming
+  - DOMAIN-SUFFIX,callhulu.com,Streaming
+  - DOMAIN-SUFFIX,cws-hulu.conviva.com,Streaming
+  - DOMAIN-SUFFIX,findyourlimits.com,Streaming
+  - DOMAIN-SUFFIX,freehulu.com,Streaming
+  - DOMAIN-SUFFIX,happyon.jp,Streaming
+  - DOMAIN-SUFFIX,hjholdings.jp,Streaming
+  - DOMAIN-SUFFIX,hooloo.tv,Streaming
+  - DOMAIN-SUFFIX,hoolu.com,Streaming
+  - DOMAIN-SUFFIX,hoolu.tv,Streaming
+  - DOMAIN-SUFFIX,hu1u.com,Streaming
+  - DOMAIN-SUFFIX,huloo.cc,Streaming
+  - DOMAIN-SUFFIX,huloo.tv,Streaming
+  - DOMAIN-SUFFIX,hulu.com,Streaming
+  - DOMAIN-SUFFIX,hulu.hb.omtrdc.net,Streaming
+  - DOMAIN-SUFFIX,hulu.jp,Streaming
+  - DOMAIN-SUFFIX,hulu.playback.edge.bamgrid.com,Streaming
+  - DOMAIN-SUFFIX,hulu.sc.omtrdc.net,Streaming
+  - DOMAIN-SUFFIX,hulu.tv,Streaming
+  - DOMAIN-SUFFIX,hulu.us,Streaming
+  - DOMAIN-SUFFIX,huluaction.com,Streaming
+  - DOMAIN-SUFFIX,huluad.com,Streaming
+  - DOMAIN-SUFFIX,huluapp.com,Streaming
+  - DOMAIN-SUFFIX,huluasks.com,Streaming
+  - DOMAIN-SUFFIX,hulucall.com,Streaming
+  - DOMAIN-SUFFIX,hulufree.com,Streaming
+  - DOMAIN-SUFFIX,hulugans.com,Streaming
+  - DOMAIN-SUFFIX,hulugermany.com,Streaming
+  - DOMAIN-SUFFIX,hulugo.com,Streaming
+  - DOMAIN-SUFFIX,huluim.com,Streaming
+  - DOMAIN-SUFFIX,huluinstantmessenger.com,Streaming
+  - DOMAIN-SUFFIX,huluitaly.com,Streaming
+  - DOMAIN-SUFFIX,hulunet.com,Streaming
+  - DOMAIN-SUFFIX,hulunetwork.com,Streaming
+  - DOMAIN-SUFFIX,huluplus.com,Streaming
+  - DOMAIN-SUFFIX,hulupremium.com,Streaming
+  - DOMAIN-SUFFIX,hulupurchase.com,Streaming
+  - DOMAIN-SUFFIX,huluqa.com,Streaming
+  - DOMAIN-SUFFIX,hulurussia.com,Streaming
+  - DOMAIN-SUFFIX,huluspain.com,Streaming
+  - DOMAIN-SUFFIX,hulusports.com,Streaming
+  - DOMAIN-SUFFIX,hulustream.com,Streaming
+  - DOMAIN-SUFFIX,huluteam.com,Streaming
+  - DOMAIN-SUFFIX,hulutv.com,Streaming
+  - DOMAIN-SUFFIX,huluusa.com,Streaming
+  - DOMAIN-SUFFIX,joinmaidez.com,Streaming
+  - DOMAIN-SUFFIX,live-mediashield-ava-hulustream-com.akamaized.net,Streaming
+  - DOMAIN-SUFFIX,mushymush.tv,Streaming
+  - DOMAIN-SUFFIX,myhulu.com,Streaming
+  - DOMAIN-SUFFIX,originalhulu.com,Streaming
+  - DOMAIN-SUFFIX,payhulu.com,Streaming
+  - DOMAIN-SUFFIX,prod.hjholdings.tv,Streaming
+  - DOMAIN-SUFFIX,registerhulu.com,Streaming
+  - DOMAIN-SUFFIX,streaks.jp,Streaming
+  - DOMAIN-SUFFIX,thehulubraintrust.com,Streaming
+  - DOMAIN-SUFFIX,wwwhuluplus.com,Streaming
+  - DOMAIN-SUFFIX,yb.uncn.jp,Streaming

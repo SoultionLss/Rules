@@ -10,6 +10,7 @@
 - 独立文件:
   - `Anthropic.list`
   - `Claude.list`
+  - `OpenAI.list`
   - `xAI.list`
 
 ### ApplePush
@@ -27,6 +28,15 @@
 ### GitHub
 
 - 合并文件: `GitHub.list`
+- 独立文件:
+  - `GitHub.list`
+
+### Google
+
+- 合并文件: `Google.list`
+- 独立文件:
+  - `Gemini.list`
+  - `Google.list`
 
 ### HongKongBanking
 
@@ -45,10 +55,17 @@
 
 - 合并文件: `LowRate.list`
 
+### Microsoft
+
+- 合并文件: `Microsoft.list`
+- 独立文件:
+  - `Microsoft.list`
+
 ### Social
 
 - 合并文件: `Social.list`
 - 独立文件:
+  - `Instagram.list`
   - `Reddit.list`
   - `Threads.list`
   - `Twitter.list`
@@ -58,6 +75,30 @@
 - 合并文件: `Streaming.list`
 - 独立文件:
   - `Crunchyroll.list`
+  - `Disney.list`
+  - `HBO.list`
+  - `Hulu.list`
+  - `Netflix.list`
+  - `Peacock.list`
+  - `PrimeVideo.list`
+
+### Telegram
+
+- 合并文件: `Telegram.list`
+- 独立文件:
+  - `Telegram.list`
+
+### TikTok
+
+- 合并文件: `TikTok.list`
+- 独立文件:
+  - `TikTok.list`
+
+### YouTube
+
+- 合并文件: `YouTube.list`
+- 独立文件:
+  - `YouTube.list`
 
 ## 使用方式
 在客户端配置中按需引用对应文件，推荐顺序：独立文件优先，合并文件兜底。

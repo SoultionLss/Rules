@@ -1,10 +1,36 @@
 # ============================================================
 # 规则策略: Social
-# 域名规则总数: 0 条
-# IP-CIDR 规则总数: 1 条
+# 域名规则总数: 26 条
+# IP-CIDR 规则总数: 6 条
 # 规则来源条目总数: 1 条
 # 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Twitter/Twitter.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-02 12:23:24
+# 最后更新: 2026-09-02 12:26:12
 # ============================================================
 
+ads-twitter.com
+cms-twdigitalassets.com
+grok.com
+periscope.tv
+pscp.tv
+t.co
+tellapart.com
+tweetdeck.com
+twimg.co
+twimg.com
+twimg.org
+twitpic.com
+twitter.biz
+twitter.com
+twitter.jp
+twittercommunity.com
+twitterflightschool.com
+twitterinc.com
+twitteroauth.com
+twitterstat.us
+twtrdns.net
+twttr.com
+twttr.net
+twvid.com
+vine.co
+x.com

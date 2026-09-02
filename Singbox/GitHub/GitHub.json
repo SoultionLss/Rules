@@ -1,11 +1,11 @@
 # ============================================================
 # 规则策略: GitHub
-# 域名规则总数: 2 条
-# IP-CIDR 规则总数: 1 条
-# 规则来源条目总数: 3 条
-# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Atlassian/Atlassian.list, blackmatrix7/ios_rule_script@master/rule/Surge/Cloudflare/Cloudflare.list, blackmatrix7/ios_rule_script@master/rule/Surge/GitLab/GitLab.list
+# 域名规则总数: 84 条
+# IP-CIDR 规则总数: 22 条
+# 规则来源条目总数: 4 条
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Atlassian/Atlassian.list, blackmatrix7/ios_rule_script@master/rule/Surge/Cloudflare/Cloudflare.list, blackmatrix7/ios_rule_script@master/rule/Surge/GitHub/GitHub.list, blackmatrix7/ios_rule_script@master/rule/Surge/GitLab/GitLab.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-02 12:23:24
+# 最后更新: 2026-09-02 12:26:12
 # ============================================================
 
 {
@@ -13,12 +13,115 @@
   "rules": [
     {
       "domain_suffix": [
+        "atlassian.com",
+        "atom.io",
+        "bitbucket.org",
+        "cf-ipfs.com",
+        "cf-ns.com",
+        "cf-ns.net",
+        "cf-ns.site",
+        "cf-ns.tech",
+        "cftest5.cn",
+        "cftest6.cn",
+        "cftest7.com",
+        "cftest8.com",
+        "cloudflare-cn.com",
+        "cloudflare-dns.com",
+        "cloudflare-ipfs.com",
+        "cloudflare-quic.com",
+        "cloudflare.com",
+        "cloudflare.net",
+        "cloudflare.tv",
+        "cloudflareaccess.com",
+        "cloudflareapps.com",
+        "cloudflarebolt.com",
+        "cloudflareclient.com",
+        "cloudflarecn.net",
+        "cloudflareinsights-cn.com",
+        "cloudflareinsights.com",
+        "cloudflareok.com",
+        "cloudflarepreview.com",
+        "cloudflareprod.com",
+        "cloudflareresolve.com",
+        "cloudflaressl.com",
+        "cloudflarestaging.com",
+        "cloudflarestatus.com",
+        "cloudflarestorage.com",
+        "cloudflarestoragegw.com",
+        "cloudflarestream.com",
+        "cloudflaretest.com",
+        "cloudflarewarp.com",
+        "dependabot.com",
+        "every1dns.net",
+        "ghcr.io",
+        "git.io",
+        "github-atom-io-herokuapp-com.freetls.fastly.net",
+        "github-avatars.oss-cn-hongkong.aliyuncs.com",
+        "github-cloud.s3.amazonaws.com",
+        "github.blog",
+        "github.com",
+        "github.community",
+        "github.dev",
+        "github.io",
+        "githubapp.com",
+        "githubassets.com",
+        "githubcopilot.com",
+        "githubhackathon.com",
+        "githubnext.com",
+        "githubpreview.dev",
+        "githubstatus.com",
+        "githubuniverse.com",
+        "githubusercontent.com",
+        "gitlab-assets.oss-cn-hongkong.aliyuncs.com",
+        "gitlab-static.net",
+        "gitlab.com",
+        "gitlab.net",
+        "gitter-static.net",
         "gitter.im",
-        "trellocdn.com"
+        "myoctocat.com",
+        "npm.community",
+        "npmjs.com",
+        "npmjs.org",
+        "one.one.one",
+        "opensource.guide",
+        "pacloudflare.com",
+        "pages.dev",
+        "rawgit.com",
+        "rawgithub.com",
+        "repo.new",
+        "statuspage.io",
+        "thegithubshop.com",
+        "trello.com",
+        "trellocdn.com",
+        "trycloudflare.com",
+        "videodelivery.net",
+        "warp.plus",
+        "workers.dev"
       ]
     },
     {
       "ip_cidr": [
+        "103.21.244.0/22",
+        "103.22.200.0/22",
+        "103.31.4.0/22",
+        "104.16.0.0/13",
+        "104.24.0.0/14",
+        "108.162.192.0/18",
+        "131.0.72.0/22",
+        "141.101.64.0/18",
+        "162.158.0.0/15",
+        "172.64.0.0/13",
+        "173.245.48.0/20",
+        "188.114.96.0/20",
+        "190.93.240.0/20",
+        "197.234.240.0/22",
+        "198.41.128.0/17",
+        "2400:cb00::/32",
+        "2405:8100::/32",
+        "2405:b500::/32",
+        "2606:4700::/32",
+        "2803:f800::/32",
+        "2a06:98c0::/29",
         "2c0f:f248::/32"
       ]
     }

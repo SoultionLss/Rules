@@ -1,14 +1,117 @@
 # ============================================================
 # 规则策略: GitHub
-# 域名规则总数: 2 条
-# IP-CIDR 规则总数: 1 条
-# 规则来源条目总数: 3 条
-# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Atlassian/Atlassian.list, blackmatrix7/ios_rule_script@master/rule/Surge/Cloudflare/Cloudflare.list, blackmatrix7/ios_rule_script@master/rule/Surge/GitLab/GitLab.list
+# 域名规则总数: 84 条
+# IP-CIDR 规则总数: 22 条
+# 规则来源条目总数: 4 条
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Atlassian/Atlassian.list, blackmatrix7/ios_rule_script@master/rule/Surge/Cloudflare/Cloudflare.list, blackmatrix7/ios_rule_script@master/rule/Surge/GitHub/GitHub.list, blackmatrix7/ios_rule_script@master/rule/Surge/GitLab/GitLab.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-02 12:23:24
+# 最后更新: 2026-09-02 12:26:12
 # ============================================================
 
 payload:
+  - DOMAIN-SUFFIX,atlassian.com,GitHub
+  - DOMAIN-SUFFIX,atom.io,GitHub
+  - DOMAIN-SUFFIX,bitbucket.org,GitHub
+  - DOMAIN-SUFFIX,cf-ipfs.com,GitHub
+  - DOMAIN-SUFFIX,cf-ns.com,GitHub
+  - DOMAIN-SUFFIX,cf-ns.net,GitHub
+  - DOMAIN-SUFFIX,cf-ns.site,GitHub
+  - DOMAIN-SUFFIX,cf-ns.tech,GitHub
+  - DOMAIN-SUFFIX,cftest5.cn,GitHub
+  - DOMAIN-SUFFIX,cftest6.cn,GitHub
+  - DOMAIN-SUFFIX,cftest7.com,GitHub
+  - DOMAIN-SUFFIX,cftest8.com,GitHub
+  - DOMAIN-SUFFIX,cloudflare-cn.com,GitHub
+  - DOMAIN-SUFFIX,cloudflare-dns.com,GitHub
+  - DOMAIN-SUFFIX,cloudflare-ipfs.com,GitHub
+  - DOMAIN-SUFFIX,cloudflare-quic.com,GitHub
+  - DOMAIN-SUFFIX,cloudflare.com,GitHub
+  - DOMAIN-SUFFIX,cloudflare.net,GitHub
+  - DOMAIN-SUFFIX,cloudflare.tv,GitHub
+  - DOMAIN-SUFFIX,cloudflareaccess.com,GitHub
+  - DOMAIN-SUFFIX,cloudflareapps.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarebolt.com,GitHub
+  - DOMAIN-SUFFIX,cloudflareclient.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarecn.net,GitHub
+  - DOMAIN-SUFFIX,cloudflareinsights-cn.com,GitHub
+  - DOMAIN-SUFFIX,cloudflareinsights.com,GitHub
+  - DOMAIN-SUFFIX,cloudflareok.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarepreview.com,GitHub
+  - DOMAIN-SUFFIX,cloudflareprod.com,GitHub
+  - DOMAIN-SUFFIX,cloudflareresolve.com,GitHub
+  - DOMAIN-SUFFIX,cloudflaressl.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarestaging.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarestatus.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarestorage.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarestoragegw.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarestream.com,GitHub
+  - DOMAIN-SUFFIX,cloudflaretest.com,GitHub
+  - DOMAIN-SUFFIX,cloudflarewarp.com,GitHub
+  - DOMAIN-SUFFIX,dependabot.com,GitHub
+  - DOMAIN-SUFFIX,every1dns.net,GitHub
+  - DOMAIN-SUFFIX,ghcr.io,GitHub
+  - DOMAIN-SUFFIX,git.io,GitHub
+  - DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net,GitHub
+  - DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com,GitHub
+  - DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com,GitHub
+  - DOMAIN-SUFFIX,github.blog,GitHub
+  - DOMAIN-SUFFIX,github.com,GitHub
+  - DOMAIN-SUFFIX,github.community,GitHub
+  - DOMAIN-SUFFIX,github.dev,GitHub
+  - DOMAIN-SUFFIX,github.io,GitHub
+  - DOMAIN-SUFFIX,githubapp.com,GitHub
+  - DOMAIN-SUFFIX,githubassets.com,GitHub
+  - DOMAIN-SUFFIX,githubcopilot.com,GitHub
+  - DOMAIN-SUFFIX,githubhackathon.com,GitHub
+  - DOMAIN-SUFFIX,githubnext.com,GitHub
+  - DOMAIN-SUFFIX,githubpreview.dev,GitHub
+  - DOMAIN-SUFFIX,githubstatus.com,GitHub
+  - DOMAIN-SUFFIX,githubuniverse.com,GitHub
+  - DOMAIN-SUFFIX,githubusercontent.com,GitHub
+  - DOMAIN-SUFFIX,gitlab-assets.oss-cn-hongkong.aliyuncs.com,GitHub
+  - DOMAIN-SUFFIX,gitlab-static.net,GitHub
+  - DOMAIN-SUFFIX,gitlab.com,GitHub
+  - DOMAIN-SUFFIX,gitlab.net,GitHub
+  - DOMAIN-SUFFIX,gitter-static.net,GitHub
   - DOMAIN-SUFFIX,gitter.im,GitHub
+  - DOMAIN-SUFFIX,myoctocat.com,GitHub
+  - DOMAIN-SUFFIX,npm.community,GitHub
+  - DOMAIN-SUFFIX,npmjs.com,GitHub
+  - DOMAIN-SUFFIX,npmjs.org,GitHub
+  - DOMAIN-SUFFIX,one.one.one,GitHub
+  - DOMAIN-SUFFIX,opensource.guide,GitHub
+  - DOMAIN-SUFFIX,pacloudflare.com,GitHub
+  - DOMAIN-SUFFIX,pages.dev,GitHub
+  - DOMAIN-SUFFIX,rawgit.com,GitHub
+  - DOMAIN-SUFFIX,rawgithub.com,GitHub
+  - DOMAIN-SUFFIX,repo.new,GitHub
+  - DOMAIN-SUFFIX,statuspage.io,GitHub
+  - DOMAIN-SUFFIX,thegithubshop.com,GitHub
+  - DOMAIN-SUFFIX,trello.com,GitHub
   - DOMAIN-SUFFIX,trellocdn.com,GitHub
+  - DOMAIN-SUFFIX,trycloudflare.com,GitHub
+  - DOMAIN-SUFFIX,videodelivery.net,GitHub
+  - DOMAIN-SUFFIX,warp.plus,GitHub
+  - DOMAIN-SUFFIX,workers.dev,GitHub
+  - IP-CIDR,103.21.244.0/22,GitHub
+  - IP-CIDR,103.22.200.0/22,GitHub
+  - IP-CIDR,103.31.4.0/22,GitHub
+  - IP-CIDR,104.16.0.0/13,GitHub
+  - IP-CIDR,104.24.0.0/14,GitHub
+  - IP-CIDR,108.162.192.0/18,GitHub
+  - IP-CIDR,131.0.72.0/22,GitHub
+  - IP-CIDR,141.101.64.0/18,GitHub
+  - IP-CIDR,162.158.0.0/15,GitHub
+  - IP-CIDR,172.64.0.0/13,GitHub
+  - IP-CIDR,173.245.48.0/20,GitHub
+  - IP-CIDR,188.114.96.0/20,GitHub
+  - IP-CIDR,190.93.240.0/20,GitHub
+  - IP-CIDR,197.234.240.0/22,GitHub
+  - IP-CIDR,198.41.128.0/17,GitHub
+  - IP-CIDR,2400:cb00::/32,GitHub
+  - IP-CIDR,2405:8100::/32,GitHub
+  - IP-CIDR,2405:b500::/32,GitHub
+  - IP-CIDR,2606:4700::/32,GitHub
+  - IP-CIDR,2803:f800::/32,GitHub
+  - IP-CIDR,2a06:98c0::/29,GitHub
   - IP-CIDR,2c0f:f248::/32,GitHub
