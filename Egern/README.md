@@ -7,9 +7,9 @@
 ```
 Egern/
 ├── 策略组目录/          # 每个策略组一个子目录
-│   ├── 合集文件          # 合并后的规则文件
-│   └── 独立文件          # 独立规则源文件
-└── Egern.conf     # 主配置文件
+│   ├── 合集文件          # 合并后的规则文件 (.yaml)
+│   └── 独立文件          # 独立规则源文件 (.yaml)
+└── Egern.yaml          # 主配置文件
 ```
 
 ## 📋 策略组列表
@@ -95,19 +95,36 @@ Egern/
 
 - **合集** `YouTube`：包含 YouTube
 
+
 ## 🔗 引用示例
 
-### Egern
-```
-# 在 Egern.conf 中引用规则文件
-RULE-SET, https://raw.githubusercontent.com/SoultionLss/Rules/main/Egern/AI/AI.yaml, AI
-RULE-SET, https://raw.githubusercontent.com/SoultionLss/Rules/main/Egern/Google/Google.yaml, Google
+### 单条规则引用
+
+```egern
+- rule_set:
+    match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/AI/AI.yaml
+    policy: AI
 ```
 
-### CDN 加速（jsDelivr）
+### 完整配置示例
+
+```egern
+rules:
+  # 合并源: OpenAI, Claude, Grok (共 3 个源)
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/AI/AI.yaml
+      policy: AI
+  # 独立源
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Google/Google.yaml
+      policy: Google
+  - default:
+      policy: PROXY
 ```
-RULE-SET, https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/AI/AI.yaml, AI
-```
+
+### 官方文档
+
+更多语法请参考: https://egernapp.com/docs/
 
 ## 📅 更新频率
 
@@ -115,4 +132,4 @@ RULE-SET, https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/AI/AI.yaml, A
 
 ---
 
-*最后更新: 2026-09-02 14:29:11*
+*最后更新: 2026-09-02 14:44:02*

@@ -7,9 +7,9 @@
 ```
 Surge/
 ├── 策略组目录/          # 每个策略组一个子目录
-│   ├── 合集文件          # 合并后的规则文件
-│   └── 独立文件          # 独立规则源文件
-└── Surge.conf     # 主配置文件
+│   ├── 合集文件          # 合并后的规则文件 (.list)
+│   └── 独立文件          # 独立规则源文件 (.list)
+└── Surge.conf          # 主配置文件
 ```
 
 ## 📋 策略组列表
@@ -95,19 +95,29 @@ Surge/
 
 - **合集** `YouTube`：包含 YouTube
 
+
 ## 🔗 引用示例
 
-### Surge
-```
-# 在 Surge.conf 中引用规则文件
-RULE-SET, https://raw.githubusercontent.com/SoultionLss/Rules/main/Surge/AI/AI.list, AI
-RULE-SET, https://raw.githubusercontent.com/SoultionLss/Rules/main/Surge/Google/Google.list, Google
-```
+### 单条规则引用
 
-### CDN 加速（jsDelivr）
-```
+```surge
 RULE-SET, https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Surge/AI/AI.list, AI
 ```
+
+### 完整配置示例
+
+```surge
+[Rule]
+# 合并源: OpenAI, Claude, Grok (共 3 个源)
+RULE-SET, https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Surge/AI/AI.list, AI
+# 独立源
+RULE-SET, https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Surge/Google/Google.list, Google
+FINAL, PROXY
+```
+
+### 官方文档
+
+更多语法请参考: https://manual.nssurge.com/book/understanding-surge/rules/rule-set.html
 
 ## 📅 更新频率
 
@@ -115,4 +125,4 @@ RULE-SET, https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Surge/AI/AI.list, A
 
 ---
 
-*最后更新: 2026-09-02 14:29:11*
+*最后更新: 2026-09-02 14:44:02*

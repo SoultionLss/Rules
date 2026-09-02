@@ -7,9 +7,9 @@
 ```
 Clash/
 ├── 策略组目录/          # 每个策略组一个子目录
-│   ├── 合集文件          # 合并后的规则文件
-│   └── 独立文件          # 独立规则源文件
-└── Clash.conf     # 主配置文件
+│   ├── 合集文件          # 合并后的规则文件 (.yaml)
+│   └── 独立文件          # 独立规则源文件 (.yaml)
+└── Clash.yaml          # 主配置文件
 ```
 
 ## 📋 策略组列表
@@ -95,19 +95,47 @@ Clash/
 
 - **合集** `YouTube`：包含 YouTube
 
+
 ## 🔗 引用示例
 
-### Clash
-```
-# 在 Clash.conf 中引用规则文件
-RULE-SET, https://raw.githubusercontent.com/SoultionLss/Rules/main/Clash/AI/AI.yaml, AI
-RULE-SET, https://raw.githubusercontent.com/SoultionLss/Rules/main/Clash/Google/Google.yaml, Google
+### 单条规则引用
+
+```clash
+rule-providers:
+  AI:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/AI/AI.yaml
+    interval: 86400
+    behavior: classical
+rules:
+  - RULE-SET, AI, AI
 ```
 
-### CDN 加速（jsDelivr）
+### 完整配置示例
+
+```clash
+rule-providers:
+  AI:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/AI/AI.yaml
+    interval: 86400
+    behavior: classical
+  Google:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Google/Google.yaml
+    interval: 86400
+    behavior: classical
+rules:
+  # 合并源: OpenAI, Claude, Grok (共 3 个源)
+  - RULE-SET, AI, AI
+  # 独立源
+  - RULE-SET, Google, Google
+  - MATCH, PROXY
 ```
-RULE-SET, https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/AI/AI.yaml, AI
-```
+
+### 官方文档
+
+更多语法请参考: https://clashfaq.com/rule-providers/
 
 ## 📅 更新频率
 
@@ -115,4 +143,4 @@ RULE-SET, https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/AI/AI.yaml, A
 
 ---
 
-*最后更新: 2026-09-02 14:29:11*
+*最后更新: 2026-09-02 14:44:02*

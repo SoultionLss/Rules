@@ -7,9 +7,9 @@
 ```
 v2ray/
 ├── 策略组目录/          # 每个策略组一个子目录
-│   ├── 合集文件          # 合并后的规则文件
-│   └── 独立文件          # 独立规则源文件
-└── v2ray.conf     # 主配置文件
+│   ├── 合集文件          # 合并后的规则文件 (_domain.txt)
+│   └── 独立文件          # 独立规则源文件 (_domain.txt)
+└── v2ray.json          # 主配置文件
 ```
 
 ## 📋 策略组列表
@@ -95,19 +95,39 @@ v2ray/
 
 - **合集** `YouTube`：包含 YouTube
 
+
 ## 🔗 引用示例
 
-### v2ray
-```
-# 在 v2ray.conf 中引用规则文件
-RULE-SET, https://raw.githubusercontent.com/SoultionLss/Rules/main/v2ray/AI/AI_domain.txt, AI
-RULE-SET, https://raw.githubusercontent.com/SoultionLss/Rules/main/v2ray/Google/Google_domain.txt, Google
+### 单条规则引用
+
+```v2ray
+{
+  "routing": {
+    "rules": [
+      { "domain": ["geosite:AI"] }
+    ]
+  }
+}
 ```
 
-### CDN 加速（jsDelivr）
+### 完整配置示例
+
+```v2ray
+{
+  "routing": {
+    "rules": [
+      # 合并源: OpenAI, Claude, Grok (共 3 个源)
+      { "domain": ["geosite:AI"] },
+      # 独立源
+      { "domain": ["geosite:Google"] }
+    ]
+  }
+}
 ```
-RULE-SET, https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/v2ray/AI/AI_domain.txt, AI
-```
+
+### 官方文档
+
+更多语法请参考: https://www.v2fly.org/config/routing.html#ruleobject
 
 ## 📅 更新频率
 
@@ -115,4 +135,4 @@ RULE-SET, https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/v2ray/AI/AI_domain.
 
 ---
 
-*最后更新: 2026-09-02 14:29:11*
+*最后更新: 2026-09-02 14:44:02*

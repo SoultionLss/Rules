@@ -7,9 +7,9 @@
 ```
 Singbox/
 ├── 策略组目录/          # 每个策略组一个子目录
-│   ├── 合集文件          # 合并后的规则文件
-│   └── 独立文件          # 独立规则源文件
-└── Singbox.conf     # 主配置文件
+│   ├── 合集文件          # 合并后的规则文件 (.json)
+│   └── 独立文件          # 独立规则源文件 (.json)
+└── Singbox.json          # 主配置文件
 ```
 
 ## 📋 策略组列表
@@ -95,19 +95,59 @@ Singbox/
 
 - **合集** `YouTube`：包含 YouTube
 
+
 ## 🔗 引用示例
 
-### Singbox
-```
-# 在 Singbox.conf 中引用规则文件
-RULE-SET, https://raw.githubusercontent.com/SoultionLss/Rules/main/Singbox/AI/AI.json, AI
-RULE-SET, https://raw.githubusercontent.com/SoultionLss/Rules/main/Singbox/Google/Google.json, Google
+### 单条规则引用
+
+```singbox
+{
+  "route": {
+    "rule_set": [
+      {
+        "tag": "AI",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/AI/AI.json"
+      }
+    ],
+    "rules": [
+      { "rule_set": "AI" }
+    ]
+  }
+}
 ```
 
-### CDN 加速（jsDelivr）
+### 完整配置示例
+
+```singbox
+{
+  "route": {
+    "rule_set": [
+      {
+        "tag": "AI",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/AI/AI.json"
+      },
+      {
+        "tag": "Google",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Google/Google.json"
+      }
+    ],
+    "rules": [
+      { "rule_set": "AI" },
+      { "rule_set": "Google" }
+    ]
+  }
+}
 ```
-RULE-SET, https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/AI/AI.json, AI
-```
+
+### 官方文档
+
+更多语法请参考: https://sing-box.sagernet.org/configuration/route/rule-set/
 
 ## 📅 更新频率
 
@@ -115,4 +155,4 @@ RULE-SET, https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/AI/AI.json,
 
 ---
 
-*最后更新: 2026-09-02 14:29:11*
+*最后更新: 2026-09-02 14:44:02*
