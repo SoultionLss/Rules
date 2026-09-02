@@ -17,21 +17,9 @@
 
 - 合并文件: `ApplePush.list`
 
-### BiliBili
-
-- 合并文件: `BiliBili.list`
-
 ### Brokerage
 
 - 合并文件: `Brokerage.list`
-
-### ChinaCIDR
-
-- 合并文件: `ChinaCIDR.list`
-
-### ChinaMax
-
-- 合并文件: `ChinaMax.list`
 
 ### DIRECT
 
@@ -72,10 +60,6 @@
 - 合并文件: `Microsoft.list`
 - 独立文件:
   - `Microsoft.list`
-
-### SOOP
-
-- 合并文件: `SOOP.list`
 
 ### Social
 

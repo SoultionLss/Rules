@@ -17,21 +17,9 @@
 
 - 合并文件: `ApplePush_domain.txt`
 
-### BiliBili
-
-- 合并文件: `BiliBili_domain.txt`
-
 ### Brokerage
 
 - 合并文件: `Brokerage_domain.txt`
-
-### ChinaCIDR
-
-- 合并文件: `ChinaCIDR_domain.txt`
-
-### ChinaMax
-
-- 合并文件: `ChinaMax_domain.txt`
 
 ### DIRECT
 
@@ -72,10 +60,6 @@
 - 合并文件: `Microsoft_domain.txt`
 - 独立文件:
   - `Microsoft_domain.txt`
-
-### SOOP
-
-- 合并文件: `SOOP_domain.txt`
 
 ### Social
 

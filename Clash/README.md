@@ -17,21 +17,9 @@
 
 - 合并文件: `ApplePush.yaml`
 
-### BiliBili
-
-- 合并文件: `BiliBili.yaml`
-
 ### Brokerage
 
 - 合并文件: `Brokerage.yaml`
-
-### ChinaCIDR
-
-- 合并文件: `ChinaCIDR.yaml`
-
-### ChinaMax
-
-- 合并文件: `ChinaMax.yaml`
 
 ### DIRECT
 
@@ -72,10 +60,6 @@
 - 合并文件: `Microsoft.yaml`
 - 独立文件:
   - `Microsoft.yaml`
-
-### SOOP
-
-- 合并文件: `SOOP.yaml`
 
 ### Social
 
