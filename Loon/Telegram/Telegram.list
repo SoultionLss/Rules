@@ -5,7 +5,7 @@
 # 规则来源条目总数: 1 条
 # 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Telegram/Telegram.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-03 16:05:09
+# 最后更新: 2026-09-04 16:00:25
 # ============================================================
 
 DOMAIN-SUFFIX,api.imem.app,Telegram
