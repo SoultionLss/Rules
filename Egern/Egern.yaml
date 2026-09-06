@@ -85,6 +85,16 @@ policy_groups:
     - YOUR_宝可梦_SUBSCRIPTION_URL
     filter: (?i)(?:0\.[1-9]X|1X)
 - select:
+    name: 美国拼车
+    urls:
+    - YOUR_US_SUBSCRIPTION_URL
+    prev_hop: 🇺🇸 美国-故选
+- select:
+    name: 香港拼车
+    urls:
+    - YOUR_HK_SUBSCRIPTION_URL
+    prev_hop: 🇭🇰 香港-故选
+- select:
     name: 🇭🇰 香港-手选
     policies:
     - 良心云
@@ -99,6 +109,7 @@ policy_groups:
     flatten: true
     filter: (?i)🇭🇰|香港|(\b(HK|Hong|HongKong)\b)
     interval: 300
+    tolerance: 100
     timeout: 5
     hidden: true
 - fallback:
@@ -123,6 +134,7 @@ policy_groups:
     flatten: true
     filter: (?i)🇹🇼|台湾|台北|(\b(TW|Tai|Taiwan)\b)
     interval: 300
+    tolerance: 100
     timeout: 5
     hidden: true
 - fallback:
@@ -147,6 +159,7 @@ policy_groups:
     flatten: true
     filter: (?i)🇯🇵|日本|东京|大阪|(\b(JP|Japan)\b)
     interval: 300
+    tolerance: 100
     timeout: 5
     hidden: true
 - fallback:
@@ -171,6 +184,7 @@ policy_groups:
     flatten: true
     filter: (?i)🇺🇸|美国|洛杉矶|圣何塞|纽约|(\b(US|United States)\b)
     interval: 300
+    tolerance: 100
     timeout: 5
     hidden: true
 - fallback:
@@ -195,6 +209,7 @@ policy_groups:
     flatten: true
     filter: (?i)🇸🇬|新加坡|狮城|(\b(SG|Singapore)\b)
     interval: 300
+    tolerance: 100
     timeout: 5
     hidden: true
 - fallback:
@@ -205,6 +220,105 @@ policy_groups:
     interval: 300
     timeout: 5
 - select:
+    name: Google
+    policies:
+    - 🇯🇵 日本-故选
+    - 🇺🇸 美国-故选
+    - 🇭🇰 香港-故选
+- select:
+    name: Gemini
+    policies:
+    - Google
+- select:
+    name: AI
+    policies:
+    - 🇺🇸 美国-故选
+    - 🇯🇵 日本-故选
+    - 🇭🇰 香港-故选
+- select:
+    name: Telegram
+    policies:
+    - 🇺🇸 美国-故选
+    - 美国拼车
+    - 🇯🇵 日本-故选
+    - 🇭🇰 香港-故选
+- select:
+    name: YouTube
+    policies:
+    - 🇺🇸 美国-故选
+    - 🇯🇵 日本-故选
+    - 🇭🇰 香港-故选
+- select:
+    name: Streaming
+    policies:
+    - 🇺🇸 美国-故选
+    - 🇯🇵 日本-故选
+    - 🇭🇰 香港-故选
+- select:
+    name: Social
+    policies:
+    - 🇺🇸 美国-故选
+    - 🇭🇰 香港-故选
+    - 🇯🇵 日本-故选
+- select:
+    name: TikTok
+    policies:
+    - 🇺🇸 美国-故选
+    - 🇯🇵 日本-故选
+    - 🇸🇬 狮城-故选
+- select:
+    name: GitHub
+    policies:
+    - 兜底节点
+    - 🇺🇸 美国-故选
+    - 🇯🇵 日本-故选
+    - 🇭🇰 香港-故选
+- select:
+    name: Microsoft
+    policies:
+    - DIRECT
+    - 🇭🇰 香港-故选
+    - 🇺🇸 美国-故选
+- select:
+    name: 香港社交
+    policies:
+    - 🇭🇰 香港-故选
+    - 香港拼车
+    - 🇺🇸 美国-故选
+- select:
+    name: Apple Push
+    policies:
+    - 兜底节点
+    - DIRECT
+- select:
+    name: Cloudflare
+    policies:
+    - 🇯🇵 日本-故选
+    - 🇸🇬 狮城-故选
+- select:
+    name: 低倍率-手选
+    policies:
+    - 宝可梦
+    flatten: true
+    filter: (?i)0\.[1-9]X
+- auto_test:
+    name: 低倍率-智能
+    policies:
+    - 宝可梦
+    flatten: true
+    filter: (?i)0\.[1-9]X
+    interval: 300
+    tolerance: 100
+    timeout: 5
+    hidden: true
+- fallback:
+    name: 低倍率-故选
+    policies:
+    - 低倍率-手选
+    - 低倍率-智能
+    interval: 300
+    timeout: 5
+- select:
     name: 兜底节点
     policies:
     - 🇭🇰 香港-故选
@@ -212,6 +326,7 @@ policy_groups:
     - 🇺🇸 美国-故选
     - 🇸🇬 狮城-故选
     - 🇹🇼 台湾-故选
+    - 低倍率-故选
     - 美国拼车
     - 香港拼车
     - DIRECT

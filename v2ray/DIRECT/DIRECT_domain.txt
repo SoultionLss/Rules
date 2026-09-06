@@ -1,11 +1,11 @@
 # ============================================================
 # 规则策略: DIRECT
 # 域名规则总数: 366 条
-# IP-CIDR 规则总数: 14794 条
+# IP-CIDR 规则总数: 14773 条
 # 规则来源条目总数: 7 条
 # 规则来源: KeterCo/ClashRules@a505e394fb0fad9405dac53d0fa8edaa3075f4c1/Soop.list, Loyalsoldier/geoip@release/surge/cn.txt, Loyalsoldier/surge-rules@release/apple.txt, Rabbit-Spec/Surge@refs/heads/Master/Rules/ChinaCIDR.list, blackmatrix7/ios_rule_script@master/rule/Surge/BiliBili/BiliBili.list, blackmatrix7/ios_rule_script@master/rule/Surge/ChinaMax/ChinaMax.list, blackmatrix7/ios_rule_script@master/rule/Surge/DouYin/DouYin.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-05 14:51:12
+# 最后更新: 2026-09-06 13:10:58
 # ============================================================
 
 .afreecatv.co.kr

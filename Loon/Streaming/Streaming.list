@@ -5,7 +5,7 @@
 # 规则来源条目总数: 7 条
 # 规则来源: HotKids/Rules@a06feb8eb0bfc42a406f738806a122a50e2b144f/Surge/RULE-SET/Crunchyroll.list, blackmatrix7/ios_rule_script@master/rule/Surge/Disney/Disney.list, blackmatrix7/ios_rule_script@master/rule/Surge/HBO/HBO.list, blackmatrix7/ios_rule_script@master/rule/Surge/Hulu/Hulu.list, blackmatrix7/ios_rule_script@master/rule/Surge/Netflix/Netflix.list, blackmatrix7/ios_rule_script@master/rule/Surge/Peacock/Peacock.list, blackmatrix7/ios_rule_script@master/rule/Surge/PrimeVideo/PrimeVideo.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-05 14:51:12
+# 最后更新: 2026-09-06 13:10:58
 # ============================================================
 
 DOMAIN-SUFFIX,112263.com,Streaming
