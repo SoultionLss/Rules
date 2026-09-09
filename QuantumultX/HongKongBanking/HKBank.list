@@ -1,0 +1,39 @@
+# ============================================================
+# 规则策略: HongKongBanking
+# 域名规则总数: 29 条
+# IP-CIDR 规则总数: 0 条
+# 规则来源条目总数: 1 条
+# 规则来源: Bwy999/Surge@fe4d122f120932bb2a40e4c992871c4ec89eb788/Ruleset/HKBank.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-09 15:33:34
+# ============================================================
+
+HOST-SUFFIX,alipay.hk,HongKongBanking
+HOST-SUFFIX,antbank.hk,HongKongBanking
+HOST-SUFFIX,appcenter.ms,HongKongBanking
+HOST-SUFFIX,boccc.com.hk,HongKongBanking
+HOST-SUFFIX,bochk.com,HongKongBanking
+HOST-SUFFIX,bochk.yundzh.com,HongKongBanking
+HOST-SUFFIX,bochk01.etnet.com.hk,HongKongBanking
+HOST-SUFFIX,bochk02.etnet.com.hk,HongKongBanking
+HOST-SUFFIX,bochkapp01.etnet.com.hk,HongKongBanking
+HOST-SUFFIX,fundsupermart.com,HongKongBanking
+HOST-SUFFIX,fusionbank.com,HongKongBanking
+HOST-SUFFIX,go.trouter.teams.microsoft.com,HongKongBanking
+HOST-SUFFIX,hsbc.com.hk,HongKongBanking
+HOST-SUFFIX,ifastgb.com,HongKongBanking
+HOST-SUFFIX,igb-ai-cs-communication-app-prod.azurewebsites.net,HongKongBanking
+HOST-SUFFIX,jylcpxrv.r.eu-west-2.awstrack.me,HongKongBanking
+HOST-SUFFIX,marmot-cloud.com,HongKongBanking
+HOST-SUFFIX,myh2hk.alipay.com,HongKongBanking
+HOST-SUFFIX,online-metrix.net,HongKongBanking
+HOST-SUFFIX,pandaremit.com,HongKongBanking
+HOST-SUFFIX,saaszhhk.yundzh.com,HongKongBanking
+HOST-SUFFIX,starryblu.com,HongKongBanking
+HOST-SUFFIX,tpns.hk.tencent.com,HongKongBanking
+HOST-SUFFIX,trkd-hs.com,HongKongBanking
+HOST-SUFFIX,za.group,HongKongBanking
+HOST-SUFFIX,zainvest.group,HongKongBanking
+HOST-SUFFIX,zajourney.com,HongKongBanking
+HOST-SUFFIX,zaticdn.com,HongKongBanking
+HOST-SUFFIX,zimperium.com,HongKongBanking

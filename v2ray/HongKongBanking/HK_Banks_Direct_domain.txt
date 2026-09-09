@@ -1,0 +1,47 @@
+# ============================================================
+# 规则策略: HongKongBanking
+# 域名规则总数: 37 条
+# IP-CIDR 规则总数: 0 条
+# 规则来源条目总数: 1 条
+# 规则来源: LingJingMaster/Shadowrocket-Rules@refs/heads/main/HK_Banks_Direct.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-09 15:33:34
+# ============================================================
+
+airstarbank.com
+antbank.hk
+api.sc.com
+asia.ccb.com
+bankcomm.com.hk
+bankofchina.com.hk
+bochk.com
+bocpay.com.hk
+bodintl.com
+ccb.com.hk
+chbank.com
+chiyubank.com
+citi.com.hk
+cmbwinglungbank.com
+cncbinternational.com
+dahsing.com
+dahsing.com.hk
+dbs.com.hk
+fubon.com
+fubonbank.com.hk
+fusionbank.com
+hangseng.com
+hkbea.com
+icbcasia.com
+livibank.com
+mox.com
+ncb.com.hk
+ocbc.com.hk
+ocbcwhhk.com
+paob.com.hk
+publicbank.com.hk
+shacombank.com.hk
+standardchartered.com.hk
+tybhk.com.hk
+welab.bank
+winglungbank.com
+za.group

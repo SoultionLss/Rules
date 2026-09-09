@@ -281,9 +281,89 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/LowRate/LowRate.yaml
     interval: 86400
     behavior: classical
+  BlockHttpDNS:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/REJECT/BlockHttpDNS.yaml
+    interval: 86400
+    behavior: classical
+  Gemini:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Google/Gemini.yaml
+    interval: 86400
+    behavior: classical
+  OpenAI:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/AI/OpenAI.yaml
+    interval: 86400
+    behavior: classical
+  Claude:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/AI/Claude.yaml
+    interval: 86400
+    behavior: classical
+  Anthropic:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/AI/Anthropic.yaml
+    interval: 86400
+    behavior: classical
   DouYin:
     type: http
     url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/DouYin.yaml
+    interval: 86400
+    behavior: classical
+  Netflix:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Streaming/Netflix.yaml
+    interval: 86400
+    behavior: classical
+  Disney:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Streaming/Disney.yaml
+    interval: 86400
+    behavior: classical
+  HBO:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Streaming/HBO.yaml
+    interval: 86400
+    behavior: classical
+  PrimeVideo:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Streaming/PrimeVideo.yaml
+    interval: 86400
+    behavior: classical
+  Hulu:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Streaming/Hulu.yaml
+    interval: 86400
+    behavior: classical
+  Peacock:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Streaming/Peacock.yaml
+    interval: 86400
+    behavior: classical
+  Crunchyroll:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Streaming/Crunchyroll.yaml
+    interval: 86400
+    behavior: classical
+  Twitter:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Social/Twitter.yaml
+    interval: 86400
+    behavior: classical
+  Instagram:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Social/Instagram.yaml
+    interval: 86400
+    behavior: classical
+  Threads:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Social/Threads.yaml
+    interval: 86400
+    behavior: classical
+  Reddit:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Social/Reddit.yaml
     interval: 86400
     behavior: classical
   BiliBili:
@@ -291,9 +371,49 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/BiliBili.yaml
     interval: 86400
     behavior: classical
+  GitLab:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/GitHub/GitLab.yaml
+    interval: 86400
+    behavior: classical
+  Atlassian:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/GitHub/Atlassian.yaml
+    interval: 86400
+    behavior: classical
   Cloudflare:
     type: http
     url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/GitHub/Cloudflare.yaml
+    interval: 86400
+    behavior: classical
+  Whatsapp:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/HongKongSocial/Whatsapp.yaml
+    interval: 86400
+    behavior: classical
+  Line:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/HongKongSocial/Line.yaml
+    interval: 86400
+    behavior: classical
+  HSBC_HK:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/HongKongBanking/HSBC_HK.yaml
+    interval: 86400
+    behavior: classical
+  HK_Banks_Direct:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/HongKongBanking/HK_Banks_Direct.yaml
+    interval: 86400
+    behavior: classical
+  HKBank:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/HongKongBanking/HKBank.yaml
+    interval: 86400
+    behavior: classical
+  Broker:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Brokerage/Broker.yaml
     interval: 86400
     behavior: classical
   ApplePush:
@@ -304,6 +424,16 @@ rule-providers:
   apple:
     type: http
     url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/apple.yaml
+    interval: 86400
+    behavior: classical
+  PikPak:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/LowRate/PikPak.yaml
+    interval: 86400
+    behavior: classical
+  TeraBox:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/LowRate/TeraBox.yaml
     interval: 86400
     behavior: classical
   Soop:
@@ -355,11 +485,43 @@ rules:
   - RULE-SET, Brokerage, Brokerage
   # 合并源: PikPak, TeraBox (共 2 个源)
   - RULE-SET, LowRate, LowRate
+  - RULE-SET, BlockHttpDNS, REJECT
+  - RULE-SET, Google, Google
+  - RULE-SET, Gemini, Google
+  - RULE-SET, OpenAI, AI
+  - RULE-SET, Claude, AI
+  - RULE-SET, Anthropic, AI
   - RULE-SET, DouYin, DIRECT
+  - RULE-SET, TikTok, TikTok
+  - RULE-SET, Netflix, Streaming
+  - RULE-SET, Disney, Streaming
+  - RULE-SET, HBO, Streaming
+  - RULE-SET, PrimeVideo, Streaming
+  - RULE-SET, Hulu, Streaming
+  - RULE-SET, Peacock, Streaming
+  - RULE-SET, Crunchyroll, Streaming
+  - RULE-SET, Twitter, Social
+  - RULE-SET, Instagram, Social
+  - RULE-SET, Threads, Social
+  - RULE-SET, Reddit, Social
+  - RULE-SET, YouTube, YouTube
   - RULE-SET, BiliBili, DIRECT
+  - RULE-SET, Telegram, Telegram
+  - RULE-SET, GitHub, GitHub
+  - RULE-SET, GitLab, GitHub
+  - RULE-SET, Atlassian, GitHub
   - RULE-SET, Cloudflare, GitHub
+  - RULE-SET, Microsoft, Microsoft
+  - RULE-SET, Whatsapp, HongKongSocial
+  - RULE-SET, Line, HongKongSocial
+  - RULE-SET, HSBC_HK, HongKongBanking
+  - RULE-SET, HK_Banks_Direct, HongKongBanking
+  - RULE-SET, HKBank, HongKongBanking
+  - RULE-SET, Broker, Brokerage
   - RULE-SET, ApplePush, ApplePush
   - RULE-SET, apple, DIRECT
+  - RULE-SET, PikPak, LowRate
+  - RULE-SET, TeraBox, LowRate
   - RULE-SET, Soop, DIRECT
   - RULE-SET, cn, DIRECT
   - RULE-SET, ChinaMax, DIRECT

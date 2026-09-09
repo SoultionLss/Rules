@@ -403,16 +403,136 @@ rules:
       policy: LowRate
 
   - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/REJECT/BlockHttpDNS.yaml
+      policy: REJECT
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Google/Google.yaml
+      policy: Google
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Google/Gemini.yaml
+      policy: Google
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/AI/OpenAI.yaml
+      policy: AI
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/AI/Claude.yaml
+      policy: AI
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/AI/Anthropic.yaml
+      policy: AI
+
+  - rule_set:
       match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT/DouYin.yaml
       policy: DIRECT
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/TikTok/TikTok.yaml
+      policy: TikTok
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Netflix.yaml
+      policy: Streaming
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Disney.yaml
+      policy: Streaming
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/HBO.yaml
+      policy: Streaming
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/PrimeVideo.yaml
+      policy: Streaming
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Hulu.yaml
+      policy: Streaming
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Peacock.yaml
+      policy: Streaming
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Streaming/Crunchyroll.yaml
+      policy: Streaming
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social/Twitter.yaml
+      policy: Social
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social/Instagram.yaml
+      policy: Social
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social/Threads.yaml
+      policy: Social
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Social/Reddit.yaml
+      policy: Social
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/YouTube/YouTube.yaml
+      policy: YouTube
 
   - rule_set:
       match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT/BiliBili.yaml
       policy: DIRECT
 
   - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Telegram/Telegram.yaml
+      policy: Telegram
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/GitHub/GitHub.yaml
+      policy: GitHub
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/GitHub/GitLab.yaml
+      policy: GitHub
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/GitHub/Atlassian.yaml
+      policy: GitHub
+
+  - rule_set:
       match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/GitHub/Cloudflare.yaml
       policy: GitHub
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Microsoft/Microsoft.yaml
+      policy: Microsoft
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/HongKongSocial/Whatsapp.yaml
+      policy: HongKongSocial
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/HongKongSocial/Line.yaml
+      policy: HongKongSocial
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/HongKongBanking/HSBC_HK.yaml
+      policy: HongKongBanking
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/HongKongBanking/HK_Banks_Direct.yaml
+      policy: HongKongBanking
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/HongKongBanking/HKBank.yaml
+      policy: HongKongBanking
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Brokerage/Broker.yaml
+      policy: Brokerage
 
   - rule_set:
       match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/ApplePush/ApplePush.yaml
@@ -421,6 +541,14 @@ rules:
   - rule_set:
       match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT/apple.yaml
       policy: DIRECT
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/LowRate/PikPak.yaml
+      policy: LowRate
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/LowRate/TeraBox.yaml
+      policy: LowRate
 
   - rule_set:
       match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/DIRECT/Soop.yaml

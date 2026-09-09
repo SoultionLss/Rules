@@ -1,0 +1,39 @@
+# ============================================================
+# 规则策略: HongKongBanking
+# 域名规则总数: 29 条
+# IP-CIDR 规则总数: 0 条
+# 规则来源条目总数: 1 条
+# 规则来源: Bwy999/Surge@fe4d122f120932bb2a40e4c992871c4ec89eb788/Ruleset/HKBank.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-09 15:33:34
+# ============================================================
+
+.alipay.hk
+.antbank.hk
+.appcenter.ms
+.boccc.com.hk
+.bochk.com
+.bochk.yundzh.com
+.bochk01.etnet.com.hk
+.bochk02.etnet.com.hk
+.bochkapp01.etnet.com.hk
+.fundsupermart.com
+.fusionbank.com
+.go.trouter.teams.microsoft.com
+.hsbc.com.hk
+.ifastgb.com
+.igb-ai-cs-communication-app-prod.azurewebsites.net
+.jylcpxrv.r.eu-west-2.awstrack.me
+.marmot-cloud.com
+.myh2hk.alipay.com
+.online-metrix.net
+.pandaremit.com
+.saaszhhk.yundzh.com
+.starryblu.com
+.tpns.hk.tencent.com
+.trkd-hs.com
+.za.group
+.zainvest.group
+.zajourney.com
+.zaticdn.com
+.zimperium.com

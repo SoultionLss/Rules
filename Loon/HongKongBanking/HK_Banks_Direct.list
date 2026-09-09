@@ -1,0 +1,47 @@
+# ============================================================
+# 规则策略: HongKongBanking
+# 域名规则总数: 37 条
+# IP-CIDR 规则总数: 0 条
+# 规则来源条目总数: 1 条
+# 规则来源: LingJingMaster/Shadowrocket-Rules@refs/heads/main/HK_Banks_Direct.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-09 15:33:34
+# ============================================================
+
+DOMAIN-SUFFIX,airstarbank.com,HongKongBanking
+DOMAIN-SUFFIX,antbank.hk,HongKongBanking
+DOMAIN-SUFFIX,api.sc.com,HongKongBanking
+DOMAIN-SUFFIX,asia.ccb.com,HongKongBanking
+DOMAIN-SUFFIX,bankcomm.com.hk,HongKongBanking
+DOMAIN-SUFFIX,bankofchina.com.hk,HongKongBanking
+DOMAIN-SUFFIX,bochk.com,HongKongBanking
+DOMAIN-SUFFIX,bocpay.com.hk,HongKongBanking
+DOMAIN-SUFFIX,bodintl.com,HongKongBanking
+DOMAIN-SUFFIX,ccb.com.hk,HongKongBanking
+DOMAIN-SUFFIX,chbank.com,HongKongBanking
+DOMAIN-SUFFIX,chiyubank.com,HongKongBanking
+DOMAIN-SUFFIX,citi.com.hk,HongKongBanking
+DOMAIN-SUFFIX,cmbwinglungbank.com,HongKongBanking
+DOMAIN-SUFFIX,cncbinternational.com,HongKongBanking
+DOMAIN-SUFFIX,dahsing.com,HongKongBanking
+DOMAIN-SUFFIX,dahsing.com.hk,HongKongBanking
+DOMAIN-SUFFIX,dbs.com.hk,HongKongBanking
+DOMAIN-SUFFIX,fubon.com,HongKongBanking
+DOMAIN-SUFFIX,fubonbank.com.hk,HongKongBanking
+DOMAIN-SUFFIX,fusionbank.com,HongKongBanking
+DOMAIN-SUFFIX,hangseng.com,HongKongBanking
+DOMAIN-SUFFIX,hkbea.com,HongKongBanking
+DOMAIN-SUFFIX,icbcasia.com,HongKongBanking
+DOMAIN-SUFFIX,livibank.com,HongKongBanking
+DOMAIN-SUFFIX,mox.com,HongKongBanking
+DOMAIN-SUFFIX,ncb.com.hk,HongKongBanking
+DOMAIN-SUFFIX,ocbc.com.hk,HongKongBanking
+DOMAIN-SUFFIX,ocbcwhhk.com,HongKongBanking
+DOMAIN-SUFFIX,paob.com.hk,HongKongBanking
+DOMAIN-SUFFIX,publicbank.com.hk,HongKongBanking
+DOMAIN-SUFFIX,shacombank.com.hk,HongKongBanking
+DOMAIN-SUFFIX,standardchartered.com.hk,HongKongBanking
+DOMAIN-SUFFIX,tybhk.com.hk,HongKongBanking
+DOMAIN-SUFFIX,welab.bank,HongKongBanking
+DOMAIN-SUFFIX,winglungbank.com,HongKongBanking
+DOMAIN-SUFFIX,za.group,HongKongBanking
