@@ -14,76 +14,6 @@ v2ray/
 
 ## 📋 策略组列表
 
-### AI
-
-- **合集** `AI`：包含 Anthropic, Claude, OpenAI
-
-### ApplePush
-
-- **独立** `ApplePush`
-
-### Brokerage
-
-- **合集** `Brokerage`：包含 Broker
-
-### DIRECT
-
-- **独立** `DouYin`
-- **独立** `BiliBili`
-- **独立** `apple`
-- **独立** `Soop`
-- **独立** `cn`
-- **独立** `ChinaMax`
-- **独立** `ChinaCIDR`
-
-### GitHub
-
-- **合集** `GitHub`：包含 Atlassian, GitHub, GitLab
-- **独立** `Cloudflare`
-
-### Google
-
-- **合集** `Google`：包含 Gemini, Google
-
-### HongKongBanking
-
-- **合集** `HongKongBanking`：包含 HKBank, HK_Banks_Direct, HSBC_HK
-
-### HongKongSocial
-
-- **合集** `HongKongSocial`：包含 Line, Whatsapp
-
-### LowRate
-
-- **合集** `LowRate`：包含 PikPak, TeraBox
-
-### Microsoft
-
-- **合集** `Microsoft`：包含 Microsoft
-
-### REJECT
-
-- **合集** `REJECT`：包含 BlockHttpDNS
-
-### Social
-
-- **合集** `Social`：包含 Instagram, Reddit, Threads, Twitter
-
-### Streaming
-
-- **合集** `Streaming`：包含 Crunchyroll, Disney, HBO, Hulu, Netflix, Peacock, PrimeVideo
-
-### Telegram
-
-- **合集** `Telegram`：包含 Telegram
-
-### TikTok
-
-- **合集** `TikTok`：包含 TikTok
-
-### YouTube
-
-- **合集** `YouTube`：包含 YouTube
 ## 🔗 引用示例
 
 ### 单条规则引用
@@ -121,4 +51,4 @@ v2ray/
 
 ---
 
-*最后更新: 2026-09-08 16:18:20*
+*最后更新: 2026-09-09 14:54:18*

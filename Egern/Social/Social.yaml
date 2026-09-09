@@ -1,55 +1,49 @@
-# ============================================================
-# 规则策略: Social
-# 域名规则总数: 38 条
-# IP-CIDR 规则总数: 6 条
-# 规则来源条目总数: 4 条
-# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Instagram/Instagram.list, blackmatrix7/ios_rule_script@master/rule/Surge/Reddit/Reddit.list, blackmatrix7/ios_rule_script@master/rule/Surge/Threads/Threads.list, blackmatrix7/ios_rule_script@master/rule/Surge/Twitter/Twitter.list
-# 作者: SoultionLss
-# 最后更新: 2026-09-08 16:18:20
-# ============================================================
+no_resolve: true
 
-rules:
-  - domain_suffix: ads-twitter.com
-  - domain_suffix: cdninstagram.com
-  - domain_suffix: cms-twdigitalassets.com
-  - domain_suffix: grok.com
-  - domain_suffix: instagr.am
-  - domain_suffix: instagram.com
-  - domain_suffix: periscope.tv
-  - domain_suffix: pscp.tv
-  - domain_suffix: redd.it
-  - domain_suffix: reddit.com
-  - domain_suffix: redditmail.com
-  - domain_suffix: redditmedia.com
-  - domain_suffix: redditstatic.com
-  - domain_suffix: reddituploads.com
-  - domain_suffix: reddituploads.com.cdn-cf.behance.net
-  - domain_suffix: reddituploads.com.cdn-cf.dropbox.com
-  - domain_suffix: t.co
-  - domain_suffix: tellapart.com
-  - domain_suffix: threads.net
-  - domain_suffix: tweetdeck.com
-  - domain_suffix: twimg.co
-  - domain_suffix: twimg.com
-  - domain_suffix: twimg.org
-  - domain_suffix: twitpic.com
-  - domain_suffix: twitter.biz
-  - domain_suffix: twitter.com
-  - domain_suffix: twitter.jp
-  - domain_suffix: twittercommunity.com
-  - domain_suffix: twitterflightschool.com
-  - domain_suffix: twitterinc.com
-  - domain_suffix: twitteroauth.com
-  - domain_suffix: twitterstat.us
-  - domain_suffix: twtrdns.net
-  - domain_suffix: twttr.com
-  - domain_suffix: twttr.net
-  - domain_suffix: twvid.com
-  - domain_suffix: vine.co
-  - domain_suffix: x.com
-  - ip_cidr: 192.133.76.0/22
-  - ip_cidr: 199.59.148.0/22
-  - ip_cidr: 199.96.56.0/21
-  - ip_cidr: 202.160.128.0/22
-  - ip_cidr: 209.237.192.0/19
-  - ip_cidr: 69.195.160.0/19
+domain_suffix_set:
+- ads-twitter.com
+- cdninstagram.com
+- cms-twdigitalassets.com
+- grok.com
+- instagr.am
+- instagram.com
+- periscope.tv
+- pscp.tv
+- redd.it
+- reddit.com
+- redditmail.com
+- redditmedia.com
+- redditstatic.com
+- reddituploads.com
+- reddituploads.com.cdn-cf.behance.net
+- reddituploads.com.cdn-cf.dropbox.com
+- t.co
+- tellapart.com
+- threads.net
+- tweetdeck.com
+- twimg.co
+- twimg.com
+- twimg.org
+- twitpic.com
+- twitter.biz
+- twitter.com
+- twitter.jp
+- twittercommunity.com
+- twitterflightschool.com
+- twitterinc.com
+- twitteroauth.com
+- twitterstat.us
+- twtrdns.net
+- twttr.com
+- twttr.net
+- twvid.com
+- vine.co
+- x.com
+
+ip_cidr_set:
+- 192.133.76.0/22
+- 199.59.148.0/22
+- 199.96.56.0/21
+- 202.160.128.0/22
+- 209.237.192.0/19
+- 69.195.160.0/19
