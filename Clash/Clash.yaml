@@ -281,11 +281,6 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/LowRate/LowRate.yaml
     interval: 86400
     behavior: classical
-  DIRECT:
-    type: http
-    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/DIRECT.yaml
-    interval: 86400
-    behavior: classical
   DouYin:
     type: http
     url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/DouYin.yaml
@@ -296,6 +291,11 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/BiliBili.yaml
     interval: 86400
     behavior: classical
+  Cloudflare:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/GitHub/Cloudflare.yaml
+    interval: 86400
+    behavior: classical
   ApplePush:
     type: http
     url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/ApplePush/ApplePush.yaml
@@ -304,6 +304,11 @@ rule-providers:
   apple:
     type: http
     url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/apple.yaml
+    interval: 86400
+    behavior: classical
+  Soop:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/DIRECT/Soop.yaml
     interval: 86400
     behavior: classical
   cn:
@@ -324,39 +329,15 @@ rule-providers:
 rules:
   # 合并源: BlockHttpDNS (共 1 个源)
   - RULE-SET, REJECT, REJECT
-  # 合并源: Google (共 1 个源)
+  # 合并源: Gemini, Google (共 2 个源)
   - RULE-SET, Google, Google
-  # 合并源: Gemini (共 1 个源)
-  - RULE-SET, Google, Google
-  # 合并源: OpenAI (共 1 个源)
-  - RULE-SET, AI, AI
-  # 合并源: Claude (共 1 个源)
-  - RULE-SET, AI, AI
-  # 合并源: Anthropic (共 1 个源)
+  # 合并源: Anthropic, Claude, OpenAI (共 3 个源)
   - RULE-SET, AI, AI
   # 合并源: TikTok (共 1 个源)
   - RULE-SET, TikTok, TikTok
-  # 合并源: Netflix (共 1 个源)
+  # 合并源: Crunchyroll, Disney, HBO, Hulu, Netflix, Peacock, PrimeVideo (共 7 个源)
   - RULE-SET, Streaming, Streaming
-  # 合并源: Disney (共 1 个源)
-  - RULE-SET, Streaming, Streaming
-  # 合并源: HBO (共 1 个源)
-  - RULE-SET, Streaming, Streaming
-  # 合并源: PrimeVideo (共 1 个源)
-  - RULE-SET, Streaming, Streaming
-  # 合并源: Hulu (共 1 个源)
-  - RULE-SET, Streaming, Streaming
-  # 合并源: Peacock (共 1 个源)
-  - RULE-SET, Streaming, Streaming
-  # 合并源: Crunchyroll (共 1 个源)
-  - RULE-SET, Streaming, Streaming
-  # 合并源: Twitter (共 1 个源)
-  - RULE-SET, Social, Social
-  # 合并源: Instagram (共 1 个源)
-  - RULE-SET, Social, Social
-  # 合并源: Threads (共 1 个源)
-  - RULE-SET, Social, Social
-  # 合并源: Reddit (共 1 个源)
+  # 合并源: Instagram, Reddit, Threads, Twitter (共 4 个源)
   - RULE-SET, Social, Social
   # 合并源: YouTube (共 1 个源)
   - RULE-SET, YouTube, YouTube
@@ -364,32 +345,22 @@ rules:
   - RULE-SET, Telegram, Telegram
   # 合并源: Atlassian, GitHub, GitLab (共 3 个源)
   - RULE-SET, GitHub, GitHub
-  # 合并源: Cloudflare (共 1 个源)
-  - RULE-SET, GitHub, GitHub
   # 合并源: Microsoft (共 1 个源)
   - RULE-SET, Microsoft, Microsoft
-  # 合并源: Whatsapp (共 1 个源)
+  # 合并源: Line, Whatsapp (共 2 个源)
   - RULE-SET, HongKongSocial, HongKongSocial
-  # 合并源: Line (共 1 个源)
-  - RULE-SET, HongKongSocial, HongKongSocial
-  # 合并源: HSBC_HK (共 1 个源)
-  - RULE-SET, HongKongBanking, HongKongBanking
-  # 合并源: HK_Banks_Direct (共 1 个源)
-  - RULE-SET, HongKongBanking, HongKongBanking
-  # 合并源: HKBank (共 1 个源)
+  # 合并源: HKBank, HK_Banks_Direct, HSBC_HK (共 3 个源)
   - RULE-SET, HongKongBanking, HongKongBanking
   # 合并源: Broker (共 1 个源)
   - RULE-SET, Brokerage, Brokerage
-  # 合并源: PikPak (共 1 个源)
+  # 合并源: PikPak, TeraBox (共 2 个源)
   - RULE-SET, LowRate, LowRate
-  # 合并源: TeraBox (共 1 个源)
-  - RULE-SET, LowRate, LowRate
-  # 合并源: Soop (共 1 个源)
-  - RULE-SET, DIRECT, DIRECT
   - RULE-SET, DouYin, DIRECT
   - RULE-SET, BiliBili, DIRECT
+  - RULE-SET, Cloudflare, GitHub
   - RULE-SET, ApplePush, ApplePush
   - RULE-SET, apple, DIRECT
+  - RULE-SET, Soop, DIRECT
   - RULE-SET, cn, DIRECT
   - RULE-SET, ChinaMax, DIRECT
   - RULE-SET, ChinaCIDR, DIRECT
