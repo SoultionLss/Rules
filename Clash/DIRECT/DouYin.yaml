@@ -1,0 +1,24 @@
+# ============================================================
+# 规则策略: DIRECT
+# 域名规则总数: 13 条
+# IP-CIDR 规则总数: 0 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/DouYin/DouYin.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-09 15:16:15
+# ============================================================
+
+payload:
+  - DOMAIN-SUFFIX,amemv.com,DIRECT
+  - DOMAIN-SUFFIX,douyincdn.com,DIRECT
+  - DOMAIN-SUFFIX,douyinpic.com,DIRECT
+  - DOMAIN-SUFFIX,douyinstatic.com,DIRECT
+  - DOMAIN-SUFFIX,douyinvod.com,DIRECT
+  - DOMAIN-SUFFIX,idouyinvod.com,DIRECT
+  - DOMAIN-SUFFIX,ixigua.com,DIRECT
+  - DOMAIN-SUFFIX,ixiguavideo.com,DIRECT
+  - DOMAIN-SUFFIX,lf3-static.bytednsdoc.com,DIRECT
+  - DOMAIN-SUFFIX,pstatp.com,DIRECT
+  - DOMAIN-SUFFIX,snssdk.com,DIRECT
+  - DOMAIN-SUFFIX,toutiao.com,DIRECT
+  - DOMAIN-SUFFIX,v5-dy-o-abtest.zjcdn.com,DIRECT

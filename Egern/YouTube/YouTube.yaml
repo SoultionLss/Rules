@@ -1,3 +1,13 @@
+# ============================================================
+# 规则策略: YouTube
+# 域名规则总数: 178 条
+# IP-CIDR 规则总数: 3 条
+# 规则来源条目总数: 1 条
+# 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/YouTube/YouTube.list
+# 作者: SoultionLss
+# 最后更新: 2026-09-09 15:16:15
+# ============================================================
+
 no_resolve: true
 
 domain_suffix_set:

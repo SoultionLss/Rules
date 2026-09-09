@@ -1,7 +1,282 @@
 {
   "route": {
-    "rules": [],
-    "rule_set": []
+    "rules": [
+      "    { \"rule_set\": \"REJECT\" },",
+      "    { \"rule_set\": \"Google\" },",
+      "    { \"rule_set\": \"Google\" },",
+      "    { \"rule_set\": \"AI\" },",
+      "    { \"rule_set\": \"AI\" },",
+      "    { \"rule_set\": \"AI\" },",
+      "    { \"rule_set\": \"TikTok\" },",
+      "    { \"rule_set\": \"Streaming\" },",
+      "    { \"rule_set\": \"Streaming\" },",
+      "    { \"rule_set\": \"Streaming\" },",
+      "    { \"rule_set\": \"Streaming\" },",
+      "    { \"rule_set\": \"Streaming\" },",
+      "    { \"rule_set\": \"Streaming\" },",
+      "    { \"rule_set\": \"Streaming\" },",
+      "    { \"rule_set\": \"Social\" },",
+      "    { \"rule_set\": \"Social\" },",
+      "    { \"rule_set\": \"Social\" },",
+      "    { \"rule_set\": \"Social\" },",
+      "    { \"rule_set\": \"YouTube\" },",
+      "    { \"rule_set\": \"Telegram\" },",
+      "    { \"rule_set\": \"GitHub\" },",
+      "    { \"rule_set\": \"GitHub\" },",
+      "    { \"rule_set\": \"Microsoft\" },",
+      "    { \"rule_set\": \"HongKongSocial\" },",
+      "    { \"rule_set\": \"HongKongSocial\" },",
+      "    { \"rule_set\": \"HongKongBanking\" },",
+      "    { \"rule_set\": \"HongKongBanking\" },",
+      "    { \"rule_set\": \"HongKongBanking\" },",
+      "    { \"rule_set\": \"Brokerage\" },",
+      "    { \"rule_set\": \"LowRate\" },",
+      "    { \"rule_set\": \"LowRate\" },",
+      "    { \"rule_set\": \"DIRECT\" },",
+      "    { \"rule_set\": \"DouYin\" },",
+      "    { \"rule_set\": \"BiliBili\" },",
+      "    { \"rule_set\": \"ApplePush\" },",
+      "    { \"rule_set\": \"apple\" },",
+      "    { \"rule_set\": \"cn\" },",
+      "    { \"rule_set\": \"ChinaMax\" },",
+      "    { \"rule_set\": \"ChinaCIDR\" }"
+    ],
+    "rule_set": [
+      {
+        "tag": "REJECT",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/REJECT/REJECT.json"
+      },
+      {
+        "tag": "Google",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Google/Google.json"
+      },
+      {
+        "tag": "Google",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Google/Google.json"
+      },
+      {
+        "tag": "AI",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/AI/AI.json"
+      },
+      {
+        "tag": "AI",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/AI/AI.json"
+      },
+      {
+        "tag": "AI",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/AI/AI.json"
+      },
+      {
+        "tag": "TikTok",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/TikTok/TikTok.json"
+      },
+      {
+        "tag": "Streaming",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Streaming/Streaming.json"
+      },
+      {
+        "tag": "Streaming",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Streaming/Streaming.json"
+      },
+      {
+        "tag": "Streaming",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Streaming/Streaming.json"
+      },
+      {
+        "tag": "Streaming",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Streaming/Streaming.json"
+      },
+      {
+        "tag": "Streaming",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Streaming/Streaming.json"
+      },
+      {
+        "tag": "Streaming",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Streaming/Streaming.json"
+      },
+      {
+        "tag": "Streaming",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Streaming/Streaming.json"
+      },
+      {
+        "tag": "Social",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Social/Social.json"
+      },
+      {
+        "tag": "Social",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Social/Social.json"
+      },
+      {
+        "tag": "Social",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Social/Social.json"
+      },
+      {
+        "tag": "Social",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Social/Social.json"
+      },
+      {
+        "tag": "YouTube",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/YouTube/YouTube.json"
+      },
+      {
+        "tag": "Telegram",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Telegram/Telegram.json"
+      },
+      {
+        "tag": "GitHub",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/GitHub/GitHub.json"
+      },
+      {
+        "tag": "GitHub",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/GitHub/GitHub.json"
+      },
+      {
+        "tag": "Microsoft",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Microsoft/Microsoft.json"
+      },
+      {
+        "tag": "HongKongSocial",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/HongKongSocial/HongKongSocial.json"
+      },
+      {
+        "tag": "HongKongSocial",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/HongKongSocial/HongKongSocial.json"
+      },
+      {
+        "tag": "HongKongBanking",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/HongKongBanking/HongKongBanking.json"
+      },
+      {
+        "tag": "HongKongBanking",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/HongKongBanking/HongKongBanking.json"
+      },
+      {
+        "tag": "HongKongBanking",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/HongKongBanking/HongKongBanking.json"
+      },
+      {
+        "tag": "Brokerage",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Brokerage/Brokerage.json"
+      },
+      {
+        "tag": "LowRate",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/LowRate/LowRate.json"
+      },
+      {
+        "tag": "LowRate",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/LowRate/LowRate.json"
+      },
+      {
+        "tag": "DIRECT",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/DIRECT/DIRECT.json"
+      },
+      {
+        "tag": "DouYin",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/DIRECT/DouYin.json"
+      },
+      {
+        "tag": "BiliBili",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/DIRECT/BiliBili.json"
+      },
+      {
+        "tag": "ApplePush",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/ApplePush/ApplePush.json"
+      },
+      {
+        "tag": "apple",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/DIRECT/apple.json"
+      },
+      {
+        "tag": "cn",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/DIRECT/cn.json"
+      },
+      {
+        "tag": "ChinaMax",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/DIRECT/ChinaMax.json"
+      },
+      {
+        "tag": "ChinaCIDR",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/DIRECT/ChinaCIDR.json"
+      }
+    ]
   },
   "http_port": 6152,
   "socks_port": 6153,
