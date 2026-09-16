@@ -1,11 +1,11 @@
 # ============================================================
 # 规则策略: DIRECT
 # 域名规则总数: 366 条
-# IP-CIDR 规则总数: 14811 条
+# IP-CIDR 规则总数: 14815 条
 # 规则来源条目总数: 7 条
 # 规则来源: KeterCo/ClashRules@a505e394fb0fad9405dac53d0fa8edaa3075f4c1/Soop.list, Loyalsoldier/geoip@release/surge/cn.txt, Loyalsoldier/surge-rules@release/apple.txt, Rabbit-Spec/Surge@refs/heads/Master/Rules/ChinaCIDR.list, blackmatrix7/ios_rule_script@master/rule/Surge/BiliBili/BiliBili.list, blackmatrix7/ios_rule_script@master/rule/Surge/ChinaMax/ChinaMax.list, blackmatrix7/ios_rule_script@master/rule/Surge/DouYin/DouYin.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-15 16:35:29
+# 最后更新: 2026-09-16 16:28:00
 # ============================================================
 
 {
@@ -12318,6 +12318,7 @@
         "2620:171:32::/48",
         "2620:171:5a:f0::/64",
         "2620:171:fb::/48",
+        "2620:57:4004::/48",
         "27.0.128.0/21",
         "27.0.160.0/21",
         "27.0.188.0/22",
@@ -14007,7 +14008,10 @@
         "38.60.144.0/23",
         "38.60.214.0/32",
         "38.94.110.99/32",
-        "38.95.112.0/20",
+        "38.95.112.0/22",
+        "38.95.117.0/24",
+        "38.95.118.0/23",
+        "38.95.120.0/21",
         "38.95.232.0/23",
         "39.0.0.0/24",
         "39.0.128.0/17",
