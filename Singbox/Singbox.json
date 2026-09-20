@@ -48,6 +48,7 @@
       "    { \"rule_set\": \"HK_Banks_Direct\" },",
       "    { \"rule_set\": \"HKBank\" },",
       "    { \"rule_set\": \"Broker\" },",
+      "    { \"rule_set\": \"HK_Broker\" },",
       "    { \"rule_set\": \"ApplePush\" },",
       "    { \"rule_set\": \"apple\" },",
       "    { \"rule_set\": \"PikPak\" },",
@@ -339,6 +340,12 @@
         "type": "remote",
         "format": "source",
         "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Brokerage/Broker.json"
+      },
+      {
+        "tag": "HK_Broker",
+        "type": "remote",
+        "format": "source",
+        "url": "https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Singbox/Brokerage/HK_Broker.json"
       },
       {
         "tag": "ApplePush",

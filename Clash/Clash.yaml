@@ -416,6 +416,11 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Brokerage/Broker.yaml
     interval: 86400
     behavior: classical
+  HK_Broker:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/Brokerage/HK_Broker.yaml
+    interval: 86400
+    behavior: classical
   ApplePush:
     type: http
     url: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Clash/ApplePush/ApplePush.yaml
@@ -481,7 +486,7 @@ rules:
   - RULE-SET, HongKongSocial, HongKongSocial
   # 合并源: HKBank, HK_Banks_Direct, HSBC_HK (共 3 个源)
   - RULE-SET, HongKongBanking, HongKongBanking
-  # 合并源: Broker (共 1 个源)
+  # 合并源: Broker, HK_Broker (共 2 个源)
   - RULE-SET, Brokerage, Brokerage
   # 合并源: PikPak, TeraBox (共 2 个源)
   - RULE-SET, LowRate, LowRate
@@ -518,6 +523,7 @@ rules:
   - RULE-SET, HK_Banks_Direct, HongKongBanking
   - RULE-SET, HKBank, HongKongBanking
   - RULE-SET, Broker, Brokerage
+  - RULE-SET, HK_Broker, Brokerage
   - RULE-SET, ApplePush, ApplePush
   - RULE-SET, apple, DIRECT
   - RULE-SET, PikPak, LowRate

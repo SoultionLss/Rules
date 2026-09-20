@@ -48,6 +48,7 @@
       "    { \"domain\": [\"geosite:HK_Banks_Direct\"] },",
       "    { \"domain\": [\"geosite:HKBank\"] },",
       "    { \"domain\": [\"geosite:Broker\"] },",
+      "    { \"domain\": [\"geosite:HK_Broker\"] },",
       "    { \"domain\": [\"geosite:ApplePush\"] },",
       "    { \"domain\": [\"geosite:apple\"] },",
       "    { \"domain\": [\"geosite:PikPak\"] },",

@@ -392,7 +392,7 @@ rules:
       match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/HongKongBanking/HongKongBanking.yaml
       policy: HongKongBanking
 
-  # 合并源: Broker (共 1 个源)
+  # 合并源: Broker, HK_Broker (共 2 个源)
   - rule_set:
       match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Brokerage/Brokerage.yaml
       policy: Brokerage
@@ -532,6 +532,10 @@ rules:
 
   - rule_set:
       match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Brokerage/Broker.yaml
+      policy: Brokerage
+
+  - rule_set:
+      match: https://cdn.jsdelivr.net/gh/SoultionLss/Rules@main/Egern/Brokerage/HK_Broker.yaml
       policy: Brokerage
 
   - rule_set:

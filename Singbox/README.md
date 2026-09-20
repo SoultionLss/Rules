@@ -27,8 +27,9 @@ Singbox/
 
 ### Brokerage
 
-- **合集** `Brokerage`：包含 Broker
+- **合集** `Brokerage`：包含 Broker, HK_Broker
 - **独立** `Broker`
+- **独立** `HK_Broker`
 
 ### DIRECT
 
@@ -175,4 +176,4 @@ Singbox/
 
 ---
 
-*最后更新: 2026-09-19 15:37:47*
+*最后更新: 2026-09-20 12:19:46*

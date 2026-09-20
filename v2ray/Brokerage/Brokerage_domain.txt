@@ -1,20 +1,22 @@
 # ============================================================
 # 规则策略: Brokerage
-# 域名规则总数: 107 条
+# 域名规则总数: 123 条
 # IP-CIDR 规则总数: 63 条
-# 规则来源条目总数: 1 条
-# 规则来源: forecho/broker-rules@master/rule/Surge/Broker.list
+# 规则来源条目总数: 2 条
+# 规则来源: LingJingMaster/Shadowrocket-Rules@refs/heads/main/HK_Broker.list, forecho/broker-rules@master/rule/Surge/Broker.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-19 15:37:46
+# 最后更新: 2026-09-20 12:19:46
 # ============================================================
 
 9oju31.launches.appsflyersdk.com
 api-gl.lbkrs.com
 api.futunn.com
 api.lbkrs.com
+api.moomoobull.com
 api5.futunn.com
 cdn.futustatic.com
 cg.play-analytics.com
+cn.snowball-x.com
 download.futunn.com
 fosunwealth.com
 fotechwealth.com
@@ -32,6 +34,7 @@ futu6.com
 futu7.com
 futu8.com
 futu9.com
+futuapi.com
 futuau.com
 futubos.com
 futubull.cn
@@ -40,11 +43,14 @@ futuesop.com
 futufin.com
 futuhainan.com
 futuhk.com
+futuhk1.com
 futuhk2.com
 futuhkapp.com
 futuhn.com
 futuholdings.com
+futuhongkong.com
 futuie.com
+futuin.com
 futuinc.com
 futuniuniu.com
 futunn.com
@@ -54,11 +60,15 @@ futustatic.com
 fututrade.com
 fututrustee.com
 hstong.com
+interactivebrokers.com
+interactivebrokers.com.hk
+iotaskyt.com
 itiger.com
 itigerup.com
 laohu8.com
 lbctrl.com
 lbkrs.com
+longbridge.app
 longbridge.cloud
 longbridge.com
 longbridge.global
@@ -74,6 +84,7 @@ moomoo.com.hk
 moomoobull.com
 moomooequity.com
 moomootrustee.com
+open.snowballsecurities.com
 openapi-quote.longbridge.cn
 openapi-quote.longbridge.com
 openapi-trade.longbridge.cn
@@ -81,9 +92,12 @@ openapi-trade.longbridge.com
 openapi.futunn.com
 openapi.longbridge.cn
 openapi.longbridge.com
+openapi.snbsecurities.com
 qtcard.futunn.com
 qtcardfthk.futufin.com
+qtlcdn.com
 quote.longbridge.global
+sandbox.snbsecurities.com
 schwab.co.uk
 schwab.com
 schwab.com.cn
@@ -91,6 +105,7 @@ schwab.com.hk
 sgqt0j.launches.appsflyersdk.com
 shortconn.im.qcloud.com
 skytigris.cn
+snbsecurities.com
 snowball-x.com
 snowballfinance.com
 snowballsecurities.com
@@ -110,6 +125,7 @@ tradingview.com
 tradingviewstore.com
 vbkr.com
 wbrks.com
+www.snowballsecurities.com
 xiaohu8.com
 zhijianfengyi.cn
 zhijianfengyi.com
