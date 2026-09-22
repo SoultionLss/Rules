@@ -1,11 +1,11 @@
 # ============================================================
 # 规则策略: Brokerage
-# 域名规则总数: 107 条
+# 域名规则总数: 115 条
 # IP-CIDR 规则总数: 63 条
 # 规则来源条目总数: 1 条
 # 规则来源: forecho/broker-rules@master/rule/Surge/Broker.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-21 18:02:38
+# 最后更新: 2026-09-22 16:35:44
 # ============================================================
 
 .9oju31.launches.appsflyersdk.com
@@ -15,9 +15,11 @@
 .api5.futunn.com
 .cdn.futustatic.com
 .cg.play-analytics.com
+.collect.us.moomoocrypto.com
 .download.futunn.com
 .fosunwealth.com
 .fotechwealth.com
+.ftesop.com
 .futu.cn
 .futu.com
 .futu.hk
@@ -40,10 +42,12 @@
 .futufin.com
 .futuhainan.com
 .futuhk.com
+.futuhk1.com
 .futuhk2.com
 .futuhkapp.com
 .futuhn.com
 .futuholdings.com
+.futuhongkong.com
 .futuie.com
 .futuinc.com
 .futuniuniu.com
@@ -59,6 +63,7 @@
 .laohu8.com
 .lbctrl.com
 .lbkrs.com
+.loginv6.im.qcloud.com
 .longbridge.cloud
 .longbridge.com
 .longbridge.global
@@ -71,7 +76,9 @@
 .mfosunhani.com
 .moomoo.com
 .moomoo.com.hk
+.moomooapp.com
 .moomoobull.com
+.moomoocn.com
 .moomooequity.com
 .moomootrustee.com
 .openapi-quote.longbridge.cn
@@ -90,6 +97,7 @@
 .schwab.com.hk
 .sgqt0j.launches.appsflyersdk.com
 .shortconn.im.qcloud.com
+.shortconnv6.im.qcloud.com
 .skytigris.cn
 .snowball-x.com
 .snowballfinance.com

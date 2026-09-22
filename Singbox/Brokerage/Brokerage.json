@@ -1,11 +1,11 @@
 # ============================================================
 # 规则策略: Brokerage
-# 域名规则总数: 123 条
+# 域名规则总数: 129 条
 # IP-CIDR 规则总数: 63 条
 # 规则来源条目总数: 2 条
 # 规则来源: LingJingMaster/Shadowrocket-Rules@refs/heads/main/HK_Broker.list, forecho/broker-rules@master/rule/Surge/Broker.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-21 18:02:39
+# 最后更新: 2026-09-22 16:35:44
 # ============================================================
 
 {
@@ -22,9 +22,11 @@
         "cdn.futustatic.com",
         "cg.play-analytics.com",
         "cn.snowball-x.com",
+        "collect.us.moomoocrypto.com",
         "download.futunn.com",
         "fosunwealth.com",
         "fotechwealth.com",
+        "ftesop.com",
         "futu.cn",
         "futu.com",
         "futu.hk",
@@ -73,6 +75,7 @@
         "laohu8.com",
         "lbctrl.com",
         "lbkrs.com",
+        "loginv6.im.qcloud.com",
         "longbridge.app",
         "longbridge.cloud",
         "longbridge.com",
@@ -86,7 +89,9 @@
         "mfosunhani.com",
         "moomoo.com",
         "moomoo.com.hk",
+        "moomooapp.com",
         "moomoobull.com",
+        "moomoocn.com",
         "moomooequity.com",
         "moomootrustee.com",
         "open.snowballsecurities.com",
@@ -109,6 +114,7 @@
         "schwab.com.hk",
         "sgqt0j.launches.appsflyersdk.com",
         "shortconn.im.qcloud.com",
+        "shortconnv6.im.qcloud.com",
         "skytigris.cn",
         "snbsecurities.com",
         "snowball-x.com",

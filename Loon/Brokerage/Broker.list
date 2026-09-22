@@ -1,11 +1,11 @@
 # ============================================================
 # 规则策略: Brokerage
-# 域名规则总数: 107 条
+# 域名规则总数: 115 条
 # IP-CIDR 规则总数: 63 条
 # 规则来源条目总数: 1 条
 # 规则来源: forecho/broker-rules@master/rule/Surge/Broker.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-21 18:02:38
+# 最后更新: 2026-09-22 16:35:44
 # ============================================================
 
 DOMAIN-SUFFIX,9oju31.launches.appsflyersdk.com,Brokerage
@@ -15,9 +15,11 @@ DOMAIN-SUFFIX,api.lbkrs.com,Brokerage
 DOMAIN-SUFFIX,api5.futunn.com,Brokerage
 DOMAIN-SUFFIX,cdn.futustatic.com,Brokerage
 DOMAIN-SUFFIX,cg.play-analytics.com,Brokerage
+DOMAIN-SUFFIX,collect.us.moomoocrypto.com,Brokerage
 DOMAIN-SUFFIX,download.futunn.com,Brokerage
 DOMAIN-SUFFIX,fosunwealth.com,Brokerage
 DOMAIN-SUFFIX,fotechwealth.com,Brokerage
+DOMAIN-SUFFIX,ftesop.com,Brokerage
 DOMAIN-SUFFIX,futu.cn,Brokerage
 DOMAIN-SUFFIX,futu.com,Brokerage
 DOMAIN-SUFFIX,futu.hk,Brokerage
@@ -40,10 +42,12 @@ DOMAIN-SUFFIX,futuesop.com,Brokerage
 DOMAIN-SUFFIX,futufin.com,Brokerage
 DOMAIN-SUFFIX,futuhainan.com,Brokerage
 DOMAIN-SUFFIX,futuhk.com,Brokerage
+DOMAIN-SUFFIX,futuhk1.com,Brokerage
 DOMAIN-SUFFIX,futuhk2.com,Brokerage
 DOMAIN-SUFFIX,futuhkapp.com,Brokerage
 DOMAIN-SUFFIX,futuhn.com,Brokerage
 DOMAIN-SUFFIX,futuholdings.com,Brokerage
+DOMAIN-SUFFIX,futuhongkong.com,Brokerage
 DOMAIN-SUFFIX,futuie.com,Brokerage
 DOMAIN-SUFFIX,futuinc.com,Brokerage
 DOMAIN-SUFFIX,futuniuniu.com,Brokerage
@@ -59,6 +63,7 @@ DOMAIN-SUFFIX,itigerup.com,Brokerage
 DOMAIN-SUFFIX,laohu8.com,Brokerage
 DOMAIN-SUFFIX,lbctrl.com,Brokerage
 DOMAIN-SUFFIX,lbkrs.com,Brokerage
+DOMAIN-SUFFIX,loginv6.im.qcloud.com,Brokerage
 DOMAIN-SUFFIX,longbridge.cloud,Brokerage
 DOMAIN-SUFFIX,longbridge.com,Brokerage
 DOMAIN-SUFFIX,longbridge.global,Brokerage
@@ -71,7 +76,9 @@ DOMAIN-SUFFIX,longportapp.com,Brokerage
 DOMAIN-SUFFIX,mfosunhani.com,Brokerage
 DOMAIN-SUFFIX,moomoo.com,Brokerage
 DOMAIN-SUFFIX,moomoo.com.hk,Brokerage
+DOMAIN-SUFFIX,moomooapp.com,Brokerage
 DOMAIN-SUFFIX,moomoobull.com,Brokerage
+DOMAIN-SUFFIX,moomoocn.com,Brokerage
 DOMAIN-SUFFIX,moomooequity.com,Brokerage
 DOMAIN-SUFFIX,moomootrustee.com,Brokerage
 DOMAIN-SUFFIX,openapi-quote.longbridge.cn,Brokerage
@@ -90,6 +97,7 @@ DOMAIN-SUFFIX,schwab.com.cn,Brokerage
 DOMAIN-SUFFIX,schwab.com.hk,Brokerage
 DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com,Brokerage
 DOMAIN-SUFFIX,shortconn.im.qcloud.com,Brokerage
+DOMAIN-SUFFIX,shortconnv6.im.qcloud.com,Brokerage
 DOMAIN-SUFFIX,skytigris.cn,Brokerage
 DOMAIN-SUFFIX,snowball-x.com,Brokerage
 DOMAIN-SUFFIX,snowballfinance.com,Brokerage

@@ -1,11 +1,11 @@
 # ============================================================
 # 规则策略: Brokerage
-# 域名规则总数: 107 条
+# 域名规则总数: 115 条
 # IP-CIDR 规则总数: 63 条
 # 规则来源条目总数: 1 条
 # 规则来源: forecho/broker-rules@master/rule/Surge/Broker.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-21 18:02:39
+# 最后更新: 2026-09-22 16:35:44
 # ============================================================
 
 HOST-SUFFIX,9oju31.launches.appsflyersdk.com,Brokerage
@@ -15,9 +15,11 @@ HOST-SUFFIX,api.lbkrs.com,Brokerage
 HOST-SUFFIX,api5.futunn.com,Brokerage
 HOST-SUFFIX,cdn.futustatic.com,Brokerage
 HOST-SUFFIX,cg.play-analytics.com,Brokerage
+HOST-SUFFIX,collect.us.moomoocrypto.com,Brokerage
 HOST-SUFFIX,download.futunn.com,Brokerage
 HOST-SUFFIX,fosunwealth.com,Brokerage
 HOST-SUFFIX,fotechwealth.com,Brokerage
+HOST-SUFFIX,ftesop.com,Brokerage
 HOST-SUFFIX,futu.cn,Brokerage
 HOST-SUFFIX,futu.com,Brokerage
 HOST-SUFFIX,futu.hk,Brokerage
@@ -40,10 +42,12 @@ HOST-SUFFIX,futuesop.com,Brokerage
 HOST-SUFFIX,futufin.com,Brokerage
 HOST-SUFFIX,futuhainan.com,Brokerage
 HOST-SUFFIX,futuhk.com,Brokerage
+HOST-SUFFIX,futuhk1.com,Brokerage
 HOST-SUFFIX,futuhk2.com,Brokerage
 HOST-SUFFIX,futuhkapp.com,Brokerage
 HOST-SUFFIX,futuhn.com,Brokerage
 HOST-SUFFIX,futuholdings.com,Brokerage
+HOST-SUFFIX,futuhongkong.com,Brokerage
 HOST-SUFFIX,futuie.com,Brokerage
 HOST-SUFFIX,futuinc.com,Brokerage
 HOST-SUFFIX,futuniuniu.com,Brokerage
@@ -59,6 +63,7 @@ HOST-SUFFIX,itigerup.com,Brokerage
 HOST-SUFFIX,laohu8.com,Brokerage
 HOST-SUFFIX,lbctrl.com,Brokerage
 HOST-SUFFIX,lbkrs.com,Brokerage
+HOST-SUFFIX,loginv6.im.qcloud.com,Brokerage
 HOST-SUFFIX,longbridge.cloud,Brokerage
 HOST-SUFFIX,longbridge.com,Brokerage
 HOST-SUFFIX,longbridge.global,Brokerage
@@ -71,7 +76,9 @@ HOST-SUFFIX,longportapp.com,Brokerage
 HOST-SUFFIX,mfosunhani.com,Brokerage
 HOST-SUFFIX,moomoo.com,Brokerage
 HOST-SUFFIX,moomoo.com.hk,Brokerage
+HOST-SUFFIX,moomooapp.com,Brokerage
 HOST-SUFFIX,moomoobull.com,Brokerage
+HOST-SUFFIX,moomoocn.com,Brokerage
 HOST-SUFFIX,moomooequity.com,Brokerage
 HOST-SUFFIX,moomootrustee.com,Brokerage
 HOST-SUFFIX,openapi-quote.longbridge.cn,Brokerage
@@ -90,6 +97,7 @@ HOST-SUFFIX,schwab.com.cn,Brokerage
 HOST-SUFFIX,schwab.com.hk,Brokerage
 HOST-SUFFIX,sgqt0j.launches.appsflyersdk.com,Brokerage
 HOST-SUFFIX,shortconn.im.qcloud.com,Brokerage
+HOST-SUFFIX,shortconnv6.im.qcloud.com,Brokerage
 HOST-SUFFIX,skytigris.cn,Brokerage
 HOST-SUFFIX,snowball-x.com,Brokerage
 HOST-SUFFIX,snowballfinance.com,Brokerage
