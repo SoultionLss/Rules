@@ -1,11 +1,11 @@
 # ============================================================
 # 规则策略: Brokerage
-# 域名规则总数: 102 条
+# 域名规则总数: 106 条
 # IP-CIDR 规则总数: 63 条
 # 规则来源条目总数: 1 条
 # 规则来源: LingJingMaster/Shadowrocket-Rules@refs/heads/main/HK_Broker.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-30 17:48:08
+# 最后更新: 2026-10-01 18:14:05
 # ============================================================
 
 .9oju31.launches.appsflyersdk.com
@@ -55,6 +55,7 @@
 .interactivebrokers.com.hk
 .iotaskyt.com
 .itiger.com
+.itigergrowtha.com
 .itigerup.com
 .laohu8.com
 .lbctrl.com
@@ -92,6 +93,7 @@
 .schwab.com.hk
 .sgqt0j.launches.appsflyersdk.com
 .skytigris.cn
+.skytigris.com
 .snbsecurities.com
 .snowball-x.com
 .snowballsecurities.com
@@ -99,9 +101,11 @@
 .tigerbbs.cn
 .tigerbbs.com
 .tigerbrokers.com
+.tigerbrokers.com.hk
 .tigerbrokers.net
 .tigerbrokers.nz
 .tigerfintech.com
+.tigrdw.com
 .trade.futunn.com
 .trade.longportapp.com
 .tradeup.com

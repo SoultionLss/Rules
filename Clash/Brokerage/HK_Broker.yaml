@@ -1,11 +1,11 @@
 # ============================================================
 # 规则策略: Brokerage
-# 域名规则总数: 102 条
+# 域名规则总数: 106 条
 # IP-CIDR 规则总数: 63 条
 # 规则来源条目总数: 1 条
 # 规则来源: LingJingMaster/Shadowrocket-Rules@refs/heads/main/HK_Broker.list
 # 作者: SoultionLss
-# 最后更新: 2026-09-30 17:48:08
+# 最后更新: 2026-10-01 18:14:05
 # ============================================================
 
 payload:
@@ -56,6 +56,7 @@ payload:
   - DOMAIN-SUFFIX,interactivebrokers.com.hk,Brokerage
   - DOMAIN-SUFFIX,iotaskyt.com,Brokerage
   - DOMAIN-SUFFIX,itiger.com,Brokerage
+  - DOMAIN-SUFFIX,itigergrowtha.com,Brokerage
   - DOMAIN-SUFFIX,itigerup.com,Brokerage
   - DOMAIN-SUFFIX,laohu8.com,Brokerage
   - DOMAIN-SUFFIX,lbctrl.com,Brokerage
@@ -93,6 +94,7 @@ payload:
   - DOMAIN-SUFFIX,schwab.com.hk,Brokerage
   - DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com,Brokerage
   - DOMAIN-SUFFIX,skytigris.cn,Brokerage
+  - DOMAIN-SUFFIX,skytigris.com,Brokerage
   - DOMAIN-SUFFIX,snbsecurities.com,Brokerage
   - DOMAIN-SUFFIX,snowball-x.com,Brokerage
   - DOMAIN-SUFFIX,snowballsecurities.com,Brokerage
@@ -100,9 +102,11 @@ payload:
   - DOMAIN-SUFFIX,tigerbbs.cn,Brokerage
   - DOMAIN-SUFFIX,tigerbbs.com,Brokerage
   - DOMAIN-SUFFIX,tigerbrokers.com,Brokerage
+  - DOMAIN-SUFFIX,tigerbrokers.com.hk,Brokerage
   - DOMAIN-SUFFIX,tigerbrokers.net,Brokerage
   - DOMAIN-SUFFIX,tigerbrokers.nz,Brokerage
   - DOMAIN-SUFFIX,tigerfintech.com,Brokerage
+  - DOMAIN-SUFFIX,tigrdw.com,Brokerage
   - DOMAIN-SUFFIX,trade.futunn.com,Brokerage
   - DOMAIN-SUFFIX,trade.longportapp.com,Brokerage
   - DOMAIN-SUFFIX,tradeup.com,Brokerage
