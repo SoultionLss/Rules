@@ -5,7 +5,7 @@
 # 规则来源条目总数: 1 条
 # 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Instagram/Instagram.list
 # 作者: SoultionLss
-# 最后更新: 2026-10-12 21:04:40
+# 最后更新: 2026-10-13 19:03:43
 # ============================================================
 
 DOMAIN-SUFFIX,cdninstagram.com,Social
