@@ -1,11 +1,11 @@
 # ============================================================
 # 规则策略: TikTok
-# 域名规则总数: 29 条
+# 域名规则总数: 32 条
 # IP-CIDR 规则总数: 0 条
 # 规则来源条目总数: 1 条
 # 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/TikTok/TikTok.list
 # 作者: SoultionLss
-# 最后更新: 2026-10-15 16:35:45
+# 最后更新: 2026-10-16 16:20:16
 # ============================================================
 
 HOST-SUFFIX,bytedapm.com,TikTok
@@ -13,6 +13,9 @@ HOST-SUFFIX,bytegecko-i18n.com,TikTok
 HOST-SUFFIX,byteintlapi.com,TikTok
 HOST-SUFFIX,byteoversea.com,TikTok
 HOST-SUFFIX,capcut.com,TikTok
+HOST-SUFFIX,capcutapi.com,TikTok
+HOST-SUFFIX,capcutapi.us,TikTok
+HOST-SUFFIX,capcutstatic.com,TikTok
 HOST-SUFFIX,ibytedtos.com,TikTok
 HOST-SUFFIX,ibyteimg.com,TikTok
 HOST-SUFFIX,ipstatp.com,TikTok

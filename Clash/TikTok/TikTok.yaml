@@ -1,11 +1,11 @@
 # ============================================================
 # 规则策略: TikTok
-# 域名规则总数: 29 条
+# 域名规则总数: 32 条
 # IP-CIDR 规则总数: 0 条
 # 规则来源条目总数: 1 条
 # 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/TikTok/TikTok.list
 # 作者: SoultionLss
-# 最后更新: 2026-10-15 16:35:45
+# 最后更新: 2026-10-16 16:20:16
 # ============================================================
 
 payload:
@@ -14,6 +14,9 @@ payload:
   - DOMAIN-SUFFIX,byteintlapi.com,TikTok
   - DOMAIN-SUFFIX,byteoversea.com,TikTok
   - DOMAIN-SUFFIX,capcut.com,TikTok
+  - DOMAIN-SUFFIX,capcutapi.com,TikTok
+  - DOMAIN-SUFFIX,capcutapi.us,TikTok
+  - DOMAIN-SUFFIX,capcutstatic.com,TikTok
   - DOMAIN-SUFFIX,ibytedtos.com,TikTok
   - DOMAIN-SUFFIX,ibyteimg.com,TikTok
   - DOMAIN-SUFFIX,ipstatp.com,TikTok
