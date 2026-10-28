@@ -1,11 +1,11 @@
 # ============================================================
 # 规则策略: DIRECT
 # 域名规则总数: 0 条
-# IP-CIDR 规则总数: 12557 条
+# IP-CIDR 规则总数: 12556 条
 # 规则来源条目总数: 1 条
 # 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/ChinaMax/ChinaMax.list
 # 作者: SoultionLss
-# 最后更新: 2026-10-27 17:43:51
+# 最后更新: 2026-10-28 18:06:19
 # ============================================================
 
 IP-CIDR,0.0.0.0/32,DIRECT
@@ -3701,7 +3701,6 @@ IP-CIDR,154.72.44.0/24,DIRECT
 IP-CIDR,154.72.47.0/24,DIRECT
 IP-CIDR,154.8.128.0/17,DIRECT
 IP-CIDR,154.8.48.0/20,DIRECT
-IP-CIDR,154.84.180.0/24,DIRECT
 IP-CIDR,154.89.32.0/20,DIRECT
 IP-CIDR,155.102.0.0/16,DIRECT
 IP-CIDR,155.126.176.0/23,DIRECT
@@ -4238,7 +4237,7 @@ IP-CIDR,175.24.0.0/14,DIRECT
 IP-CIDR,175.30.0.0/15,DIRECT
 IP-CIDR,175.42.0.0/15,DIRECT
 IP-CIDR,175.44.0.0/16,DIRECT
-IP-CIDR,175.45.179.0/24,DIRECT
+IP-CIDR,175.45.178.0/23,DIRECT
 IP-CIDR,175.46.0.0/15,DIRECT
 IP-CIDR,175.48.0.0/12,DIRECT
 IP-CIDR,175.64.0.0/11,DIRECT
