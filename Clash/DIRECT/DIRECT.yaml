@@ -1,11 +1,11 @@
 # ============================================================
 # 规则策略: DIRECT
 # 域名规则总数: 366 条
-# IP-CIDR 规则总数: 15190 条
+# IP-CIDR 规则总数: 15174 条
 # 规则来源条目总数: 7 条
 # 规则来源: KeterCo/ClashRules@a505e394fb0fad9405dac53d0fa8edaa3075f4c1/Soop.list, Loyalsoldier/geoip@release/surge/cn.txt, Loyalsoldier/surge-rules@release/apple.txt, Rabbit-Spec/Surge@refs/heads/Master/Rules/ChinaCIDR.list, blackmatrix7/ios_rule_script@master/rule/Surge/BiliBili/BiliBili.list, blackmatrix7/ios_rule_script@master/rule/Surge/ChinaMax/ChinaMax.list, blackmatrix7/ios_rule_script@master/rule/Surge/DouYin/DouYin.list
 # 作者: SoultionLss
-# 最后更新: 2026-10-29 18:13:43
+# 最后更新: 2026-10-30 17:51:14
 # ============================================================
 
 payload:
@@ -2890,7 +2890,6 @@ payload:
   - IP-CIDR,103.99.40.0/23,DIRECT
   - IP-CIDR,103.99.52.0/22,DIRECT
   - IP-CIDR,103.99.53.0/24,DIRECT
-  - IP-CIDR,103.99.54.0/23,DIRECT
   - IP-CIDR,103.99.55.0/24,DIRECT
   - IP-CIDR,103.99.56.0/21,DIRECT
   - IP-CIDR,103.99.56.0/22,DIRECT
@@ -3685,7 +3684,6 @@ payload:
   - IP-CIDR,117.134.128.0/18,DIRECT
   - IP-CIDR,117.134.208.0/23,DIRECT
   - IP-CIDR,117.134.212.0/23,DIRECT
-  - IP-CIDR,117.134.216.0/22,DIRECT
   - IP-CIDR,117.134.218.0/23,DIRECT
   - IP-CIDR,117.134.222.0/23,DIRECT
   - IP-CIDR,117.134.232.0/21,DIRECT
@@ -4516,7 +4514,6 @@ payload:
   - IP-CIDR,142.86.224.0/20,DIRECT
   - IP-CIDR,142.86.240.0/21,DIRECT
   - IP-CIDR,142.86.248.0/22,DIRECT
-  - IP-CIDR,142.86.254.0/23,DIRECT
   - IP-CIDR,142.86.255.0/24,DIRECT
   - IP-CIDR,143.191.188.0/22,DIRECT
   - IP-CIDR,143.191.64.0/19,DIRECT
@@ -7451,8 +7448,6 @@ payload:
   - IP-CIDR,211.149.0.0/19,DIRECT
   - IP-CIDR,211.149.128.0/17,DIRECT
   - IP-CIDR,211.149.32.0/22,DIRECT
-  - IP-CIDR,211.149.33.0/24,DIRECT
-  - IP-CIDR,211.149.34.0/23,DIRECT
   - IP-CIDR,211.149.48.0/21,DIRECT
   - IP-CIDR,211.149.64.0/21,DIRECT
   - IP-CIDR,211.149.80.0/21,DIRECT
@@ -11811,7 +11806,6 @@ payload:
   - IP-CIDR,2406:840:fee8::/46,DIRECT
   - IP-CIDR,2406:840:feec::/48,DIRECT
   - IP-CIDR,2406:840:feee::/47,DIRECT
-  - IP-CIDR,2406:840:feff::/48,DIRECT
   - IP-CIDR,2406:840:ff00::/40,DIRECT
   - IP-CIDR,2406:8480::/32,DIRECT
   - IP-CIDR,2406:8500::/32,DIRECT
@@ -15063,15 +15057,6 @@ payload:
   - IP-CIDR,47.80.0.0/12,DIRECT
   - IP-CIDR,47.80.0.0/14,DIRECT
   - IP-CIDR,47.84.0.0/15,DIRECT
-  - IP-CIDR,47.84.0.0/16,DIRECT
-  - IP-CIDR,47.85.0.0/17,DIRECT
-  - IP-CIDR,47.85.128.0/23,DIRECT
-  - IP-CIDR,47.85.131.0/24,DIRECT
-  - IP-CIDR,47.85.132.0/22,DIRECT
-  - IP-CIDR,47.85.136.0/21,DIRECT
-  - IP-CIDR,47.85.144.0/20,DIRECT
-  - IP-CIDR,47.85.160.0/19,DIRECT
-  - IP-CIDR,47.85.192.0/18,DIRECT
   - IP-CIDR,47.86.0.0/16,DIRECT
   - IP-CIDR,47.87.0.0/20,DIRECT
   - IP-CIDR,47.87.128.0/20,DIRECT
@@ -15082,7 +15067,6 @@ payload:
   - IP-CIDR,47.87.192.0/18,DIRECT
   - IP-CIDR,47.87.32.0/19,DIRECT
   - IP-CIDR,47.87.64.0/21,DIRECT
-  - IP-CIDR,47.87.72.0/24,DIRECT
   - IP-CIDR,47.87.80.0/20,DIRECT
   - IP-CIDR,47.87.96.0/19,DIRECT
   - IP-CIDR,47.88.0.0/16,DIRECT
