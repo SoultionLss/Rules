@@ -1,11 +1,11 @@
 # ============================================================
 # 规则策略: DIRECT
 # 域名规则总数: 0 条
-# IP-CIDR 规则总数: 10034 条
+# IP-CIDR 规则总数: 10036 条
 # 规则来源条目总数: 1 条
 # 规则来源: Rabbit-Spec/Surge@refs/heads/Master/Rules/ChinaCIDR.list
 # 作者: SoultionLss
-# 最后更新: 2026-10-31 17:01:29
+# 最后更新: 2026-11-01 17:46:26
 # ============================================================
 
 IP-CIDR,1.0.1.0/24,DIRECT
@@ -8849,6 +8849,7 @@ IP-CIDR,2c0f:f7a8:815f::/48,DIRECT
 IP-CIDR,2c0f:f7a8:8211::/48,DIRECT
 IP-CIDR,2c0f:f7a8:9041::/48,DIRECT
 IP-CIDR,3.109.116.108/32,DIRECT
+IP-CIDR,35.178.208.187/32,DIRECT
 IP-CIDR,36.0.0.0/22,DIRECT
 IP-CIDR,36.0.128.0/17,DIRECT
 IP-CIDR,36.0.16.0/20,DIRECT
@@ -8894,6 +8895,7 @@ IP-CIDR,36.50.254.0/23,DIRECT
 IP-CIDR,36.51.0.0/16,DIRECT
 IP-CIDR,36.56.0.0/13,DIRECT
 IP-CIDR,36.96.0.0/11,DIRECT
+IP-CIDR,38.93.228.132/32,DIRECT
 IP-CIDR,38.93.228.135/32,DIRECT
 IP-CIDR,38.93.228.139/32,DIRECT
 IP-CIDR,39.0.0.0/24,DIRECT

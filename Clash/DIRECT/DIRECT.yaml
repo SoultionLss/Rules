@@ -1,11 +1,11 @@
 # ============================================================
 # 规则策略: DIRECT
 # 域名规则总数: 366 条
-# IP-CIDR 规则总数: 15174 条
+# IP-CIDR 规则总数: 15176 条
 # 规则来源条目总数: 7 条
 # 规则来源: KeterCo/ClashRules@a505e394fb0fad9405dac53d0fa8edaa3075f4c1/Soop.list, Loyalsoldier/geoip@release/surge/cn.txt, Loyalsoldier/surge-rules@release/apple.txt, Rabbit-Spec/Surge@refs/heads/Master/Rules/ChinaCIDR.list, blackmatrix7/ios_rule_script@master/rule/Surge/BiliBili/BiliBili.list, blackmatrix7/ios_rule_script@master/rule/Surge/ChinaMax/ChinaMax.list, blackmatrix7/ios_rule_script@master/rule/Surge/DouYin/DouYin.list
 # 作者: SoultionLss
-# 最后更新: 2026-10-31 17:01:29
+# 最后更新: 2026-11-01 17:46:26
 # ============================================================
 
 payload:
@@ -13962,6 +13962,7 @@ payload:
   - IP-CIDR,31.133.128.0/18,DIRECT
   - IP-CIDR,31.40.214.0/24,DIRECT
   - IP-CIDR,31.42.183.48/32,DIRECT
+  - IP-CIDR,35.178.208.187/32,DIRECT
   - IP-CIDR,35.71.107.0/24,DIRECT
   - IP-CIDR,36.0.0.0/22,DIRECT
   - IP-CIDR,36.0.128.0/17,DIRECT
@@ -14066,6 +14067,7 @@ payload:
   - IP-CIDR,38.60.143.0/24,DIRECT
   - IP-CIDR,38.60.144.0/23,DIRECT
   - IP-CIDR,38.60.214.0/32,DIRECT
+  - IP-CIDR,38.93.228.132/32,DIRECT
   - IP-CIDR,38.93.228.135/32,DIRECT
   - IP-CIDR,38.93.228.139/32,DIRECT
   - IP-CIDR,38.94.110.99/32,DIRECT
