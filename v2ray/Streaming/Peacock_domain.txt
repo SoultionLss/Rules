@@ -5,7 +5,7 @@
 # 规则来源条目总数: 1 条
 # 规则来源: blackmatrix7/ios_rule_script@master/rule/Surge/Peacock/Peacock.list
 # 作者: SoultionLss
-# 最后更新: 2026-11-07 17:36:57
+# 最后更新: 2026-11-08 17:46:30
 # ============================================================
 
 peacocktv.com
