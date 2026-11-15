@@ -5,7 +5,7 @@
 # 规则来源条目总数: 1 条
 # 规则来源: LingJingMaster/Shadowrocket-Rules@refs/heads/main/HK_Banks_Direct.list
 # 作者: SoultionLss
-# 最后更新: 2026-11-14 17:47:44
+# 最后更新: 2026-11-15 18:38:32
 # ============================================================
 
 HOST-SUFFIX,airstarbank.com,HongKongBanking
